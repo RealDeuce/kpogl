@@ -1542,6 +1542,54 @@
 					{"featuretextwithbullet":"Flowing Fire Form (see rules)"}
 				]
 			}
+		},
+		{
+			"name":"kp_crawling_beyond",
+			"displayname":"Crawling Beyond",
+			"class":"Antipaladin",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"Antipaladin: Crawling Beyond"},
+					{"addspell":{"name":"Crushing Curse", "spelllevel":1}},
+					{"addspell":{"name":"Unseen Servant", "spelllevel":1}},
+					{"setresource": {
+						"name": "Channel Divinity",
+						"displayname": "Channel Div",
+						"amount": "1",
+						"reset": "shortrest"
+					}},
+					{"featuretextwithbullet":"Cold Starlight (see rules)"},
+					{"featuretextwithbullet":"Void-Spun Syllable (see rules)"}
+				],
+				"5":[
+					{"addspell":{"name":"Maddening Whispers", "spelllevel":2}},
+					{"addspell":{"name":"Darkness", "spelllevel":2}},
+					{"featuretextwithbullet":"You have advantage on Perception checks."},
+					{"featuretextwithbullet":"Your passive Perception increases by 2"}
+				],
+				"7":[
+					{"featuretextwithbullet":"Your cold starlight ability also blinds the creatures it affects."}
+				],
+				"9":[
+					{"addspell":{"name":"Void Strike", "spelllevel":3}},
+					{"addspell":{"name":"Feed the Worms", "spelllevel":1}}
+				],
+				"13":[
+					{"addspell":{"name":"Living Shadows", "spelllevel":5}},
+					{"addspell":{"name":"Contact Other Plane", "spelllevel":5}},
+					{"featuretextwithbullet":"The range of your cold starlight ability is increased to 20 feet and you gain 10 temporary hit points for each creature affected, to a maximum of 20 temporary hit points."}
+				],
+				"15":[
+					{"featuretextwithbullet":"The damage dealt by the void-spun syllable increases to 1d10, and the affected creatures are dominated by you (as per the dominate person/monster spell). You can maintain domination of any number of affected creatures for as long as you keep concentration."}
+				],
+				"17":[
+					{"addspell":{"name":"Dream", "spelllevel":5}},
+					{"addspell":{"name":"Planar Binding", "spelllevel":5}}
+				],
+				"20":[
+					{"featuretextwithbullet":"The Horror Inside (see rules)."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
@@ -1581,7 +1629,7 @@
 "",
 "Open Game Content",
 "",
-"All content other than Product Identity and items provided by wikidot.com is Open content."
+"All content other than Product Identity and items provided by wikidot.com is Open content.",
 "",
 "OPEN GAME LICENSE Version 1.0a",
 "",
