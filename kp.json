@@ -1,0 +1,1689 @@
+{
+	"backgrounds": [
+		{
+			"name": "kp_fugitive",
+			"displayname": "Fugitive",
+			"skills": ["Deception", "Stealth"],
+			"toolproficiencies": ["Disguise kit", "Thieves' tools"],
+			"equipment": [
+				"A disguise kit OR thieves' tools",
+				"A prison brand OR tattoo",
+				"Set of traveler's clothes",
+				"Belt pouch"
+			],
+			"currency": {"gp": 10},
+			"features": [
+				{"featuretext": "Fugitive features:"},
+				{"featuretextwithbullet": "You leave no tracks while traveling alone."},
+				{"featuretextwithbullet": "You can find food and water for you and up to five other people by spending 2 hours during a long rest foraging, as long as the region you are in has fresh water, small game, and healthful vegetation available."}
+			]
+		},
+		{
+			"name": "kp_raidsurvivor",
+			"displayname": "Raid Survivor",
+			"skills": ["Stealth", "Survival"],
+			"toolproficiencies": [ ],
+			"equipment": [
+				"Artisan's tools",
+				"Healer's kit",
+				"Memento of home",
+				"Hunting knife",
+				"Set of traveler's clothes",
+				"Belt pouch"
+			],
+			"currency": {"gp": 5},
+			"features": [
+				{"featuretext": "Raid survivor feature:"},
+				{
+					"featuretextwithbullet": "You instantly recognize any creature whose face you can see if you have seen that creature's face before, even if that creature is wearing a nonmagical disguise."
+				},
+				{
+					"menu":{
+						"name":"Select tool proficiency",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Artisan's tools",
+								"displayname":"Artisan's tools",
+								"effects":[
+									{"addtoolproficiencies":"Artisan's tools"}
+								]
+							},
+							{
+								"name":"Healer's kit",
+								"displayname":"Healer's kit",
+								"effects":[
+									{"addtoolproficiencies":"Healer's kit"}
+								]
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "kp_timelosttraveller",
+			"displayname": "Time-Lost Traveler",
+			"skills": ["History", "Survival"],
+			"toolproficiences": [ ],
+			"languages": [ ],
+			"equipment": [
+				"Leather case containing a map of a now-ancient city",
+				"Bullseye lantern",
+				"Set if traveler's clothes",
+				"Trinket from your time",
+				"Pouch"
+			],
+			"currency": {"gp": 25},
+			"features": [
+				{"featuretext":"Time-Lost Traveler features:"},
+				{"featuretextwithbullet": "When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, or some other race."},
+				{"featuretextwithbullet": "You apply double your proficiency bonus on History checks when the check is related to knowledge from ancient times. You either lived in those times or they were recent history to you."},
+				{
+					"menu":{
+						"name":"Select tool proficiency",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Cartographer's tools",
+								"displayname":"Cartographer's tools",
+								"effects":[
+									{"addtoolproficiencies":"Cartographer's tools"}
+								]
+							},
+							{
+								"name":"Navigator's tools",
+								"displayname":"Navigator's tools",
+								"effects":[
+									{"addtoolproficiencies":"Navigator's tools"}
+								]
+							}
+						]
+					},
+					"menu":{
+						"name":"Select language",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Ankeshelian",
+								"displayname":"Ankeshelian",
+								"effects":[{"addlanguagesknown":"Ankeshelian"}]
+							},
+							{
+								"name":"Illyrian",
+								"displayname":"Illyrian",
+								"effects":[{"addlanguagesknown":"Illyrian"}]
+							},
+							{
+								"name":"Morphoi",
+								"displayname":"Morphoi",
+								"effects":[{"addlanguagesknown":"Morphoi"}]
+							},
+							{
+								"name":"Vos'Ghaen",
+								"displayname":"Vos'Ghaen",
+								"effects":[{"addlanguagesknown":"Vos'Ghaen"}]
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "kp_trophyhunter",
+			"displayname": "Trophy Hunter",
+			"skills": ["Nature", "Survival"],
+			"toolproficiencies": [
+				"Leatherworker's tools",
+				"Vehicle (land)"
+			],
+			"equipment": [
+				"A donkey or mule with bit and bridle",
+				"A set of cold weather OR warm weather clothes",
+				"Belt pouch"
+			],
+			"currency": {"gp": 5},
+			"features": [
+				{"featuretext":"Trophy Hunter feature:"},
+				{"featuretextwithbullet": "While traveling in the wilderness, you can find a natural location suitable to make camp by spending 1 hour searching. This location provides cover from the elements and is in some way naturally defensible, at your GM's discretion."}
+			]
+		}
+	],
+	"races" : [
+		{
+			"name":"kp_alseid",
+			"displayname":"Alseid",
+			"skills":"Stealth",
+			"abilityscorebonuses": [ {"dexterity": 2}, {"wisdom": 1} ],
+			"speed": 40,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"features": [
+				{"featuretext":"Alseid features"},
+				{"featuretextwithbullet":"You are of the monstrosity type"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"addweaponproficiencies": ["Spear", "Shortbow"]},
+				{"featuretextwithbullet":"The mundane details of the structures of humanoids can present considerable obstacles for you, such as ladders and manholes."},
+				{"featuretextwithbullet":"When in a forest, you leave no tracks and can automatically discern true north."}
+			]
+		},
+		{
+			"name":"kp_bearfolk",
+			"displayname":"Bearfolk",
+			"skills": ["Athletics", "Perception"],
+			"abilityscorebonuses": [ {"strength": 2} ],
+			"speed": 30,
+			"languages": [
+				"Common"
+			],
+			"features": [
+				{"featuretext":"Bearfolk features:"},
+				{
+					"menu":{
+						"name":"Select language",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Northern",
+								"displayname":"Northern",
+								"effects":[{"addlanguagesknown":"Northern"}]
+							},
+							{
+								"name":"Umbral",
+								"displayname":"Umbral",
+								"effects":[{"addlanguagesknown":"Umbral"}]
+							}
+						]
+					}
+				},
+				{"featuretextwithbullet": "Your powerful jaws are natural weapons, which you can use to make unarmed strikes. If it hits, you deal 1d6 + your Strength modifier piercing damage."},
+				{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
+				{"featuretextwithbullet": "Your hide is thick and tough, granting you a natural AC of 13 + your Dexterity modifier."},
+				{"featuretextwithbullet":"You have a natural AC of 13 + DEX mod"},
+				{"setarmorclass": "13"},
+				{"featuretextwithbullet": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."}
+			]
+		},
+		{
+			"name":"kp_centaur",
+			"displayname":"Centaur (Midgard)",
+			"skills":"Medicine",
+			"abilityscorebonuses": [ {"strength": 2}, {"wisdom": 1} ],
+			"speed": 40,
+			"languages": [
+				"Centaur",
+				"Extra language"
+			],
+			"equipment":[{"weapon":{"name":"hooves"}}],
+			"features": [
+				{"featuretext":"Centaur features"},
+				{"featuretextwithbullet":"-broken-: Can't add Hooves weapon automatically..."},
+				{"featuretextwithbullet":"You are of the monstrosity type"},
+				{"addweaponproficiencies": ["Pike", "Longbow","Hooves"]},
+				{"featuretextwithbullet":"Although you are Large, you wield weapons and wear armor sized for a Medium creature, thanks to the proportions of your humanoid torso."},
+				{"featuretextwithbullet":"You have disadvantage on Stealth checks because of your size and indelicate hooves. The mundane details of the structures of humanoids can present considerable obstacles for you, such as ladders and manholes."}
+			],
+			"level": {
+				"1": [
+					{"featuretextwithbullet":"If you move at least 30 feet straight toward a target and then hit it with a pike attack on the same turn, the target takes an extra 3 (1d6) piercing damage."}
+				],
+				"6": [
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"If you move at least 30 feet straight toward a target and then hit it with a pike attack on the same turn, the target takes an extra 7 (2d6) piercing damage.",
+							"find":"If you move at least 30 feet straight toward a target and then hit it with a pike attack on the same turn, the target takes an extra 3 (1d6) piercing damage."
+						}
+					}
+				],
+				"11": [
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"If you move at least 30 feet straight toward a target and then hit it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.",
+							"find":"If you move at least 30 feet straight toward a target and then hit it with a pike attack on the same turn, the target takes an extra 7 (2d6) piercing damage."
+						}
+					}
+				]
+			}
+		},
+		{
+			"name":"kp_derro",
+			"displayname":"Derro",
+			"abilityscorebonuses": [ {"dexterity": 2}, {"constitution": 1} ],
+			"speed": 30,
+			"languages": [
+				"Dwarvish"
+			],
+			"features": [
+				{"featuretext":"Derro features"},
+				{"featuretextwithbullet":"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You have advantage on saving throws against being charmed or frightened."},
+				{"featuretextwithbullet":"You have advantage on Constitution saving throws against spells."},
+				{"featuretextwithbullet":"You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."},
+				{"menu":{
+					"name":"Select language",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Common",
+							"displayname":"Common",
+							"effects":[{"addlanguagesknown":"Common"}]
+						},
+						{
+							"name":"Undercommon",
+							"displayname":"Undercommon",
+							"effects":[{"addlanguagesknown":"Undercommon"}]
+						}
+					]
+				}}
+			]
+		},
+		{
+			"name":"kp_dhampir",
+			"displayname":"Dhampir",
+			"abilityscorebonuses": [ {"charisma": 2}, {"desterity": 1} ],
+			"speed": 30,
+			"languages": [
+				"Common"
+			],
+			"features": [
+				{"featuretext":"Dhampir features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You can bite as an unarmed strike against an incapacitated creature or one you have grappled. Your bite deals 1 point of piercing damage, and if the creature has blood and isn’t a construct or undead, you can feed from it as part of the attack. Your feeding deals necrotic damage equal to your Charisma modifier (minimum of 1), and if your target takes damage you regain one spent hit die. You can regain a number of spent hit dice with this trait equal to your Constitution modifier per long rest (minimum of 1)."},
+				{"featuretextwithbullet":"1/Rest: As an action, you can magically beguile the mind of a creature that you can see within 30 feet. For 1 hour, you have advantage on Charisma checks made against the target. If you or any of your allies attack or damage the target, this effect ends. When the effect ends, the target feels repulsed by you and becomes hostile toward you until the next dawn, during which time it becomes immune to this effect. A creature immune to being charmed is immune to your predatory charm."},
+				{"featuretextwithbullet":"You have advantage on saving throws against disease, and you have resistance against necrotic damage."}
+			]
+		},
+		{
+			"name":"kp_dragonkin",
+			"displayname":"Dragonkin",
+			"abilityscorebonuses": [ {"charisma": 2} ],
+			"speed": 25,
+			"skills": [ "Persuasion" ],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"features": [
+				{"featuretext":"Dragonkin features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."}
+			]
+		},
+		{
+			"name":"kp_dustgoblin",
+			"displayname":"Dust Goblin",
+			"abilityscorebonuses": [ {"dexterity": 2}, {"constitution": 1} ],
+			"speed": 30,
+			"skills": [ "Stealth", "Survival" ],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"features": [
+				{"featuretext":"Dust Goblin features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You have advantage on saving throws against being charmed or frightened."},
+				{"featuretextwithbullet":"When you attack a creature from hiding, the creature must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or be frightened of you until the end of its next turn."}
+			]
+		},
+		{
+			"name":"kp_gearforged",
+			"displayname":"Gearforged",
+			"speed": 30,
+			"languages": [
+				"Common",
+				"Machine Speech"
+			],
+			"abilityscorebonuses": [{"select2":[
+				{"strength":1},
+				{"dexterity":1},
+				{"constitution":1},
+				{"intelligence":1},
+				{"wisdom":1},
+				{"charisma":1}
+			]}],
+			"features": [
+				{"featuretext":"Gearforged features"},
+				{"featuretextwithbullet":"You cannot eat, drink, or breathe."},
+				{"featuretextwithbullet":"You can’t drink potions or gain benefits that come from drinking, eating, or inhaling vapors."},
+				{"featuretextwithbullet":"You do not naturally sleep."},
+				{"featuretextwithbullet":"During a rest, you must perform maintenance on your gears, springs, and joints, following the normal rules governing rest and activity. While performing this maintenance, you are aware of your surroundings but you have disadvantage on Wisdom (Perception) checks. If you go longer than 24 hours without performing maintenance (you don’t take a long rest), you gain one level of exhaustion. All exhaustion gained this way disappears after your next long rest."},
+				{"featuretextwithbullet":"You can’t be stabilized when dying with a Wisdom (Medicine) check or spare the dying. Instead, a successful DC 10 Intelligence check or a mending cantrip is needed."},
+				{"featuretextwithbullet":"You regain only one-half the usual number of hit points from spells or magical effects with the words cure, heal, or healing in their titles."},
+				{"featuretextwithbullet":"You are immune to disease, poison damage, and the poisoned condition."},
+				{"featuretextwithbullet":"If you are killed but your soul gem and memory gears are still intact, you can be restored to life if your body is repaired and soulforging is cast on it again. Because the body already exists, the cost of the ritual is just 500 gp, plus the cost of repairing the body (DM’s discretion, typically 1d4 x 50 gp). If your body was destroyed but your soul gem and memory tapes are intact, they can be implanted into a new body at the standard cost (10,000 gp). The only other magic capable of bringing you back from the dead is a wish spell, which restores you fully."}
+			]
+		},
+		{
+			"name":"kp_darakhul",
+			"displayname":"Darakhul",
+			"abilityscorebonuses": [ {"constitution": 2} ],
+			"languages": [
+				"Common",
+				"Darakhul"
+			],
+			"features": [
+				{"featuretext":"Darakhul features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You are of the humanoid (darakhul) type"},
+				{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
+				{"featuretextwithbullet":"You must consume a meal of raw meat each day or suffer the effects of starvation. If you go 24 hours without such a meal, you gain one level of exhaustion (this is an exception to the darakhul’s immunity). You cannot stave this off with half rations. While you have any levels of exhaustion, you cannot regain hit points or remove levels of exhaustion until you spend 1 hour consuming an amount of raw meat equal to a Small creature (about 30 pounds)."},
+				{"featuretextwithbullet":"When you, the target of your attack, or anything you try to perceive is in direct sunlight, you have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."},
+				{"featuretextwithbullet":"You have resistance to necrotic damage and immunity to poison damage."},
+				{"featuretextwithbullet":"You are immune to exhaustion and to the charmed and poisoned conditions"},
+				{"featuretextwithbullet":"If you die, you cannot be returned to life by revivify, raise dead, or reincarnate; resurrection and true resurrection returns you to life as your original race. A create undead spell cast so that it targets only your corpse affects you as a raise dead spell affects the corpse of a once-living creature."},
+				{"featuretextwithbullet":"You don’t need to drink or breathe."},
+				{"featuretextwithbullet":"You don’t sleep the way living creatures do, but during long rests, you enter a dormant state resembling death; during that time, you have disadvantage on Wisdom (Perception) checks."}
+			]
+		},
+		{
+			"name":"kp_gnoll",
+			"displayname":"Gnoll",
+			"abilityscorebonuses":[{"strength":2}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Gnoll features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You have advantage on Wisdom (Perception) checks that rely on smell."},
+				{"featuretextwithbullet":"You have disadvantage on saving throws against being frightened."},
+				{"featuretextwithbullet":"Whenever you make a Charisma (Intimidation) check for dealing with obviously smaller or weaker targets, you are considered proficient in the Intimidation skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."},
+				{"featuretextwithbullet":"When you take the Disengage action, your base walking speed is increased by 10 feet."},
+				{"addweaponproficiencies":["Spear, Shortbow, Longbow, Light Crossbow, Heavy Crossbow"]}
+			],
+			"languages":[
+				"Southern",
+				"Gnollish"
+			]
+		},
+		{
+			"name":"kp_jinnborn",
+			"displayname":"Jinnborn",
+			"abilityscorebonuses":[{"constitution":2}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Jinnborn features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"For every month you remain away from the desert, you must make a DC 15 Charisma saving throw. On a failed save, you are afflicted with indefinite madness."},
+				{"menu":{
+					"name":"Select Siraati",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Air",
+							"displayname":"Air",
+							"effects":[
+								{"addlanguagesknown":["Auran"]},
+								{"featuretextwithbullet":"Your siraati is Air"},
+								{"addclassfeatureflag":"kp_jinborn_air"}
+							]
+						},
+						{
+							"name":"Earth",
+							"displayname":"Earth",
+							"effects":[
+								{"addlanguagesknown":["Terran"]},
+								{"featuretextwithbullet":"Your siraati is Earth"},
+								{"addclassfeatureflag":"kp_jinborn_earth"}
+							]
+						},
+						{
+							"name":"Fire",
+							"displayname":"Fire",
+							"effects":[
+								{"addlanguagesknown":["Ignan"]},
+								{"featuretextwithbullet":"Your siraati is Fire"},
+								{"addclassfeatureflag":"kp_jinborn_fire"}
+							]
+						},
+						{
+							"name":"Water",
+							"displayname":"Water",
+							"effects":[
+								{"addlanguagesknown":["Aquan"]},
+								{"featuretextwithbullet":"Your siraati is Aquan"},
+								{"addclassfeatureflag":"kp_jinborn_water"}
+							]
+						}
+					]
+				}}
+			],
+			"skills":["Persuasion"],
+			"languages":[
+				"Common"
+			]
+		},
+		{
+			"name":"kp_kijani",
+			"displayname":"Kijani",
+			"abilityscorebonuses":[
+				{"wisdom":2},
+				{"select1":[
+					{"strength":1},
+					{"dexterity":1},
+					{"constitution":1},
+					{"intelligence":1},
+					{"charisma":1}
+				]}
+			],
+			"speed":30,
+			"features":[
+				{"featuretext":"Kijani features"},
+				{"featuretextwithbullet":"You are of the plant type."},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"While below half your maximum hit points, you have access to the the following options:"},
+				{"featuretextwithbullet":"* Once per turn when you hit with a weapon attack, you deal an extra 2 (1d4) weapon damage."},
+				{"featuretextwithbullet":"* As a reaction, when you are hit by an attack during your fury, you can add 2 to your AC against that attack. You must be able to see the attacker to take this reaction."},
+				{"featuretextwithbullet":"You are immune to any effect that would put you to sleep."},
+				{"skillmenu":{
+					"selections":1,
+					"title":"Roots of the Past:",
+					"skills":[
+						"arcana",
+						"history",
+						"nature",
+						"religion"
+					]
+				}}
+			],
+			"level":{"7":[
+				{"addspell":{"name":"Speak with Plants","spelllevel":3}}
+			]},
+			"languages":[
+				"Common",
+				"Sylvan"
+			]
+		},
+		{
+			"name":"kp_kobold",
+			"displayname":"Kobold (Midgard)",
+			"abilityscorebonuses":[{"dexterity":2},{"intelligence":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Kobold features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You have advantage on your attack roll against an enemy within 5 feet of you if you have an ally that's not incapacitated also within 5 feet of the target. You can apply this bonus to one attack per round."},
+				{"featuretextwithbullet":"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in bright sunlight."},
+				{"addtoolproficiencies":"One of alchemist's supplies OR mason's tools OR smith's tools OR tinker's tools."}
+			],
+			"languages":[
+				"Common",
+				"Draconic"
+			]
+		},
+		{
+			"name":"kp_lamia",
+			"displayname":"Lamia",
+			"abilityscorebonuses":[{"strength":2}, {"charisma":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Lamia features"},
+				{"featuretextwithbullet":"You are of the monstrosity type."},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You have advantage on attack rolls against a creature you have surprised, or that is charmed by you or your allies."},
+				{"featuretextwithbullet":"You have advantage on saving throws and ability checks against being knocked prone."},
+				{"featuretextwithbullet":"You can't benefit from anything that requires legs or feet (such as magical footwear)."}
+			],
+			"skills":[
+				"Deception",
+				"Intimidation"
+			],
+			"languages":[
+				"Abyssal",
+				"Common"
+			]
+		},
+		{
+			"name":"kp_lizardfolk",
+			"displayname":"Lizardfolk (Midgard)",
+			"speed":30,
+			"languages":[
+				"Draconic",
+				"One additional language of your choice (typically Southern)"
+			],
+			"features":[
+				{"menu":{
+					"name":"Swim speed alternates",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Swim Speed 30'",
+							"displayname":"Swim Speed 30'",
+							"effects":[{"featuretextwithbullet":"You have a swim speed of 30 feet"}]
+						},
+						{
+							"name":"Climber",
+							"displayname":"Climber",
+							"effects":[
+								{"featuretextwithbullet":"While climbing you suffer no movement penalties, you are considered proficient in the Athletics skill, and add double your proficiency bonus to checks made to climb, instead of your normal proficiency bonus."},
+								{"addclassfeatureflag":"kp_lf_noholdbreath"}
+							]
+						},
+						{
+							"name":"Chromatophore",
+							"displayname":"Chromatophore",
+							"effects":[
+								{"featuretextwithbullet":"You can alter the color of your skin and can blend into your environment."},
+								{"featuretextwithbullet":"You gain advantage on Stealth checks made to hide as long as you are not moving."},
+								{"featuretextwithbullet":"If you are wearing no armor and carrying no items, you may attempt to hide even if you have no cover or obscurement. You can't use this ability to hide while you are being directly observed."},
+								{"addclassfeatureflag":"kp_lf_noholdbreath"}
+							]
+						},
+						{
+							"name":"Digger",
+							"displayname":"Digger",
+							"effects":[
+								{"featuretextwithbullet":"You can burrow through soft sand, dirt, and mud at a rate of 10 feet per round."}
+							]
+						},
+						{
+							"name":"Glider",
+							"displayname":"Glider",
+							"effects":[
+								{"featuretextwithbullet":"You take no damage from falls."},
+								{"featuretextwithbullet":"You gain a fly speed of 40 feet but cannot hover. At the end of any round you fly, you must have descended at least one-quarter the distance you traveled or you fall."},
+								{"addclassfeatureflag":"kp_lf_noholdbreath"}
+							]
+						},
+						{
+							"name":"Poisoned Bite",
+							"displayname":"Poisoned Bite",
+							"effects":[
+								{"featuretextwithbullet":"You can make a bite as an unarmed strike that deals piercing damage. On a successful bite attack, the target must make a Constitution saving throw against a DC equal to 8 + your proficiency modifier + your Constitution modifier. On a failed save, the target gains the poisoned condition for 1 minute. The target can repeat the save at the end of its turn, ending the effect on a success. On a successful save or when the poisoned condition ends, the target becomes immune to your poison for 24 hours. You may use this ability a number of times per day equal to your Constitution modifier, and you regain all expended uses when you finish a long rest."},
+								{"addclassfeatureflag":"kp_lf_nobite"},
+								{"addclassfeatureflag":"kp_lf_nonaturalarmor"},
+								{"addclassfeatureflag":"kp_lf_noholdbreath"}
+							]
+						}
+					]
+				}},
+				{"ifthenelse":{
+					"if":[{"not":{"classfeature":"kp_lf_nonaturalarmor"}}],
+					"then":[
+						{"menu":{
+							"selections":1,
+							"name":"Natural armor alternates",
+							"entries":[
+								{
+									"name":"Natural Armor",
+									"displayname":"Natural Armor",
+									"effects":[
+										{"featuretextwithbullet":"If you are not wearing armor, your base AC equals 12 + your Dexterity modifier."},
+										{"setarmorclass":12}
+									]
+								},
+								{
+									"name":"Regeneration",
+									"displayname":"Regeneration",
+									"effects":[
+										{"featuretextwithbullet":"Whenever you spend at least one Hit Die to regain hit points during a short rest, you regain an additional number of hit points equal to twice your Constitution modifier."},
+										{"featuretextwithbullet":"Severed fingers and toes regrow after 24 hours. Severed hands and feet regrow after three days. Severed limbs regrow after one week. If the severed body part is present and whole, you can reattach it during a short rest as long as you spend at least one Hit Die to regain hit points and perform no other actions, even light duties. You gain one level of exhaustion when you begin regenerating a limb. While a limb is regenerating, as well as for one day after the regrowth is complete, you cannot have less than one level of exhaustion."},
+										{"featuretextwithbullet":"-broken- The above two features are not automatically applied on a rest..."},
+										{"addclassfeatureflag":"kp_lf_nonaturalpredator"}
+									]
+								},
+								{
+									"name":"Purple-blooded",
+									"displayname":"Purple-blooded",
+									"effects":[
+										{"featuretextwithbullet":"You gain advantage on saving throws against poisons and diseases."}
+									]
+								}
+							]
+						}}
+					]
+				}},
+				{"ifthenelse":{
+					"if":[{"not":{"classfeature":"kp_lf_nobite"}}],
+					"then":[
+						{"menu":{
+							"selections":1,
+							"name":"Natural attack alternates",
+							"entries":[
+								{
+									"name":"Natural Attacks",
+									"displayname":"Natural Attacks",
+									"effects":[
+										{"addweaponproficiencies": ["Spear", "Shortbow"]},
+										{"featuretextwithbullet":"-broken-: Can't add Bite weapon automatically..."}
+									]
+								},
+								{
+									"name":"Gout of Blood",
+									"displayname":"Gout of Blood",
+									"effects":[
+										{"featuretextwithbullet":"As an action, you can target any creature within 15 feet with this ability and force the target to make a Wisdom saving throw against a DC equal to 8 + your proficiency modifier + your Dexterity modifier. On a failed save, the target is frightened. The frightened creature can repeat this save at the end of each of its turns, ending the condition on a success. Creatures wearing full-face helmets, eye protection, etc. gain advantage on the save. You may use this ability a number of times per day equal to your Constitution modifier, and you regain all expended uses when you finish a long rest."}
+									]
+								}
+							]
+						}}
+					]
+				}},
+				{"ifthenelse":{
+					"if":[{"not":{"classfeature":"kp_lf_nonaturalpredator"}}],
+					"then":[
+						{"setskillproficiency":{"Stealth":"true"}}
+					]
+				}},
+				{"ifthenelse":{
+					"if":[{"not":{"classfeature":"kp_lf_noholdbreath"}}],
+					"then":[
+						{"featuretextwithbullet":"You can hold your breath for a number of minutes equal to your Constitution score."}
+					]
+				}}
+			]
+		},
+		{
+			"name":"kp_minotaur",
+			"displayname":"Minotaur (Midgard)",
+			"abilityscorebonuses":[{"strength":2}, {"constitution":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Minotaur features"},
+				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet": "Your horns are natural weapons, which you can use to make unarmed strikes."},
+				{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
+				{"featuretextwithbullet":"If you move at least 10 feet toward a target and hit it with a horn attack in the same turn, you deal an extra 1d6 piercing damage and you can shove the target 5 feet as a bonus action. You can apply this extra damage once per turn."},
+				{"featuretextwithbullet":"You can retrace without error any path you have previously taken, with no ability check."}
+			],
+			"level":{
+				"11":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"If you move at least 10 feet toward a target and hit it with a horn attack in the same turn, you deal an extra 1d6 piercing damage and you can shove the target 10 feet as a bonus action. You can apply this extra damage once per turn.",
+							"find":"If you move at least 10 feet toward a target and hit it with a horn attack in the same turn, you deal an extra 1d6 piercing damage and you can shove the target 5 feet as a bonus action. You can apply this extra damage once per turn."
+						}
+					}
+				]
+			},
+			"languages":[
+				"Minotaur",
+				"One language of your choice"
+			]
+		},
+		{
+			"name":"kp_ramag",
+			"displayname":"Ramag",
+			"abilityscorebonuses":[{"intelligence":2},{"dexterity":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Ramag features"},
+				{"featuretextwithbullet":"You can ignore class requirements when attuning to a magic item."},
+				{"featuretextwithbullet":"You have advantage on Strength and Dexterity saving throws against spells."}
+				
+			],
+			"skills":["Arcana"],
+			"languages":[
+				"Common",
+				"Giant"
+			]
+		},
+		{
+			"name":"kp_ratfolk",
+			"displayname":"Ratfolk",
+			"abilityscorebonuses":[{"dexterity":2},{"intelligence":1},{"strength":-2}],
+			"speed":25,
+			"features":[
+				{"featuretext":"Ratfolk features"},
+				{"featuretextwithbullet":"You have a swimming speed of 10 feet."},
+				{"featuretextwithbullet":"To a distance of 60 feet from yourself, you can see in dim light as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"You can move through a hostile creature’s space in combat as long as it is size Medium or larger."},
+				{"featuretextwithbullet":"You have advantage on your attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."},
+				{"featuretextwithbullet":"You have advantage on Handle Animal checks to influence the behavior of rodents."}
+			],
+			"languages":[
+				"Common"
+			]
+		},
+		{
+			"name":"ravenfolk",
+			"displayname":"Ravenfolk",
+			"abilityscorebonuses":[{"dexterity":2},{"charisma":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Ravenfolk features"},
+				{"featuretextwithbullet":"You have advantage on attack rolls against a surprised creature."},
+				{"featuretextwithbullet":"Ravenfolk can mimic any sound they’ve heard. Make a Charisma (Deception) check against the passive Wisdom (Insight) of any listeners. Success indicates they believe the sound you created was real."}
+			],
+			"skills":[
+				"Deception",
+				"Stealth"
+			],
+			"languages":[
+				"Huginn's Speech",
+				"Northern Tongue"
+			]
+		},
+		{
+			"name":"kp_sahuagin",
+			"displayname":"Sahuagin",
+			"abilityscorebonuses":[{"strength":2},{"wisdom":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Sahuagin features"},
+				{"featuretextwithbullet":"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray."},
+				{"featuretextwithbullet":"As a bonus action, you can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."},
+				{"featuretextwithbullet":"You can breathe air and water, but you need to be submerged at least once every 4 hours or you begin suffocating."},
+				{"featuretextwithbullet":"Your thick hide grants you an AC of 12 + your Dexterity modifier."},
+				{"setarmorclass":12},
+				{"featuretextwithbullet":"You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and your bite deals 1d4 piercing damage."},
+				{"featuretextwithbullet":"-broken- Can't auto-add claws and bite"},
+				{"addweaponproficiencies": ["Claws", "Bite"]},
+				{"featuretextwithbullet":"You can magically command one shark within 120 feet of you using limited telepathy. This command is limited to simple concepts such as “come here,” “defend me,” or “attack this target.”"}
+			],
+			"languages":[
+				"Aquan",
+				"Common"
+			]
+		},
+		{
+			"name":"kp_shadow",
+			"displayname":"-broken- Shadow"
+		},
+		{
+			"name":"kp_tosculi",
+			"displayname":"-broken- Tosculi",
+			"abilityscorebonuses":[
+				{"select1":[
+					{"strength":2},
+					{"dexterity":2},
+					{"constitution":2}
+				]},
+				{"select1":[
+					{"intelligence":2},
+					{"wisdom":2},
+					{"charisma":2}
+				]},
+				{"select1":[
+					{"strength":-2},
+					{"dexterity":-2},
+					{"constitution":-2},
+					{"intelligence":-2},
+					{"wisdom":-2},
+					{"charisma":-2}
+				]}
+			],
+			"speed":30,
+			"features":[
+				{"featuretext":"Tosculi features"},
+				{"featuretextwithbullet":"-broken- Unable to select ability score bonuses correctly"},
+				{"menu":{
+					"name":"Natural Armor alternates",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Natural Armor",
+							"displayname":"Natural Armor",
+							"effects":[
+								{"featuretextwithbullet":"Your Armor Class cannot be less than 11 + your Dexterity modifier no matter what armor you are wearing."},
+								{"setarmorclass":11}
+							]
+						},
+						{
+							"name":"Hardened Carapace",
+							"displayname":"Hardened Carapace",
+							"effects":[
+								{"featuretextwithbullet":"Your Armor Class cannot be less than 11 + your Constitution modifier + your Dexterity modifier no matter what armor you are wearing."},
+								{"setarmorclass":{"add":[11,"constitutionmodifier"]}},
+								{"addclassfeatureflag":"kp_tos_noglidingwings"}
+							]
+						}
+					]
+				}},
+				{"featuretextwithbullet":"You have proficiency with your claws, which deal 1d4 slashing damage."},
+				{"addweaponproficiencies":["Claws"]},
+				{"featuretextwithbullet":"-broken- Can't auto-add claws"},
+				{"ifthenelse":{
+					"if":[{"not":{"classfeature":"kp_tos_noglidingwings"}}],
+					"then":[
+						{"menu":{
+							"selections":1,
+							"name":"Gliding Windows alternates",
+							"entries":[
+								{
+									"name":"Gliding Wings",
+									"displayname":"Gliding Wings",
+									"effects":[
+										{"featuretextwithbullet":"You take no damage from falls. You gain a fly speed of 40 feet but cannot hover. At the end of any round you fly, you must have descended at least one-quarter the distance you travelled or you fall."}
+									]
+								},
+								{
+									"name":"Latent Hive Mind",
+									"displayname":"Latent Hive Mind",
+									"effects":[
+										{"featuretextwithbullet":"You know the message cantrip. This cantrip is a psionic ability that does not require components. The cantrip also functions in a silence spell."},
+										{"addclassfeatureflag":"kp_tos_latenthivemind"}
+									]
+								}
+							]
+						}}
+					]
+				}},
+				{"menu":{
+					"name":"Stalker alternates",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Stalker",
+							"displayname":"Stalker",
+							"effects":[
+								{"setskillproficiency":{"Perception":"true"}},
+								{"setskillproficiency":{"Stealth":"true"}}
+							]
+						},
+						{
+							"name":"Binding Spittle",
+							"displayname":"Binding Spittle",
+							"effects":[
+								{"featuretextwithbullet":"As an Attack action, you may spit a ball of viscous fluid at a target within 60 feet that is Medium or smaller. Make a ranged attack against the target with proficiency. If successful, the fluid hardens upon impact and the target becomes restrained. As an action, the target can make a Strength check against a DC equal to 8 + your proficiency bonus + your Constitution modifier to remove the condition. Anyone adjacent to a creature restrained by binding spittle may use their action to free the target in the same way. Dealing an amount of bludgeoning damage equal to half your level plus your Constitution modifier (AC 10) to the spittle also frees the target. After you use binding spittle, you can’t use it again until you finish a short or long rest."}
+							]
+						},
+						{
+							"name":"Bite",
+							"displayname":"Bite",
+							"effects":[
+								{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
+								{"addclassfeatureflag":"kp_tos_bite"},
+								{"featuretextwithbullet":"You can make a bite attack as an unarmed strike that deals 1d6 slashing damage. On a successful hit with a bite, you may attempt to grapple the target as a bonus action."}
+							]
+						}
+					]
+				}}
+			],
+			"languages":[
+				"Tosculi",
+				"One extra langauge"
+			],
+			"level":{
+				"3":[
+					{"ifthenelse":{
+						"if":[{"classfeature":"kp_tos_latenthivemind"}],
+						"then":[
+							{"featuretextwithbullet":"You can cast the detect thoughts spell once, without the need for components, and you regain the ability to do so when you finish a long rest."}
+						]
+					}}
+				],
+				"11":[
+					{"ifthenelse":{
+						"if":[{"classfeature":"kp_tos_bite"}],
+						"then":[
+							{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"2"}},
+							{"replacestringfromfeaturetext":
+								{
+									"replacementtext":"You can make a bite attack as an unarmed strike that deals 2d6 slashing damage. On a successful hit with a bite, you may attempt to grapple the target as a bonus action.",
+									"find":"You can make a bite attack as an unarmed strike that deals 1d6 slashing damage. On a successful hit with a bite, you may attempt to grapple the target as a bonus action."
+								}
+							}
+						]
+					}}
+				]
+			}
+		},
+		{
+			"name":"kp_trollkin",
+			"displayname":"Trollkin",
+			"abilityscorebonuses":[{"constitution":2}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Trollkin features"},
+				{"featuretextbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextbullet":"You have large fangs and sharp claws instead of fingernails and toenails. You can use your claws or fangs to make unarmed strikes. If you hit with them, claws deal 1d4 + Strength modifier slashing damage, and fangs deal 1d4 + Strength modifier piercing damage."},
+				{"increaseunarmedstrikedamage":{"diesize":4,"dienumber":1}},
+				{"featuretextbullet":"As a bonus action, you can expend one hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest."}
+			],
+			"skills":[
+				"Intimidation"
+			],
+			"language":[
+				"Northern Tongue"
+			],
+			"level":{
+				"6":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"As a bonus action, you can expend two hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest.",
+							"find":"As a bonus action, you can expend one hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest."
+						}
+					}
+				],
+				"12":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"As a bonus action, you can expend three hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest.",
+							"find":"As a bonus action, you can expend two hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest."
+						}
+					}
+				],
+				"18":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"As a bonus action, you can expend four hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest.",
+							"find":"As a bonus action, you can expend three hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest."
+						}
+					}
+				]
+			}
+		},
+		{
+			"name":"kp_werelion",
+			"displayname":"Werelion",
+			"abilityscorebonuses":[{"wisdom":2},{"strength":1}],
+			"speed":30,
+			"features":[
+				{"featuretext":"Werelion features"},
+				{"featuretextbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"featuretextbullet":"As an action, you can change into either your hybrid leonine form or your lion form. You can remain in this form for 1 hour, reverting to your humanoid form when the time expires, you fall unconscious, you drop to 0 hit points, or you die. You can revert to your humanoid form early as a bonus action. Once you use this ability, you can’t use it again until you finish a short rest."},
+				{"featuretextbullet":"In this hybrid form you may use weapons, wear armor, and carry equipment normally. Your base walking speed increases to 40 feet. You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and are considered light weapons. Your bite deals 1d4 piercing damage. In addition, you gain advantage on Charisma (Intimidate) checks, and Wisdom (Perception) checks that rely on smell. You gain disadvantage on Intelligence checks and all other Charisma checks."},
+				{"featuretextbullet":"You may assume the form of a young lion (use the stat block for the panther) as if using the druid’s Wild Shape class feature. Unlike that feature, you retain your own hit points between forms."}
+			],
+			"level":{
+				"8":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"You may assume the form of a lion as if using the druid’s Wild Shape class feature. Unlike that feature, you retain your own hit points between forms.",
+							"find":"You may assume the form of a young lion (use the stat block for the panther) as if using the druid’s Wild Shape class feature. Unlike that feature, you retain your own hit points between forms."
+						}
+					}
+				]
+			},
+			"languages":[
+				"Southern",
+				"Sylvan"
+			]
+		}
+	],
+	"subraces" : [
+		{
+			"name":"kp_bf_grizzlehide",
+			"displayname":"Grizzlehide",
+			"race":"kp_bearfolk",
+			"abilityscorebonuses": [ {"constitution": 1} ],
+			"features": [
+				{"featuretext":"Grizzlehide features:"},
+				{"featuretextwithbullet":"When you take the Attack action, you can make an unarmed strike as a bonus action. If you hit, you can grapple the target in addition to dealing damage to it. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."},
+				{"featuretextwithbullet":"You are resistant to cold damage."}
+			]
+		},
+		{
+			"name":"kp_bf_purifier",
+			"displayname":"Purifier",
+			"race":"kp_bearfolk",
+			"abilityscorebonuses": [ {"wisdom": 1} ],
+			"features": [
+				{"featuretext":"Purifier features:"},
+				{"featuretextwithbullet":"You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability score for it."},
+				{"featuretextwithbullet":"-NOTE- Not sure if the above can be made to work."},
+				{"featuretextwithbullet":"When you make an Intelligence, Wisdom, or Charisma saving throw, you can roll a d4 and add the result to your total. You can do this after the roll but before any effects occur. Once you use this feature, you can’t use it again until you finish a short or long rest."}
+			]
+		},
+		{
+			"name":"kp_dk_flame",
+			"displayname":"Flame or Fire",
+			"race":"kp_dragonkin",
+			"abilityscorebonuses": [ {"strength":1} ],
+			"features":[
+				{"featuretext":"Flame or Fire Dragonkin feature:"},
+				{"featuretextwithbullet":"You have resistance to fire damage."},
+				{"addspell":{"name":"Produce Flame","spelllevel":0}}
+			]
+		},
+		{
+			"name":"kp_dk_wind",
+			"displayname":"Wind or Storm",
+			"race":"kp_dragonkin",
+			"abilityscorebonuses": [ {"intelligence":1} ],
+			"features":[
+				{"featuretext":"Wind or Storm Dragonkin feature:"},
+				{"featuretextwithbullet":"You have resistance to lightning damage."},
+				{"addspell":{"name":"Shocking Grasp","spelllevel":0}}
+			]
+		},
+		{
+			"name":"kp_dk_stone",
+			"displayname":"Stone or Cave",
+			"race":"kp_dragonkin",
+			"abilityscorebonuses": [ {"constitution":1} ],
+			"features":[
+				{"featuretext":"Stone or Cave Dragonkin feature:"},
+				{"featuretextwithbullet":"You have resistance to acid damage."},
+				{"addspell":{"name":"Blade Ward","spelllevel":0}}
+			]
+		},
+		{
+			"name":"kp_dk_wave",
+			"displayname":"Wave or Tide",
+			"race":"kp_dragonkin",
+			"abilityscorebonuses": [ {"wisdom":1} ],
+			"features":[
+				{"featuretext":"Wave or Tide Dragonkin feature:"},
+				{"featuretextwithbullet":"You have resistance to cold damage."},
+				{"addspell":{"name":"Poison Spray","spelllevel":0}}
+			]
+		},
+		{
+			"name":"kp_dk_edjet",
+			"displayname":"Edjet or Soldier",
+			"race":"kp_dragonkin",
+			"abilityscorebonuses": [ {"dexterity":1} ],
+			"features":[
+				{"featuretext":"Edjet or Soldier Dragonkin feature:"},
+				{"featuretextwithbullet":"You have resistance to poison damage."},
+				{"addspell":{"name":"Shillelagh","spelllevel":0}}
+			]
+		},
+		{
+			"name":"kp_southerndwarf",
+			"displayname":"Southern Dwarf",
+			"race":"Dwarf",
+			"abilityscorebonuses": [ {"intelligence":1} ],
+			"features":[
+				{"addtoolproficiencies":"alchemist's supplies"},
+				{"menu":{
+					"name":"Select cantrip",
+					"selections":1,
+					"entries":[
+						{
+							"name":"Guidance",
+							"displayname":"Guidance",
+							"effects":[{"addspell":{"name":"Guidance","spelllevel":0}}]
+						},
+						{
+							"name":"Resistance",
+							"displayname":"Resistance",
+							"effects":[{"addspell":{"name":"Resistance","spelllevel":0}}]
+						}
+					]
+				}}
+			]
+		},
+		{
+			"name":"kp_dk_dragonkin",
+			"displayname":"Dragonkin",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"strength":1} ],
+			"speed":25,
+			"features":[{"addlanguagesknown":["Draconic"]}]
+		},
+		{
+			"name":"kp_dk_dwarf",
+			"displayname":"Dwarf",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"wisdom":1} ],
+			"speed":25,
+			"features":[{"addlanguagesknown":["Dwarvish"]}]
+		},
+		{
+			"name":"kp_dk_elf",
+			"displayname":"Elf",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"dexterity":1} ],
+			"speed":30,
+			"features":[{"addlanguagesknown":["Elvish"]}]
+		},
+		{
+			"name":"kp_dk_gnome",
+			"displayname":"Gnome",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"intelligence":1} ],
+			"speed":25,
+			"features":[{"addlanguagesknown":["Gnomish"]}]
+		},
+		{
+			"name":"kp_dk_halfling",
+			"displayname":"Halfling",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"charisma":1} ],
+			"speed":25,
+			"features":[{"addlanguagesknown":["Halfling"]}]
+		},
+		{
+			"name":"kp_dk_human",
+			"displayname":"Human",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"select2":[
+				{"strength":"1"},
+				{"dexterity":"1"},
+				{"intelligence":"1"},
+				{"wisdom":"1"},
+				{"charisma":"1"}
+			]} ],
+			"speed":30,
+			"features":[
+				{"addlanguagesknown":["Extra language"]}
+			]
+		},
+		{
+			"name":"kp_dk_elfmarked",
+			"displayname":"Elfmarked",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"select2":[
+				{"strength":"1"},
+				{"dexterity":"1"},
+				{"intelligence":"1"},
+				{"wisdom":"1"},
+				{"charisma":"1"}
+			]} ],
+			"speed":30,
+			"features":[
+				{"addlanguagesknown":["Extra language"]}
+			]
+		},
+		{
+			"name":"kp_dk_kobold",
+			"displayname":"Kobold",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"intelligence":1} ],
+			"speed":30,
+			"features":[{"addlanguagesknown":["Kobold"]}]
+		},
+		{
+			"name":"kp_dk_ravenfolk",
+			"displayname":"Ravenfolk",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"dexterity":1} ],
+			"speed":30,
+			"features":[{"addlanguagesknown":["Huginn's Speech"]}]
+		},
+		{
+			"name":"kp_dk_tiefling",
+			"displayname":"Tiefling",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"charisma":1} ],
+			"speed":30,
+			"features":[{"addlanguagesknown":["Infernal"]}]
+		},
+		{
+			"name":"kp_dk_trollkin",
+			"displayname":"Trollkin",
+			"race":"kp_darakhul",
+			"abilityscorebonuses": [ {"strength":1} ],
+			"speed":30,
+			"features":[{"addlanguagesknown":["Northern"]}]
+		},
+		{
+			"name":"kp_gn_civilized",
+			"displayname":"Civilized Gnoll",
+			"race":"kp_gnoll",
+			"abilityscorebonuses":[{"constitution":1}],
+			"features":[
+				{"featuretextwithbullet":"Whenever you make a Charisma (Persuasion) check for dealing with obviously bigger or more powerful targets, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."}
+			]
+		},
+		{
+			"name":"kp_gn_savage",
+			"displayname":"Savage Gnoll",
+			"race":"kp_gnoll",
+			"abilityscorebonuses":[{"wisdom":1}],
+			"features":[
+				{"featuretextwithbullet":"Whenever you make a Wisdom (Survival) check for gathering food or locating water, you are considered proficient in the Survival skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."}
+			]
+		},
+		{
+			"name":"kp_gn_niemheim",
+			"displayname":"Niemheim Gnome",
+			"race":"Gnome",
+			"abilityscorebonuses":[{"charisma":1}],
+			"skills":["Arcana"],
+			"languages":["Infernal"],
+			"features":[
+				{"featuretextwithbullet":"You have advantage on Persuasion checks."}
+			]
+		},
+		{
+			"name":"kp_hl_winterfolk",
+			"displayname":"Winterfolk Halfling",
+			"race":"Halfling",
+			"abilityscorebonuses":[{"constitution":1}],
+			"features":[
+				{"featuretextwithbullet":"You recover from all levels of exhaustion at the end of a long rest."},
+				{"featuretextwithbullet":"You can use your Wisdom modifier instead of Intelligence when making History and Religion checks."}
+			]
+		},
+		{
+			"name":"kp_hm_kariv",
+			"displayname":"Kariv (Human)",
+			"race":"Human",
+			"abilityscorebonuses":[{"strength":1},{"dexterity":1},{"charisma":1}],
+			"skills":["Performance", "Survival"],
+			"features":[
+				{"featuretextwithbullet":"You have advantage on Charisma checks if your last two long rests were taken at least a mile apart. Otherwise, you have disadvantage on Charisma checks."}
+			]
+		},
+		{
+			"name":"kp_jb_speaker",
+			"displayname":"Speaker Jinnborn",
+			"race":"kp_jinnborn",
+			"abilityscorebonuses":[{"wisdom":1}],
+			"features":[
+				{"featuretextwithbullet":"You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a long rest."},
+				{"featuretextwithbullet":"You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way."}
+			]
+		},
+		{
+			"name":"kp_jb_shaper",
+			"displayname":"Shaper Jinnborn",
+			"race":"kp_jinnborn",
+			"abilityscorebonuses":[{"strength":1}],
+			"features":[
+				{"ifthenelse":{
+					"if":[{"classfeature":"kp_jinborn_air"}],
+					"then":[{"storestring":{"name":"siraati","text":"lightning"}}]
+				}},
+				{"ifthenelse":{
+					"if":[{"classfeature":"kp_jinborn_earth"}],
+					"then":[{"storestring":{"name":"siraati","text":"acid"}}]
+				}},
+				{"ifthenelse":{
+					"if":[{"classfeature":"kp_jinborn_fire"}],
+					"then":[{"storestring":{"name":"siraati","text":"fire"}}]
+				}},
+				{"ifthenelse":{
+					"if":[{"classfeature":"kp_jinborn_water"}],
+					"then":[{"storestring":{"name":"siraati","text":"cold"}}]
+				}},
+				{"featuretextwithbullet":{"combinestrings":[
+					"Once on your turn when you hit with a melee attack, you can deal an additional 1d6 ",
+					{"getstoredstring":"siraati"},
+					" damage. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses after finishing a long rest."
+				]}},
+				{"featuretextwithbullet":{"combinestrings":[
+					"You have resistance against ",
+					{"getstoredstring":"siraati"},
+					" damage."
+				]}}
+			]
+		},
+		{
+			"name":"kp_lf_regular",
+			"displayname":"Lizardfolk",
+			"race":"kp_lizardfolk",
+			"abilityscorebonuses":[
+				{"strength":2},
+				{"wisdom":1}
+			]
+		},
+		{
+			"name":"kp_lf_pygmy",
+			"displayname":"Pygmy Lizardfolk",
+			"race":"kp_lizardfolk",
+			"abilityscorebonuses":[
+				{"dexterity":2},
+				{"wisdom":1}
+			]
+		},
+		{
+			"name":"kp_elf_shadow",
+			"displayname":"Shadow Fey",
+			"race":"Elf",
+			"abilityscorebonuses":[{"charisma":1}],
+			"features":[
+				{"featuretext":"Shadow Fey features"},
+				{"addweaponproficiencies": ["Rapier","Shortsword","Shortbow","Longbow"]},
+				{"featuretextwithbullet":"When in darkness, dim light, or a shadow large enough to cover your body, you can cast the misty step spell. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1), and you regain all expended uses when you finish a long rest. Charisma is your spellcasting ability for this spell."},
+				{"featuretextwithbullet":"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in bright sunlight."},
+				{"featuretextwithbullet":"You have advantage on any Intelligence (Arcana) check to learn about a particular fey road or shadow road and how it functions."}
+			],
+			"languages":[
+				"Umbral"
+			]
+		},
+		{
+			"name":"kp_tk_nightwhisper",
+			"displayname":"Night Whisper Trollkin",
+			"race":"kp_trollkin",
+			"abilityscorebonuses":[{"wisdom":1}],
+			"features":[
+				{"featuretextwithbullet":"Before making an ability check or saving throw, you can heed the wisdom of the spirits to gain advantage on the roll. You cannot use this feature again until you finish a long rest."}
+			]
+		},
+		{
+			"name":"kp_tk_stonehide",
+			"displayname":"Stonehide Trollkin",
+			"race":"kp_trollkin",
+			"abilityscorebonuses":[{"strength":1}],
+			"features":[
+				{"featuretextwithbullet":"Your skin is knobby, thick, and tough, granting you a +1 bonus to Armor Class."},
+				{"modifyarmorclassbonus":"1"}
+			]
+		}
+	],
+	"classes" : [
+		{
+			"name": "Antipaladin",
+			"hitdie": "10",
+			"armorproficiencies": [
+				"Light Armor, Medium Armor, Heavy Armor, Shields"
+			],
+			"weaponproficiencies": [
+				"Simple Weapons, Martial Weapons"
+			],
+			"equipment": [
+				{"weapon": {"type": "martial"}},
+				{"selection": [
+					{"weapon": {"type": "martial"}},
+					{"armor": {"name": "shield"}}
+				]},
+				{"selection": [
+					{"weapon": {"name": "javelin", "quantity": "5"}},
+					{"weapon": {"type": "simple", "range": "melee" }}
+				]},
+				{"selection": [
+					"priest's pack",
+					"explorer's pack"
+				]},
+				{"armor": {"name": "chain mail"}},
+				"holy symbol"
+			],
+			"saveproficiencies": [
+				"wisdom",
+				"charisma"
+			],
+			"classskills": [
+				"Athletics",
+				"Insight",
+				"Intimidation",
+				"Medicine",
+				"Persuasion",
+				"Religion"
+			],
+			"skillcount": "2",
+			"spellprogression": "half",
+			"spellcastingability": "charisma",
+			"multiclass": {
+				"abilityscoreprerequisites": {
+					"and": [
+						{"greaterthanorequal": {
+							"first": "strength", "second": "13"
+						}},
+						{"greaterthanorequal": {
+							"first": "charisma", "second": "13"
+						}}
+					]
+				},
+				"armorproficiencies": [
+					"Light Armor, Medium Armor, Shields"
+				],
+				"weaponproficiencies": [
+					"Simple Weapons, Martial Weapons"
+				]
+			},
+			"level": {
+				"1": [
+					{"featuretext": "Antipaladin Features:"},
+					{"setresource": {"name": "Lay on Hands", "displayname": "Lay Hands", "amount": "5"}},
+					{"showresource": "Lay on Hands"},
+					{"featuretextwithbullet": "As an action, detect the location of any celestial, fiend or undead and any consecrated or desecrated place or object within 60 feet (1 + Cha mod per day)"},
+					{"featuretextwithbullet": "Gain a reservoir of healing power (5hp), and as an action, you can heal a creature you touch by draining that power. You can also cure one poison or disease from the creature by sacrificing 5hp from the reservoir"}
+				],
+				"2": [
+					{"sharedclassfeaturemenu": {"name": "Fighting Style", "class": "Paladin", "selections": "1"}},
+					{"featuretextwithbullet": "You can sacrifice a spell slot to deal (1 + spell level)d8 necrotic damage plus 1d8 extra damage vs celestial/good-aligned fey/good-aligned dragon, when you hit with a melee weapon attack"}
+				],
+				"3": [
+					{"featuretextwithbullet": "Gain immunity to disease"},
+					{"archetypemenu": ""}
+				],
+				"4": [
+					{"abilityscoreimprovement": ""}
+				],
+				"5": [
+					{"sharedclassfeature": {"name": "Extra Attack"}}
+				],
+				"6": [
+					{"setabilitymodifiertoallsaves": "charisma"},
+					{"featuretextwithbullet": "You and allies within 10 feet gain your Cha mod as bonus on saves"}
+				],
+				"8": [
+					{"abilityscoreimprovement": ""}
+				],
+				"10": [
+					{"featuretextwithbullet": "You and allies within 10 feet gain immunity vs frightened"}
+				],
+				"11": [
+					{"featuretextwithbullet": "You deal an extra 1d8 necrotic damage on melee weapon attacks"}
+				],
+				"12": [
+					{"abilityscoreimprovement": ""}
+				],
+				"14": [
+					{"setresource": {"name": "Cleansing Touch","displayname": "Cleansing","amount": "charismamodifier"}},
+					{"featuretextwithbullet": "Touch a creature as an action to end one spell effect Cha mod/day"}
+				],
+				"16": [
+					{"abilityscoreimprovement": ""}
+				],
+				"18": [
+					{"featuretextwithbullet": "30 foot auras"}
+				],
+				"19": [
+					{"abilityscoreimprovement": ""}
+				],
+				"all": [
+					{"setresource": {"name": "Lay on Hands","amount": {"multiply": {"first": "5","second": {"classlevel": "Antipaladin"}}}}},
+					{"ifthenelse": {
+						"if": [{"greaterthan": {"first": {"classlevel": "Antipaladin" },"second": "1"}}],
+						"then": [{
+							"replacelinefromfeaturetext": {
+								"linestarts": "• Gain a reservoir of healing power ",
+								"lineends": "sacrificing 5hp from the reservoir",
+								"replacementtext": {
+									"combinestrings": [
+										"• Gain a reservoir of healing power (",
+										{"value": {"multiply": {"first": "5","second": {"classlevel": "Antipaladin"}}}},
+										"hp), and as an action, you can heal a creature you touch by draining that power. You can also cure one poison or disease from the creature by sacrificing 5hp from the reservoir"
+									]
+								}
+							}
+						}]
+					}},
+					{"ifthenelse": {
+						"if": [{"greaterthan": {"first": {"classlevel": "Antipaladin"},"second": "13"}}],
+						"then": [{
+							"setresource": {
+								"name": "Cleansing Touch",
+								"amount": "charismamodifier"
+							}
+						}]
+					}}
+				]
+			}
+		}
+	],
+	"archetypes" : [
+		"name":"kp_infernal_oath",
+		"displayname":"Infernal Oath",
+		"class":"Antipaladin",
+		"level":[
+			"3":[
+				{"featuretextwithbullet": "Antipaladin: Infernal"},
+				{"addspell":{"name":"Hellish Rebuke", "spelllevel":1}},
+				{"addspell":{"name":"Divine Favor", "spelllevel":1}},
+				{"setresource": {
+					"name": "Channel Divinity",
+					"displayname": "Channel Div",
+					"amount": "1",
+					"reset": "shortrest"
+				}},
+				{"featuretextwithbullet":"Abyssal Fires (see rules)"},
+				{"featuretextwithbullet":"Sow Doubt (see rules)"},
+			]
+		]
+	],
+	"sharedclassfeatures" : [],
+	"sharedclassfeaturemenus" : [],
+	"feats" : [],
+	"weapons": [
+		{
+			"name":"hooves",
+			"type":"simple",
+			"rangetype":"melee",
+			"damagedienumber":"2",
+			"damagediesize":"6",
+			"damagetype":"bludgeoning"
+		},
+		{
+			"name":"bite",
+			"type":"simple",
+			"rangetype":"melee",
+			"damagedienumber":"1",
+			"damagediesize":"4",
+			"damagetype":"piercing"
+		},
+		{
+			"name":"claws",
+			"type":"simple",
+			"rangetype":"melee",
+			"damagedienumber":"1",
+			"damagediesize":"4",
+			"damagetype":"slashing",
+			"lightweapon":"true"
+		}
+	],
+	"license":[
+"OPEN GAME LICENSE Version 1.0a",
+"",
+"The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.",
+"",
+"1. Definitions: (a)”Contributors” means the copyright and/or trademark owners who have contributed Open Game Content; (b)”Derivative Material” means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) “Distribute” means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)”Open Game Content” means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) “Product Identity” means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) “Trademark” means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) “Use”, “Used” or “Using” means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) “You” or “Your” means the licensee in terms of this agreement.",
+"2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.",
+"3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.",
+"4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, nonexclusive license with the exact terms of this License to Use, the Open Game Content.",
+"5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.",
+"6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder’s name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.",
+"7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.",
+"8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.",
+"9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.",
+"10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.",
+"11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.",
+"12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.",
+"13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.",
+"14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.",
+"15. COPYRIGHT NOTICE",
+"Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.",
+"A Leeward Shore Author: Mike Welham. © 2018 Open Design LLC.",
+"A Night at the Seven Steeds. Author: Jon Sawatsky. © 2018 Open Design.",
+"Advanced Bestiary, Copyright 2004, Green Ronin Publishing, LLC; Author Matthew Sernett.",
+"Advanced Races: Aasimar. © 2014 Open Design; Author: Adam Roy.KoboldPress.com",
+"Advanced Races: Centaurs. © 2014 Open Design; Author: Karen McDonald. KoboldPress.com",
+"Advanced Races: Dragonkin © 2013 Open Design; Authors: Amanda Hamon Kunz.",
+"Advanced Races: Gearforged. © 2013 Open Design; Authors: Thomas Benton.",
+"Advanced Races: Gnolls. © 2015 Open Design; Authors: Ben McFarland and Brian Suskind.",
+"Advanced Races: Kobolds © 2013 Open Design; Authors: Nicholas Milasich, Matt Blackie.",
+"Advanced Races: Lizardfolk. © 2015 Open Design; Authors: Steven T.Helt, Stephen Rowe, and Dan Dillon.",
+"Advanced Races: Ravenfolk © 2014 Open Design; Authors: Wade Rockett.",
+"Advanced Races: Shadow Fey. © 2014 Open Design; Authors: Carlos and Holly Ovalle.",
+"Advanced Races: Trollkin. © 2015 Open Design; Authors: Steven T.Helt, Stephen Rowe, and Dan Dillon.",
+"Advanced Races: Werelions. © 2015 Open Design; Authors: Ben McFarland and Brian Suskind.",
+"Bastion of Rime and Salt. Author: Jon Sawatsky. © 2018 Open Design LLC.",
+"Beyond Damage Dice © 2016 Open Design; Author: James J. Haeck.",
+"Black Sarcophagus Author: Chris Lockey. © 2018 Open Design LLC.",
+"Blood Vaults of Sister Alkava. © 2016 Open Design. Author: Bill Slavicsek.",
+"Book of Lairs for Fifth Edition. Copyright 2016, Open Design; Authors Robert Adducci, Wolfgang Baur, Enrique Bertran, Brian Engard, Jeff Grubb, James J. Haeck, Shawn Merwin, Marc Radle, Jon Sawatsky, Mike Shea, Mike Welham, and Steve Winter.",
+"Cat and Mouse © 2015 Open Design; Authors: Richard Pett with Greg Marks.",
+"Creature Codex. © 2018 Open Design LLC; Authors Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky.",
+"Creature Codex Lairs. © 2018 Open Design LLC; Author Shawn Merwin.",
+"Deep Magic: Angelic Seals and Wards © 2016 Open Design; Author: Dan Dillon.",
+"Deep Magic: Battle Magic © 2016 Open Design; Author: Greg Marks.",
+"Deep Magic: Blood and Doom © 2017 Open Design; Author: Chris Harris.",
+"Deep Magic: Chaos Magic © 2016 Open Design; Author: Greg Marks.",
+"Deep Magic: Clockwork © 2016 Open Design; Author: Scott Carter.",
+"Deep Magic: Dragon Magic © 2017 Open Design; Author: Shawn Merwin.",
+"Deep Magic: Elemental Magic © 2017 Open Design; Author: Dan Dillon.",
+"Deep Magic: Elven High Magic © 2016 Open Design; Author: Greg Marks.",
+"Deep Magic: Hieroglyph Magic © 2018 Open Design LLC; Author: Michael Ohl.",
+"Deep Magic: Illumination Magic © 2016 Open Design; Author: Greg Marks..",
+"Deep Magic: Ley Line Magic © 2016 Open Design; Author: Dan Dillon.",
+"Deep Magic: Ring Magic © 2016 Open Design; Author: Dan Dillon.",
+"Deep Magic: Runes © 2016 Open Design; Author: Chris Harris.",
+"Deep Magic: Shadow Magic © 2016 Open Design; Author: Michael Ohl",
+"Deep Magic: Time Magic © 2018 Open Design LLC; Author: Carlos Ovalle.",
+"Deep Magic: Void Magic © 2016 Open Design; Author: Dan Dillon.",
+"Demon Cults & Secret Societies for 5th Edition. Copyright 2017 Open Design. Authors: Jeff Lee, Mike Welham, Jon Sawatsky.",
+"Divine Favor: the Cleric. Author: Stefen Styrsky Copyright 2011, Open Design LLC, .",
+"Divine Favor: the Druid. Author: Stefen Styrsky ©2011, Open Design LLC.",
+"Divine Favor: the Inquisitor. Author: Stefen Styrsky ©2011, Open Design LLC.",
+"Divine Favor: the Oracle. Author: Stefen Styrsky ©2011, Open Design LLC.",
+"Divine Favor: the Paladin. Author: Stefen Styrsky ©2011, Open Design LLC.",
+"Eldritch Lairs for Fifth Edition. Copyright 2018, Open Design; Authors James J. Haeck, Jerry LeNeave, Mike Shea, Bill Slavicsek.",
+"Empire of the Ghouls, ©2007 Wolfgang Baur, www.wolfgangbaur.com. All rights reserved.",
+"Firefalls of Ghoss. Author: Jon Sawatsky. © 2018 Open Design LLC.",
+"Grimalkin ©2016 Open Design; Authors: Richard Pett with Greg Marks",
+"Imperial Gazetteer, ©2010, Open Design LLC.",
+"Items Wondrous Strange © 2017 Open Design; Authors: James Bitoy, Peter von Bleichert, Dan Dillon, James Haeck, Neal Litherland, Adam Roy, and Jon Sawatsky.",
+"Kobold Quarterly issue 21,Copyright 2012, Open Design LLC.",
+"KPOGL Wiki https://kpogl.wikidot.com/",
+"Lamassu’s Secrets, Copyright 2018 Open Design LLC. Author: Richard Green.",
+"Last Gasp © 2016 Open Design; Authors: Dan Dillon.",
+"Mad Maze of the Moon Kingdom, Copyright 2018 Open Design LLC. Author: Richard Green.",
+"Midgard Bestiary for Pathfinder Roleplaying Game, © 2012 Open Design LLC; Authors: Adam Daigle with Chris Harris, Michael Kortes, James MacKenzie, Rob Manning, Ben McFarland, Carlos Ovalle, Jan Rodewald, Adam Roy, Christina Stiles, James Thomas, and Mike Welham.",
+"Midgard Campaign Setting © 2012 Open Design LLC. Authors: Wolfgang Baur, Brandon Hodge, Christina Stiles, Dan Voyce, and Jeff Grubb.",
+"Midgard Heroes © 2015 Open Design; Author: Dan Dillon.",
+"Midgard Heroes Handbook © 2018 Open Design LLC; Authors: Chris Harris, Dan Dillon, Greg Marks, Jon Sawatsky, Michael Ohl, Richard Green, Rich Howard, Scott Carter, Shawn Merwin, and Wolfgang Baur.",
+"Midgard Sagas ©2018 Open Design LLC; Authors: Wolfgang Baur, Dan Dillon, Robert Fairbanks, Greg Marks, Ben McFarland, Kelly Pawlik, Brian Suskind, and Troy Taylor.",
+"Midgard Worldbook. Copyright ©2018 Open Design LLC. Authors: Wolfgang Baur, Dan Dillon, Richard Green, Jeff Grubb, Chris Harris, Brian Suskind, and Jon Sawatsky.",
+"Monkey Business Author: Richard Pett. © 2018 Open Design LLC.",
+"Monte Cook’s Arcana Evolved Copyright 2005 Monte J. Cook. All rights reserved.",
+"New Paths: The Expanded Shaman Copyright 2012, Open Design LLC.; Author: Marc Radle.",
+"Northlands © 2011, Open Design LL C; Author: Dan Voyce; www.koboldpress.com.",
+"Pathfinder Advanced Players Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.",
+"Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.",
+"Pathfinder Roleplaying Game Bestiary, © 2009, Paizo Publishing, LLC; Author Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.",
+"Pathfinder Roleplaying Game Bestiary 2, © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.",
+"Pathfinder Roleplaying Game Bestiary 3, © 2011, Paizo Publishing, LLC; Authors Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor",
+"Pathfinder Roleplaying Game: Ultimate Equipment Copyright 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen K C Stephens, Russ Taylor, and numerous RPG Superstar contributors",
+"Pathfinder RPG Core Rulebook Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.",
+"Pathfinder Ultimate Magic Copyright 2011, Paizo Publishing, LLC; Author: Jason Bulmahn.",
+"Prepared: A Dozen Adventures for Fifth Edition. Copyright 2016, Open Design; Author Jon Sawatsky.",
+"Prepared 2: A Dozen Fifth Edition One-Shot Adventures. Copyright 2017, Open Design; Author Jon Sawatsky.",
+"Pride of the Mushroom Queen. Author: Mike Welham. © 2018 Open Design LLC.",
+"Red Lenny’s Famous Meat Pies. Author: James J. Haeck. © 2017 Open Design.",
+"Sanctuary of Belches © 2016 Open Design; Author: Jon Sawatsky.",
+"Shadow’s Envy. Author: Mike Welham. © 2018 Open Design LLC.",
+"Shadows of the Dusk Queen, © 2018, Open Design LLC; Author Marc Radle.",
+"Smuggler's Run Author: Mike Welham. © 2018 Open Design LLC.",
+"Southlands Heroes © 2015 Open Design; Author: Rich Howard.",
+"Spelldrinker’s Cavern. Author: James J. Haeck. © 2017 Open Design.",
+"Steam & Brass © 2006, Wolfgang Baur, www.wolfgangbaur.com.",
+"Streets of Zobeck. © 2011, Open Design LLC. Authors: Ben McFarland, Mike Franke, Richard Pett, Christina Stiles, Matthew Stinson.",
+"Streets of Zobeck for 5th Edition. Copyright 2017, Open Design; Authors Ben McFarland, Mike Franke, Richard Pett, Christina Stiles, and Matthew Stinson. Converted for the 5th Edition of Dungeons & Dragons by Chris Harris",
+"Storming the Queen’s Desire Author: Mike Welham. © 2018 Open Design LLC.",
+"Sunken Empires ©2010, Open Design, LL C; Authors: Brandon Hodge, David “Zeb” Cook, and Stefen Styrsky.",
+"System Reference Document Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.",
+"System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+"System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+"Tales of Zobeck, ©2008, Open Design LLC. Authors: Wolfgang Baur, Bill Collins, Tim and Eileen Connors, Ed Greenwood, Jim Groves, Mike McArtor, Ben McFarland, Joshua Stevens, Dan Voyce.",
+"The Bagiennik Game. Author: Jon Sawatsky. © 2018 Open Design LLC.",
+"The Book of Eldritch Might, Copyright 2004 Monte J. Cook. All rights reserved.",
+"The Book of Experimental Might Copyright 2008, Monte J. Cook. All rights reserved.",
+"The Book of Fiends, © 2003, Green Ronin Publishing; Authors Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.",
+"The Clattering Keep. Author: Jon Sawatsky. © 2017 Open Design.",
+"The Infernal Salt Pits. Author: Richard Green. © 2018 Open Design LLC.",
+"The Lost Temple of Anax Apogeion. Author: Mike Shea, AKA Sly Flourish. © 2018 Open Design LLC.",
+"The Raven’s Call. Copyright 2013, Open Design LLC. Author: Wolfgang Baur.",
+"The Raven’s Call 5th Edition © 2015 Open Design; Authors: Wolfgang Baur and Dan Dillon.",
+"The Returners’ Tower. Author: Jon Sawatsky. © 2018 Open Design LLC.",
+"The Rune Crypt of Sianis. Author: Jon Sawatsky. © 2018 Open Design LLC.",
+"The Scorpion’s Shadow. Author: Chris Harris. © 2018 Open Design LLC.",
+"The Seal of Rhydaas. Author: James J. Haeck. © 2017 Open Design.",
+"The Tomb of Mercy (C) 2016 Open Design. Author: Sersa Victory.",
+"Tomb of Tiberesh © 2015 Open Design; Author: Jerry LeNeave.",
+"Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.",
+"Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.",
+"Unlikely Heroes for 5th Edition © 2016 Open Design; Author: Dan Dillon.",
+"Wrath of the Bramble King Author: Mike Welham. © 2018 Open Design LLC.",
+"Wrath of the River King © 2017 Open Design; Author: Wolfgang Baur and Robert Fairbanks",
+"Warlock Bestiary Authors: Jeff Lee with Chris Harris, James Introcaso, and Wolfgang Baur. © 2018 Open Design LLC.",
+"Warlock Part 1. Authors: Wolfgang Baur, Dan Dillon, Troy E. Taylor, Ben McFarland, Richard Green. © 2017 Open Design.",
+"Warlock 2: Dread Magic. Authors: Wolfgang Baur, Dan Dillon, Jon Sawatsky, Richard Green. © 2017 Open Design.",
+"Warlock 3: Undercity. Authors: James J. Haeck, Ben McFarland, Brian Suskind, Peter von Bleichert, Shawn Merwin. © 2018 Open Design.",
+"Warlock 4: The Dragon Empire. Authors: Wolfgang Baur, Chris Harris, James J. Haeck, Jon Sawatsky, Jeremy Hochhalter, Brian Suskind. © 2018 Open Design.",
+"Warlock 5: Rogue’s Gallery. Authors: James J. Haeck, Shawn Merwin, Richard Pett. © 2018 Open Design.",
+"Warlock 6: City of Brass. Authors: Richard Green, Jeff Grubb, Richard Pett, Steve Winter. © 2018 Open Design.",
+"Warlock 7: Fey Courts. Authors: Wolfgang Baur, Shawn Merwin , Jon Sawatsky, Troy E. Taylor. © 2018 Open Design.",
+"Warlock 8: Undead. Authors: Wolfgang Baur, Dan Dillon, Chris Harris, Kelly Pawlik. © 2018 Open Design.",
+"Zobeck Gazetteer, ©2008, Open Design LLC; Author: Wolfgang Baur.",
+"Zobeck Gazetteer Volume 2: Dwarves of the Ironcrags ©2009, Open Design LLC.",
+"Zobeck Gazetteer for 5th Edition. Copyright ©2018 Open Design LLC. Author: James Haeck.",
+"Zobeck Gazetteer for the Pathfinder Roleplaying Game, ©2012, Open Design LLC. Authors: Wolfgang Baur and Christina Stiles."
+	]
+}
