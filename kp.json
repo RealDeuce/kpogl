@@ -1657,6 +1657,34 @@
 					{"featuretextwithbullet":"While raging you are under the effect of a freedom of movement spell. You don't need to concentrate to maintain this effect."}
 				]
 			}
+		},
+		{
+			"name":"kp_college_of_criminology",
+			"displayname":"Criminology",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"Bard College: Criminology"},
+					{"skillmenu":{
+						"selections":2,
+						"skills":[
+							"Acrobatics",
+							"Deception",
+							"Investigation",
+							"Sleight of Hand",
+							"Stealth"
+						]
+					}},
+					{"setskillproficiency":{"insight":"true"}},
+					{"featuretextwithbullet":"Quick Read (see rules)"}
+				],
+				"6":[
+					{"featuretextwithbullet":"When a creature that has a Bardic Inspiration die you gave them is damaged by a hostile creature's attack, it can use its reaction to roll the Bardic Inspiration die and reduce the damage by twice the number rolled. If this reduces the damage of the attack to 0, the creature you inspired can make a single melee attack against its attacker as part of the same reaction."}
+				],
+				"14":[
+					{"featuretextwithbullet":"When a creature fails a saving throw against one of your bard spells, you can designate it as your mark for 24 hours. You know the direction to your mark at all times unless it is within an antimagic field, it is protected by an effect that prevents scrying such as nondetection, or there is a barrier of lead at least 1 inch thick between you."},
+					{"featuretextwithbullet":"Whenever your mark makes an attack roll or you make a saving throw against one of its spells or effects, you can spend a Bardic Inspiration die to roll it and add or subtract the result from the roll. You can choose to do so after the d20 is rolled but before the GM tells you the outcome of the roll."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
