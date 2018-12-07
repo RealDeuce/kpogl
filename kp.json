@@ -1691,18 +1691,39 @@
 			"displayname":"Entropy",
 			"class":"Bard",
 			"level":{
-				"3":{
+				"3":[
+					{"featuretextwithbullet":"Bard College: Entropy"},
 					{"setskillproficiency":{"acrobatics":"true"}},
 					{"setskillproficiency":{"athletics":"true"}},
 					{"addtoolproficiencies":["One gaming set"]},
 					{"featuretextwithbullet":"When a creature that you can see within 60 feet of you makes an attack roll, ability check, or saving throw with advantage, you can use your reaction to expend one of your uses of Bardic Inspiration to grant that creature a penalty to the check equal to the number rolled on your Bardic Inspiration die. You gain Inspiration that is usable only on yourself and lasts for a number of rounds equal to the number rolled on the Bardic Inspiration die. If you do not expend the Inspiration before that time, it is lost. Stealing luck, regardless of whether you use the Inspiration, causes a chaos magic surge."}
-				},
-				"6":{
+				],
+				"6":[
 					{"featuretextwithbullet":"When you cast a chaos spell, you cause a chaos magic surge and regain one use of your Bardic Inspiration. You regain the use of infusion of fortune after a short or long rest."}
-				},
-				"14":{
+				],
+				"14":[
 					{"featuretextwithbullet":"As an action, the luck stealer can change one known spell to another spell of the same or lower level on the bard spell list. At the end of the bard's next turn, his or her list of known spells returns to normal. Using this ability causes a chaos magic surge."}
-				}
+				]
+			}
+		},
+		{
+			"name":"kp_greanleaf_college",
+			"displayname":"Greenleaf",
+			"class":"Bard",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"Bard College: Greenleaf"},
+					{"featuretextwithbullet":"Expanded spell list (see rules)"},
+					{"featuretextwithbullet":"When a creature uses a Bardic Inspiration die from you to increase one ability check, attack roll, or saving throw, it also gains temporary hit points equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."}
+				],
+				"6":[
+					{"featuretextwithbullet":"Moving through nonmagical difficult terrain costs you no extra movement."},
+					{"featuretextwithbullet":"You can pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard."},
+					{"featuretextwithbullet":"You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the entangle spell."}
+				],
+				"14":[
+					{"featuretextwithbullet":"You can expend one use of Bardic Inspiration to magically remove one disease or detrimental condition affecting a creature you can see within 60 feet. The condition can be blinded, charmed, deafened, frightened, paralyzed, or poisoned."}
+				]
 			}
 		}
 	],
