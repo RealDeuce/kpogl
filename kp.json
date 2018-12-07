@@ -1489,7 +1489,61 @@
 			}
 		}
 	],
-	"archetypes" : [],
+	"archetypes":[
+		{
+			"name":"kp_infernal_oath",
+			"displayname":"Infernal Oath",
+			"class":"Antipaladin",
+			"level":{
+				"3":[
+					{"featuretextwithbullet": "Antipaladin: Infernal"},
+					{"addspell":{"name":"Hellish Rebuke", "spelllevel":1}},
+					{"addspell":{"name":"Divine Favor", "spelllevel":1}},
+					{"setresource": {
+						"name": "Channel Divinity",
+						"displayname": "Channel Div",
+						"amount": "1",
+						"reset": "shortrest"
+					}},
+					{"featuretextwithbullet":"Abyssal Fires - three creatures (see rules)"},
+					{"featuretextwithbullet":"Sow Doubt - one creature (see rules)"}
+				],
+				"5":[
+					{"addspell":{"name":"Heat Metal", "spelllevel":2}},
+					{"addspell":{"name":"Shatter", "spelllevel":2}},
+					{"featuretextwithbullet": "You are immune to fire damage."},
+					{"featuretextwithbullet": "You gain temporary hit points equal to half the amount of fire damage dealt to you, up to a maximum of 10 hit points.."}
+				],
+				"7":[
+					{"replacestringfromfeaturetext":{
+						"replacementtext":"Abyssal Fires - five creatures (see rules)",
+						"find":"Abyssal Fires - three creatures (see rules)"}
+					}
+				],
+				"9":[
+					{"addspell":{"name":"Fireball", "spelllevel":3}},
+					{"addspell":{"name":"Slow", "spelllevel":3}}
+				],
+				"13":[
+					{"addspell":{"name":"Fire Shield", "spelllevel":4}},
+					{"addspell":{"name":"Wall of Fire", "spelllevel":4}}
+				],
+				"15":[
+					{"replacestringfromfeaturetext":{
+						"replacementtext":"Sow Doubt - three creatures (see rules)",
+						"find":"Sow Doubt - one creature (see rules)"
+					}}
+				],
+				"17":[
+					{"addspell":{"name":"Gaes", "spelllevel":5}},
+					{"addspell":{"name":"Antilife Shell", "spelllevel":5}}
+				],
+				"20":[
+					{"featuretextwithbullet":"Flowing Fire Form (see rules)"}
+				]
+			}
+		}
+	],
 	"sharedclassfeatures" : [],
 	"sharedclassfeaturemenus" : [],
 	"feats" : [],
