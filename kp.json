@@ -1590,6 +1590,52 @@
 					{"featuretextwithbullet":"The Horror Inside (see rules)."}
 				]
 			}
+		},
+		{
+			"name":"kp_giving_grave",
+			"displayname":"Giving Grave",
+			"class":"Antipaladin",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"Antipaladin: Giving Grave"},
+					{"addspell":{"name":"Blood Tide","spelllevel":1}},
+					{"addspell":{"name":"Disguise Self","spelllevel":1}},
+					{"featuretextwithbullet":"Overawe Enemy (see rules)"},
+					{"featuretextwithbullet":"Mark of the Funeral Feast (see rules)"}
+				],
+				"5":[
+					{"addspell":{"name":"Blood Armor","spelllevel":3}},
+					{"addspell":{"name":"Bloodshot","spelllevel":2}}
+				],
+				"7":[
+					{"featuretextwithbullet":"You and allies within 10 feet of you can't be turned while you are conscious."}
+				],
+				"9":[
+					{"addspell":{"name":"Animate Dead","spelllevel":3}},
+					{"addspell":{"name":"Vampiric Touch","spelllevel":3}}
+				],
+				"13":[
+					{"addspell":{"name":"Blight","spelllevel":4}},
+					{"addspell":{"name":"Freedom of Movement","spelllevel":4}}
+				],
+				"15":[
+					{"featuretextwithbullet":"If you start your turn with fewer than half of your maximum hit points, you regain 5 hit points. If you take fire or radiant damage, this trait doesn't function at the start of your next turn."}
+				],
+				"17":[
+					{"addspell":{"name":"Insect Plague","spelllevel":5}},
+					{"addspell":{"name":"Seeming","spelllevel":5}}
+				],
+				"18":[
+					{"replacestringfromfeaturetext":{
+						"replacementtext":"You and allies within 30 feet of you can't be turned while you are conscious.",
+						"find":"You and allies within 10 feet of you can't be turned while you are conscious."
+					}}
+				],
+				"20":[
+					{"featuretextwithbullet":"You have advantage on saving throws against spells and other magical effects."},
+					{"featuretextwithbullet":"If you are killed, you rise from the grave within 1d4 days as a death knight. Consult your GM for implementation."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
