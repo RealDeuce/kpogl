@@ -1725,6 +1725,51 @@
 					{"featuretextwithbullet":"You can expend one use of Bardic Inspiration to magically remove one disease or detrimental condition affecting a creature you can see within 60 feet. The condition can be blinded, charmed, deafened, frightened, paralyzed, or poisoned."}
 				]
 			}
+		},
+		{
+			"name":"kp_apocalypse",
+			"displayname":"Apocalypse",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Apocalypse"},
+					{"addspell":{"name":"Vicious Mockery","spelllevel":0}},
+					{"skillmenu":{
+						"selections":1,
+						"skills":[
+							"Arcana",
+							"Survival"
+						]
+					}},
+					{"languagesknowntext":"One of: Ankeshelian, Caelmaran, Enochian, or Vos'ghaen."},
+					{"addspell":{"name":"Dissonant Whispers","spelllevel":1}},
+					{"addspell":{"name":"Hellish Rebuke","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Damnation (see rules)"}
+				],
+				"3":[
+					{"addspell":{"name":"Enthrall","spelllevel":2}},
+					{"addspell":{"name":"Magic Mouth","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Fear","spelllevel":3}},
+					{"addspell":{"name":"Stinking Cloud","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Channel Divinity: Weight of Guilt (see rules)"}
+				],
+				"7":[
+					{"addspell":{"name":"Blight","spelllevel":4}},
+					{"addspell":{"name":"Phantasmal Killer","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+				],
+				"17":[
+					{"featuretextwithbullet":"You are sesitant to acid, fire, and poison damage"}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
