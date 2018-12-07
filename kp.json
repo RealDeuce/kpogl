@@ -1685,6 +1685,25 @@
 					{"featuretextwithbullet":"Whenever your mark makes an attack roll or you make a saving throw against one of its spells or effects, you can spend a Bardic Inspiration die to roll it and add or subtract the result from the roll. You can choose to do so after the d20 is rolled but before the GM tells you the outcome of the roll."}
 				]
 			}
+		},
+		{
+			"name":"kp_college_of_entropy",
+			"displayname":"Entropy",
+			"class":"Bard",
+			"level":{
+				"3":{
+					{"setskillproficiency":{"acrobatics":"true"}},
+					{"setskillproficiency":{"athletics":"true"}},
+					{"addtoolproficiencies":["One gaming set"]},
+					{"featuretextwithbullet":"When a creature that you can see within 60 feet of you makes an attack roll, ability check, or saving throw with advantage, you can use your reaction to expend one of your uses of Bardic Inspiration to grant that creature a penalty to the check equal to the number rolled on your Bardic Inspiration die. You gain Inspiration that is usable only on yourself and lasts for a number of rounds equal to the number rolled on the Bardic Inspiration die. If you do not expend the Inspiration before that time, it is lost. Stealing luck, regardless of whether you use the Inspiration, causes a chaos magic surge."}
+				},
+				"6":{
+					{"featuretextwithbullet":"When you cast a chaos spell, you cause a chaos magic surge and regain one use of your Bardic Inspiration. You regain the use of infusion of fortune after a short or long rest."}
+				},
+				"14":{
+					{"featuretextwithbullet":"As an action, the luck stealer can change one known spell to another spell of the same or lower level on the bard spell list. At the end of the bard's next turn, his or her list of known spells returns to normal. Using this ability causes a chaos magic surge."}
+				}
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
