@@ -1489,26 +1489,7 @@
 			}
 		}
 	],
-	"archetypes" : [
-		"name":"kp_infernal_oath",
-		"displayname":"Infernal Oath",
-		"class":"Antipaladin",
-		"level":[
-			"3":[
-				{"featuretextwithbullet": "Antipaladin: Infernal"},
-				{"addspell":{"name":"Hellish Rebuke", "spelllevel":1}},
-				{"addspell":{"name":"Divine Favor", "spelllevel":1}},
-				{"setresource": {
-					"name": "Channel Divinity",
-					"displayname": "Channel Div",
-					"amount": "1",
-					"reset": "shortrest"
-				}},
-				{"featuretextwithbullet":"Abyssal Fires (see rules)"},
-				{"featuretextwithbullet":"Sow Doubt (see rules)"},
-			]
-		]
-	],
+	"archetypes" : [],
 	"sharedclassfeatures" : [],
 	"sharedclassfeaturemenus" : [],
 	"feats" : [],
