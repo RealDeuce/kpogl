@@ -1586,7 +1586,7 @@
 				],
 				"13":[
 					{"addspell":{"name":"Living Shadows", "spelllevel":5}},
-					{"addspell":{"name":"Contact Other Plane", "spelllevel":5}},
+					{"addspell":{"name":"Contact Other Plane (charisma save)", "spelllevel":5}},
 					{"featuretextwithbullet":"The range of your cold starlight ability is increased to 20 feet and you gain 10 temporary hit points for each creature affected, to a maximum of 20 temporary hit points."}
 				],
 				"15":[
@@ -1843,7 +1843,7 @@
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Cat"},
-					{"addspell":{"name":"Find Familiar","spelllevel":1}},
+					{"addspell":{"name":"Find Familiar (feline only)","spelllevel":1}},
 					{"addspell":{"name":"Speak with Animals","spelllevel":1}},
 					{"addspell":{"name":"True Strike","spelllevel":0}},
 					{"setskillproficiency":{"Acrobatics":"true"}},
