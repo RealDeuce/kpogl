@@ -1886,6 +1886,48 @@
 					{"featuretextwithbullet":"You become a natural lycanthrope of the weretiger or werelion type, whichever is appropriate to your deity. You cannot spread the disease of lycanthropy."}
 				]
 			}
+		},
+		{
+			"name":"kp_clockwork_domain",
+			"displayname":"Clockwork",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Clockwork"},
+					{"addtoolproficiencies":"Clockmaker's tools"},
+					{"addarmorproficiencies": ["Heavy armor"]},
+					{"featuretextwithbullet":"Advantage on attacks made against clockwork creatures and other constructs."},
+					{"addspell":{"name":"Analyze Device","spelllevel":1}},
+					{"addspell":{"name":"Pendulum","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Construct Mastery (see rules)"}
+				],
+				"3":[
+					{"addspell":{"name":"Repair Metal","spelllevel":2}},
+					{"addspell":{"name":"Winding Key","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Overclock","spelllevel":3}},
+					{"addspell":{"name":"Soul of the Machine","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Spells you use that heal or repair damage to clockwork creatures, objects, or constructs restore the maximum possible hit points."}
+				],
+				"7":[
+					{"addspell":{"name":"Read Memory","spelllevel":4}},
+					{"addspell":{"name":"Steam Blast","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You can designate one construct that you control to serve as a channel for your divine magic. You can cast spells on that creature that normally only target yourself. Also, you can deliver touch spells through your designated construct. These abilities work only if the construct is within 60 feet of you."}
+				],
+				"9":[
+					{"addspell":{"name":"Mechanical Union","spelllevel":5}},
+					{"addspell":{"name":"Mass Repair Metal","spelllevel":5}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You can use your action to merge with a construct you control for 1 minute. Doing so restores your hit points, but not other class features, as if you had a long rest. For the duration you gain all of the immunities and qualities of the construct, and you can cast spells, use class features, and communicate normally even if the construct would not be able to do so. You cannot use this feature again until you have completed a long rest."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
