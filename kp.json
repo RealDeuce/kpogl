@@ -1572,7 +1572,7 @@
 					}},
 					{"featuretextwithbullet":"Channel Divinity: Cold Starlight"},
 					{"featuretext":"You use your action to radiate the warmthless light of long-dead stars. Creatures that begin their turn within 10 feet of you are caught in the light and must make a successful Constitution saving throw or lose the ability to speak for 1 minute. They can use an action to repeat the saving throw on their turn. Additionally, all creatures caught in the light for even a moment are chilled until they complete a long rest. Creatures suffering from this chill have disadvantage on Dexterity and concentration checks."},
-					{"featuretextwithbullet":"Channel Divinity: Void-Spun Syllable"}
+					{"featuretextwithbullet":"Channel Divinity: Void-Spun Syllable"},
 					{"featuretext":"You utter a dreadful half-word in the tongue of madness, void speech. All creatures within 30 feet that hear the syllable must make a successful Wisdom saving throw or be compelled to utter the remaining syllable of the word. The process of completing the utterance is a deeply disturbing act that requires the victim to see, for the briefest instant, the unholy alphabet in their minds. Creatures that complete the utterance take 1d6 psychic damage multiplied by your Charisma modifier (minimum of 1) and are stunned until the end of their next turn."}
 				],
 				"5":[
@@ -1691,7 +1691,7 @@
 						]
 					}},
 					{"setskillproficiency":{"insight":"true"}},
-					{"featuretextwithbullet":"Your knowledge of underhanded tactics allows you to gain insight into your foes’ strategies. As a bonus action, you can spend a Bardic Inspiration die to make a Wisdom (Insight) check against one creature you can see within 30 feet contested by its Charisma (Deception) check; you can roll the Bardic Inspiration die and add it to the result of your check. You have disadvantage on your check if the target is not a humanoid, and the check automatically fails against creatures with an Intelligence score of 3 or lower. On a success, you gain one of the following benefits:"}
+					{"featuretextwithbullet":"Your knowledge of underhanded tactics allows you to gain insight into your foes’ strategies. As a bonus action, you can spend a Bardic Inspiration die to make a Wisdom (Insight) check against one creature you can see within 30 feet contested by its Charisma (Deception) check; you can roll the Bardic Inspiration die and add it to the result of your check. You have disadvantage on your check if the target is not a humanoid, and the check automatically fails against creatures with an Intelligence score of 3 or lower. On a success, you gain one of the following benefits:"},
 					{"featuretext":" - The target has disadvantage on attack rolls against you for 1 minute."},
 					{"featuretext":" - You have advantage on saving throws against the target’s spells and magical effects for 1 minute."},
 					{"featuretext":" - You have advantage on attack rolls against the target for 1 minute."}
@@ -1825,7 +1825,7 @@
 					{"addspell":{"name":"Hypnotic Pattern","spellevel":3}}
 				],
 				"6":[
-					{"featuretextwithbullet":"Channel Divinity: Boot and Rally"}
+					{"featuretextwithbullet":"Channel Divinity: Boot and Rally"},
 					{"featuretext":"You can use your Channel Divinity to aid and rally your allies. All friendly creatures within 30 feet of you who are frightened, paralyzed, poisoned, or stunned gain an immediate saving throw with advantage to remove the effect. Creatures that succeed on the saving throw also heal 2d6 hit points."}
 				],
 				"7":[
@@ -1948,6 +1948,53 @@
 			"name":"kp_simple_clockwork_domain",
 			"displayname":"Clockwork (Simple)",
 			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Clockwork (Simplified)"},
+					{"addspell":{"name":"Grease","spelllevel":1}},
+					{"addspell":{"name":"Floating Disk","spelllevel":1}},
+					{"addspell":{"name":"Mage Hand","spelllevel":0}},
+					{"addtoolproficiencies":"carpenter's tools OR clockwork (jeweler's) tools OR mason's tools OR smith's tools OR weaver's tools"},
+					{"languagesknowntext":"Understand Machine Speech, but cannot speak it."},
+					{"addarmorproficiencies": ["Heavy armor"]}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Fade from False Eyes"},
+					{"featuretext":"You can use your Channel Divinity to become invisible to constructs. Each construct that would normally detect you must make a successful Wisdom saving throw or lose track of you (you become undetectable by all its senses) for 1 round per cleric level. A construct might still infer your location if you knock over an object, open a door, or do something similar. The effect ends instantly for all constructs if you attack a construct or take any other action that is directly hostile to constructs."}
+				],
+				"3":[
+					{"addspell":{"name":"Heat Metal","spelllevel":2}},
+					{"addspell":{"name":"Enlarge/Reduce","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Conjure Barrage","spelllevel":3}},
+					{"addspell":{"name":"Haste","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You build or acquire a clockwork companion which functions in most ways as a ranger's companion. Choose a construct that is no larger than Medium and that has a challenge rating of 1/4 or lower. (With your GM's permission, you can substitute a construct version of a Small or Tiny beast of CR 1/4 or lower. You can adopt the clockwork jewel scarab stats block verbatim from the appendix, or use it as a guide to create your own.)"}
+				],
+				"7":[
+					{"addspell":{"name":"Fabricate","spelllevel":4}},
+					{"addspell":{"name":"Secret Chest","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 lightning damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Animate Objects","spelllevel":5}},
+					{"addspell":{"name":"Soulforging","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 lightning damage to the target.",
+							"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 lightning damage to the target."
+						}
+					}
+				],
+				"17":[
+					{"featuretextwithbullet":"A thin coating of metal covers your back, torso, and appendages, granting you resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."},
+					{"featuretextwithbullet":"Provided you have access to the correct components, you can craft a gearforged body for yourself or another creature."}
+				]
 			}
 		}
 	],
