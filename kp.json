@@ -163,7 +163,7 @@
 			"features": [
 				{"featuretext":"Alseid features"},
 				{"featuretextwithbullet":"You are of the monstrosity type"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"addweaponproficiencies": ["Spear", "Shortbow"]},
 				{"featuretextwithbullet":"The mundane details of the structures of humanoids can present considerable obstacles for you, such as ladders and manholes."},
 				{"featuretextwithbullet":"When in a forest, you leave no tracks and can automatically discern true north."}
@@ -257,7 +257,12 @@
 			],
 			"features": [
 				{"featuretext":"Derro features"},
-				{"featuretextwithbullet":"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
+				{"replacestringfromfeaturetext": {
+					"find": "Within 60 feet of you, treat dim light as bright, darkness as dim light",
+					"replacementtext": "Within 120 feet of you, treat dim light as bright, darkness as dim light",
+					"replaceall": "false"
+				}},
 				{"featuretextwithbullet":"You have advantage on saving throws against being charmed or frightened."},
 				{"featuretextwithbullet":"You have advantage on Constitution saving throws against spells."},
 				{"featuretextwithbullet":"You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."},
@@ -289,7 +294,7 @@
 			],
 			"features": [
 				{"featuretext":"Dhampir features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You can bite as an unarmed strike against an incapacitated creature or one you have grappled. Your bite deals 1 point of piercing damage, and if the creature has blood and isn’t a construct or undead, you can feed from it as part of the attack. Your feeding deals necrotic damage equal to your Charisma modifier (minimum of 1), and if your target takes damage you regain one spent hit die. You can regain a number of spent hit dice with this trait equal to your Constitution modifier per long rest (minimum of 1)."},
 				{"featuretextwithbullet":"1/Rest: As an action, you can magically beguile the mind of a creature that you can see within 30 feet. For 1 hour, you have advantage on Charisma checks made against the target. If you or any of your allies attack or damage the target, this effect ends. When the effect ends, the target feels repulsed by you and becomes hostile toward you until the next dawn, during which time it becomes immune to this effect. A creature immune to being charmed is immune to your predatory charm."},
 				{"featuretextwithbullet":"You have advantage on saving throws against disease, and you have resistance against necrotic damage."}
@@ -307,7 +312,7 @@
 			],
 			"features": [
 				{"featuretext":"Dragonkin features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."}
+				{"sharedclassfeature": {"name": "Darkvision"}}
 			]
 		},
 		{
@@ -322,7 +327,7 @@
 			],
 			"features": [
 				{"featuretext":"Dust Goblin features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You have advantage on saving throws against being charmed or frightened."},
 				{"featuretextwithbullet":"When you attack a creature from hiding, the creature must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or be frightened of you until the end of its next turn."}
 			]
@@ -365,7 +370,7 @@
 			],
 			"features": [
 				{"featuretext":"Darakhul features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You are of the humanoid (darakhul) type"},
 				{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
 				{"featuretextwithbullet":"You must consume a meal of raw meat each day or suffer the effects of starvation. If you go 24 hours without such a meal, you gain one level of exhaustion (this is an exception to the darakhul’s immunity). You cannot stave this off with half rations. While you have any levels of exhaustion, you cannot regain hit points or remove levels of exhaustion until you spend 1 hour consuming an amount of raw meat equal to a Small creature (about 30 pounds)."},
@@ -384,7 +389,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Gnoll features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You have advantage on Wisdom (Perception) checks that rely on smell."},
 				{"featuretextwithbullet":"You have disadvantage on saving throws against being frightened."},
 				{"featuretextwithbullet":"Whenever you make a Charisma (Intimidation) check for dealing with obviously smaller or weaker targets, you are considered proficient in the Intimidation skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."},
@@ -403,7 +408,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Jinnborn features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"For every month you remain away from the desert, you must make a DC 15 Charisma saving throw. On a failed save, you are afflicted with indefinite madness."},
 				{"menu":{
 					"name":"Select Siraati",
@@ -470,7 +475,7 @@
 			"features":[
 				{"featuretext":"Kijani features"},
 				{"featuretextwithbullet":"You are of the plant type."},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"While below half your maximum hit points, you have access to the the following options:"},
 				{"featuretextwithbullet":"* Once per turn when you hit with a weapon attack, you deal an extra 2 (1d4) weapon damage."},
 				{"featuretextwithbullet":"* As a reaction, when you are hit by an attack during your fury, you can add 2 to your AC against that attack. You must be able to see the attacker to take this reaction."},
@@ -501,7 +506,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Kobold features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You have advantage on your attack roll against an enemy within 5 feet of you if you have an ally that's not incapacitated also within 5 feet of the target. You can apply this bonus to one attack per round."},
 				{"featuretextwithbullet":"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in bright sunlight."},
 				{"addtoolproficiencies":"One of alchemist's supplies OR mason's tools OR smith's tools OR tinker's tools."}
@@ -519,7 +524,7 @@
 			"features":[
 				{"featuretext":"Lamia features"},
 				{"featuretextwithbullet":"You are of the monstrosity type."},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You have advantage on attack rolls against a creature you have surprised, or that is charmed by you or your allies."},
 				{"featuretextwithbullet":"You have advantage on saving throws and ability checks against being knocked prone."},
 				{"featuretextwithbullet":"You can't benefit from anything that requires legs or feet (such as magical footwear)."}
@@ -680,7 +685,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Minotaur features"},
-				{"featuretextwithbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet": "Your horns are natural weapons, which you can use to make unarmed strikes."},
 				{"increaseunarmedstrikedamage":{"diesize":"6","dienumber":"1"}},
 				{"featuretextwithbullet":"If you move at least 10 feet toward a target and hit it with a horn attack in the same turn, you deal an extra 1d6 piercing damage and you can shove the target 5 feet as a bonus action. You can apply this extra damage once per turn."},
@@ -726,7 +731,7 @@
 			"features":[
 				{"featuretext":"Ratfolk features"},
 				{"featuretextwithbullet":"You have a swimming speed of 10 feet."},
-				{"featuretextwithbullet":"To a distance of 60 feet from yourself, you can see in dim light as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You can move through a hostile creature’s space in combat as long as it is size Medium or larger."},
 				{"featuretextwithbullet":"You have advantage on your attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."},
 				{"featuretextwithbullet":"You have advantage on Handle Animal checks to influence the behavior of rodents."}
@@ -761,7 +766,12 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Sahuagin features"},
-				{"featuretextwithbullet":"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
+				{"replacestringfromfeaturetext": {
+					"find": "Within 60 feet of you, treat dim light as bright, darkness as dim light",
+					"replacementtext": "Within 120 feet of you, treat dim light as bright, darkness as dim light",
+					"replaceall": "false"
+				}},
 				{"featuretextwithbullet":"As a bonus action, you can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."},
 				{"featuretextwithbullet":"You can breathe air and water, but you need to be submerged at least once every 4 hours or you begin suffocating."},
 				{"featuretextwithbullet":"Your thick hide grants you an AC of 12 + your Dexterity modifier."},
@@ -926,7 +936,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Trollkin features"},
-				{"featuretextbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextbullet":"You have large fangs and sharp claws instead of fingernails and toenails. You can use your claws or fangs to make unarmed strikes. If you hit with them, claws deal 1d4 + Strength modifier slashing damage, and fangs deal 1d4 + Strength modifier piercing damage."},
 				{"increaseunarmedstrikedamage":{"diesize":4,"dienumber":1}},
 				{"featuretextbullet":"As a bonus action, you can expend one hit die to regain hit points as if you finished a short rest. If you take acid or fire damage, you lose access to this ability until you finish a short or long rest."}
@@ -971,7 +981,7 @@
 			"speed":30,
 			"features":[
 				{"featuretext":"Werelion features"},
-				{"featuretextbullet":"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."},
+				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextbullet":"As an action, you can change into either your hybrid leonine form or your lion form. You can remain in this form for 1 hour, reverting to your humanoid form when the time expires, you fall unconscious, you drop to 0 hit points, or you die. You can revert to your humanoid form early as a bonus action. Once you use this ability, you can’t use it again until you finish a short rest."},
 				{"featuretextbullet":"In this hybrid form you may use weapons, wear armor, and carry equipment normally. Your base walking speed increases to 40 feet. You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and are considered light weapons. Your bite deals 1d4 piercing damage. In addition, you gain advantage on Charisma (Intimidate) checks, and Wisdom (Perception) checks that rely on smell. You gain disadvantage on Intelligence checks and all other Charisma checks."},
 				{"featuretextbullet":"You may assume the form of a young lion (use the stat block for the panther) as if using the druid’s Wild Shape class feature. Unlike that feature, you retain your own hit points between forms."}
@@ -1777,6 +1787,7 @@
 			"class":"Cleric",
 			"level":{
 				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Beer"},
 					{"addspell":{"name":"Comprehend Languages","spellevel":1}},
 					{"addspell":{"name":"Heroism","spellevel":1}},
 					{"addspell":{"name":"Message","spellevel":0}},
@@ -1823,6 +1834,56 @@
 				],
 				"17":[
 					{"featuretextwithbullet":"You are resistant to cold, poison, and psychic damage."}
+				]
+			}
+		},
+		{
+			"name":"kp_cat_domain",
+			"displayname":"Cat",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Cat"},
+					{"addspell":{"name":"Find Familiar","spelllevel":1}},
+					{"addspell":{"name":"Speak with Animals","spelllevel":1}},
+					{"addspell":{"name":"True Strike","spelllevel":0}},
+					{"setskillproficiency":{"Acrobatics":"true"}},
+					{"setskillproficiency":{"Stealth":"true"}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Feline Finesse (see rules)"}
+				],
+				"3":[
+					{"addspell":{"name":"Beast Sense","spelllevel":2}},
+					{"addspell":{"name":"Pass Without Trace","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Bestow Curse","spelllevel":3}},
+					{"addspell":{"name":"Nondetection","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet": "You have 60 feet of darkvision (or 30 additional feet of it)"}
+				],
+				"7":[
+					{"addspell":{"name":"Dimension Door","spelllevel":4}},
+					{"addspell":{"name":"Locate Creature","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Commune with Nature","spelllevel":5}},
+					{"addspell":{"name":"Mislead","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target.",
+							"find":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."
+						}
+					}
+				],
+				"17":[
+					{"featuretextwithbullet":"You become a natural lycanthrope of the weretiger or werelion type, whichever is appropriate to your deity. You cannot spread the disease of lycanthropy."}
 				]
 			}
 		}
