@@ -1515,8 +1515,10 @@
 						"amount": "1",
 						"reset": "shortrest"
 					}},
-					{"featuretextwithbullet":"Abyssal Fires - three creatures (see rules)"},
-					{"featuretextwithbullet":"Sow Doubt - one creature (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Abyssal Fires"},
+					{"featuretext":"You use your action to summon green flames under up to three creatures' feet. The creatures must make a successful Dexterity saving throw or take 1d8 fire damage multiplied by your Charisma modifier (minimum of 1). Creatures that fail this save are also charmed by you for 1 minute. A charmed creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. You gain a bonus to attack rolls, ability checks, and saving throws equal to the number of creatures currently charmed by your abyssal fires ability."},
+					{"featuretextwithbullet":"Channel Divinity: Sow Doubt"},
+					{"featuretext":"You use your action to recite a memorized passage from an Abyssal treaty on the weakness of mortal hearts. Choose one creature within 30 feet that can hear you. That creature must make a successful Wisdom saving throw or question the intentions of its allies. Creatures that fail the saving throw are unable to use abilities, cast spells, or take actions that assist their allies. This includes but is not limited to: healing, the help action, spells such as guidance and bless, bardic inspiration, etc. They can continue to attack or use abilities and spells that target you normally. The GM has the final word whether an action is assisting in nature. This effect lasts for a number of rounds equal to your Charisma modifier (minimum of 1)."}
 				],
 				"5":[
 					{"addspell":{"name":"Heat Metal", "spelllevel":2}},
@@ -1526,8 +1528,8 @@
 				],
 				"7":[
 					{"replacestringfromfeaturetext":{
-						"replacementtext":"Abyssal Fires - five creatures (see rules)",
-						"find":"Abyssal Fires - three creatures (see rules)"}
+						"replacementtext":"You use your action to summon green flames under up to five creatures' feet. The creatures must make a successful Dexterity saving throw or take 1d8 fire damage multiplied by your Charisma modifier (minimum of 1). Creatures that fail this save are also charmed by you for 1 minute. A charmed creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. You gain a bonus to attack rolls, ability checks, and saving throws equal to the number of creatures currently charmed by your abyssal fires ability.",
+						"find":"You use your action to summon green flames under up to three creatures' feet. The creatures must make a successful Dexterity saving throw or take 1d8 fire damage multiplied by your Charisma modifier (minimum of 1). Creatures that fail this save are also charmed by you for 1 minute. A charmed creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. You gain a bonus to attack rolls, ability checks, and saving throws equal to the number of creatures currently charmed by your abyssal fires ability."}
 					}
 				],
 				"9":[
@@ -1540,8 +1542,8 @@
 				],
 				"15":[
 					{"replacestringfromfeaturetext":{
-						"replacementtext":"Sow Doubt - three creatures (see rules)",
-						"find":"Sow Doubt - one creature (see rules)"
+						"replacementtext":"You use your action to recite a memorized passage from an Abyssal treaty on the weakness of mortal hearts. Choose up to three creature within 30 feet that can hear you. That creature must make a successful Wisdom saving throw or question the intentions of its allies. Creatures that fail the saving throw are unable to use abilities, cast spells, or take actions that assist their allies. This includes but is not limited to: healing, the help action, spells such as guidance and bless, bardic inspiration, etc. They can continue to attack or use abilities and spells that target you normally. The GM has the final word whether an action is assisting in nature. This effect lasts for a number of rounds equal to your Charisma modifier (minimum of 1). In addition, half of all damage dealt to you by affected creatures is divided equally, then done to the affected creatures instead, as fire damage.",
+						"find":"You use your action to recite a memorized passage from an Abyssal treaty on the weakness of mortal hearts. Choose one creature within 30 feet that can hear you. That creature must make a successful Wisdom saving throw or question the intentions of its allies. Creatures that fail the saving throw are unable to use abilities, cast spells, or take actions that assist their allies. This includes but is not limited to: healing, the help action, spells such as guidance and bless, bardic inspiration, etc. They can continue to attack or use abilities and spells that target you normally. The GM has the final word whether an action is assisting in nature. This effect lasts for a number of rounds equal to your Charisma modifier (minimum of 1)."
 					}}
 				],
 				"17":[
@@ -1549,7 +1551,7 @@
 					{"addspell":{"name":"Antilife Shell", "spelllevel":5}}
 				],
 				"20":[
-					{"featuretextwithbullet":"Flowing Fire Form (see rules)"}
+					{"featuretextwithbullet":"Flowing Fire Form: You can use your action to be consumed by a 50-foot column of green, Abyssal fire. Creatures within 5 feet of you when this occurs must make a successful Strength saving throw or be pushed 20 feet away from you and deafened for 1 minute. The column of flame lasts for a number of rounds equal to your Charisma modifier (minimum of 1). Creatures that move to within 5 feet of you or start their turn within that distance must make a successful Constitution save or take 1d10 fire damage multiplied by your Charisma modifier (minimum of 1). At any time during the column’s existence, you can choose to have it topple over (no action required), dousing an area around you with a 20-foot radius in molten lava. Creatures in this area must make a successful Dexterity saving throw or take 22 (4d10) fire damage and be grappled by the lava (escape DC 15). The lava disappears and returns to the Abyss at the end of your next turn."}
 				]
 			}
 		},
@@ -1568,8 +1570,10 @@
 						"amount": "1",
 						"reset": "shortrest"
 					}},
-					{"featuretextwithbullet":"Cold Starlight (see rules)"},
-					{"featuretextwithbullet":"Void-Spun Syllable (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Cold Starlight"},
+					{"featuretext":"You use your action to radiate the warmthless light of long-dead stars. Creatures that begin their turn within 10 feet of you are caught in the light and must make a successful Constitution saving throw or lose the ability to speak for 1 minute. They can use an action to repeat the saving throw on their turn. Additionally, all creatures caught in the light for even a moment are chilled until they complete a long rest. Creatures suffering from this chill have disadvantage on Dexterity and concentration checks."},
+					{"featuretextwithbullet":"Channel Divinity: Void-Spun Syllable"}
+					{"featuretext":"You utter a dreadful half-word in the tongue of madness, void speech. All creatures within 30 feet that hear the syllable must make a successful Wisdom saving throw or be compelled to utter the remaining syllable of the word. The process of completing the utterance is a deeply disturbing act that requires the victim to see, for the briefest instant, the unholy alphabet in their minds. Creatures that complete the utterance take 1d6 psychic damage multiplied by your Charisma modifier (minimum of 1) and are stunned until the end of their next turn."}
 				],
 				"5":[
 					{"addspell":{"name":"Maddening Whispers", "spelllevel":2}},
@@ -1597,7 +1601,7 @@
 					{"addspell":{"name":"Planar Binding", "spelllevel":5}}
 				],
 				"20":[
-					{"featuretextwithbullet":"The Horror Inside (see rules)."}
+					{"featuretextwithbullet":"The Horror Inside: You can spend an action to transform into a hideous void beast for 1 minute. Limbs twist and contort while armor and equipment stretches to accommodate the transformation. Your AC increases by 2 and your size increases to the next range. While transformed, you make attack rolls with advantage and count all successful attacks as critical hits. Creatures that witness this change must make a successful Wisdom saving throw or be rendered unconscious for 1 minute. You must pray to the elder ones and complete a long rest before using this ability again."}
 				]
 			}
 		},
@@ -1610,8 +1614,10 @@
 					{"featuretextwithbullet":"Antipaladin: Giving Grave"},
 					{"addspell":{"name":"Blood Tide","spelllevel":1}},
 					{"addspell":{"name":"Disguise Self","spelllevel":1}},
-					{"featuretextwithbullet":"Overawe Enemy (see rules)"},
-					{"featuretextwithbullet":"Mark of the Funeral Feast (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Overawe Enemy"},
+					{"featuretext":"As an action, you present your unholy symbol and utter a promise of horrors to come, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being stunned. Celestials and Good- aligned fey have disadvantage on the saving throw. On a failed save, the creature is stunned for 1 minute or until it takes any damage."},
+					{"featuretextwithbullet":"Channel Divinity: Mark of the Funeral Feast"},
+					{"featuretext":"As a bonus action, you can shout a command and indicate a creature you can see within 10 feet of you, using your Channel Divinity. All unintelligent undead below Challenge Rating 1 who are within sight of the creature become compelled to pursue and attack it. The effect ends in 1 minute or when the target creature drops to 0 hit points or falls unconscious. When the effect ends, the undead return to what they were doing before."}
 				],
 				"5":[
 					{"addspell":{"name":"Blood Armor","spelllevel":3}},
@@ -1685,7 +1691,10 @@
 						]
 					}},
 					{"setskillproficiency":{"insight":"true"}},
-					{"featuretextwithbullet":"Quick Read (see rules)"}
+					{"featuretextwithbullet":"Your knowledge of underhanded tactics allows you to gain insight into your foes’ strategies. As a bonus action, you can spend a Bardic Inspiration die to make a Wisdom (Insight) check against one creature you can see within 30 feet contested by its Charisma (Deception) check; you can roll the Bardic Inspiration die and add it to the result of your check. You have disadvantage on your check if the target is not a humanoid, and the check automatically fails against creatures with an Intelligence score of 3 or lower. On a success, you gain one of the following benefits:"}
+					{"featuretext":" - The target has disadvantage on attack rolls against you for 1 minute."},
+					{"featuretext":" - You have advantage on saving throws against the target’s spells and magical effects for 1 minute."},
+					{"featuretext":" - You have advantage on attack rolls against the target for 1 minute."}
 				],
 				"6":[
 					{"featuretextwithbullet":"When a creature that has a Bardic Inspiration die you gave them is damaged by a hostile creature's attack, it can use its reaction to roll the Bardic Inspiration die and reduce the damage by twice the number rolled. If this reduces the damage of the attack to 0, the creature you inspired can make a single melee attack against its attacker as part of the same reaction."}
@@ -1723,7 +1732,7 @@
 			"level":{
 				"3":[
 					{"featuretextwithbullet":"Bard College: Greenleaf"},
-					{"featuretextwithbullet":"Expanded spell list (see rules)"},
+					{"featuretextwithbullet":"The following spells are added to the bard spell list for you: entangle, goodberry, pass without trace, spike growth, conjure animals, daylight, conjure woodland beings, dominate beast, commune with nature, tree stride"},
 					{"featuretextwithbullet":"When a creature uses a Bardic Inspiration die from you to increase one ability check, attack roll, or saving throw, it also gains temporary hit points equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."}
 				],
 				"6":[
@@ -1756,7 +1765,8 @@
 					{"addspell":{"name":"Hellish Rebuke","spelllevel":1}}
 				],
 				"2":[
-					{"featuretextwithbullet":"Channel Divinity: Damnation (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Damnation"},
+					{"featuretext":"You can use your Channel Divinity to lash out at those who defy your deity's messenger. As an action, you present your holy symbol while pronouncing doom to unbelievers. Each hostile creature that can see you and is within 30 feet of you takes 3d6 + your cleric level necrotic damage, or half damage with a successful Wisdom saving throw. A creature that has total cover from you is not affected."}
 				],
 				"3":[
 					{"addspell":{"name":"Enthrall","spelllevel":2}},
@@ -1767,7 +1777,8 @@
 					{"addspell":{"name":"Stinking Cloud","spelllevel":3}}
 				],
 				"6":[
-					{"featuretextwithbullet":"Channel Divinity: Weight of Guilt (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Weight of Guilt"},
+					{"featuretext":"As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the saving throw is successful, you can't use this feature on it again until you finish a long rest. If the saving throw fails, you can bring the creature's guiltiest knowledge to the surface of its mind and fill it with fear that it will confess that knowledge. You get no hints to what this knowledge is. The effect lasts 1 minute, during which you can use your action to cast zone of truth on the creature without expending a spell slot. Only the target of weight of guilt is affected by the spell, and that target's saving throw against the spell fails automatically."}
 				],
 				"7":[
 					{"addspell":{"name":"Blight","spelllevel":4}},
@@ -1802,7 +1813,8 @@
 					{"featuretextwithbullet":"Your proficiency bonus is doubled for any ability check you make that uses Brewer's supplies."}
 				],
 				"2":[
-					{"featuretextwithbullet":"Channel Divility: Blessed Brew (see rules)"}
+					{"featuretextwithbullet":"Channel Divility: Blessed Brew"},
+					{"featuretext":"You can use your Channel Divinity to transform a container of nonmagical liquid into blessed brew; the number of doses equals 3 + your Wisdom modifier. Any special attributes the liquid previously had are negated. Anyone who imbibes one dose of this brew can choose one of the following benefits: advantage on Charisma-based skill checks, a +1 bonus to AC, or a +1 increase to the DC of saving throws against their castings of enchantment spells. This bonus lasts for 1 hour, leaving a warm buzz behind when it fades. A creature can benefit from only one dose of blessed brew between rests. An hour after creating blessed brew, the liquid turns into tasty, but mundane, beer."}
 				],
 				"3":[
 					{"addspell":{"name":"Blur","spellevel":1}},
@@ -1813,7 +1825,8 @@
 					{"addspell":{"name":"Hypnotic Pattern","spellevel":3}}
 				],
 				"6":[
-					{"featuretextwithbullet":"Channel Divinity: Boot and Rally (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Boot and Rally"}
+					{"featuretext":"You can use your Channel Divinity to aid and rally your allies. All friendly creatures within 30 feet of you who are frightened, paralyzed, poisoned, or stunned gain an immediate saving throw with advantage to remove the effect. Creatures that succeed on the saving throw also heal 2d6 hit points."}
 				],
 				"7":[
 					{"addspell":{"name":"Confusion","spellevel":4}},
@@ -1850,7 +1863,8 @@
 					{"setskillproficiency":{"Stealth":"true"}}
 				],
 				"2":[
-					{"featuretextwithbullet":"Channel Divinity: Feline Finesse (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Feline Finesse "},
+					{"featuretext":"You can use your Channel Divinity to add a +10 bonus to any Dexterity ability or skill check made by you or someone you designate within 30 feet."}
 				],
 				"3":[
 					{"addspell":{"name":"Beast Sense","spelllevel":2}},
@@ -1900,7 +1914,8 @@
 					{"addspell":{"name":"Pendulum","spelllevel":1}}
 				],
 				"2":[
-					{"featuretextwithbullet":"Channel Divinity: Construct Mastery (see rules)"}
+					{"featuretextwithbullet":"Channel Divinity: Construct Mastery"},
+					{"featuretext":"You can use your Channel Divinity to bring constructs under your control. As an action, you can compel one construct you can see within 30 feet of you to make a Wisdom saving throw against your cleric spell save DC. If the saving throw fails, the construct becomes friendly to you and obeys your commands for 1 minute or until it takes damage from you or one of your allies. If the saving throw fails by 5 or more, the duration is extended to 1 hour, until you use this ability again, or until the construct takes damage from you or one of your allies. When the effect ends, the construct is aware it was magically controlled by you."}
 				],
 				"3":[
 					{"addspell":{"name":"Repair Metal","spelllevel":2}},
@@ -1927,6 +1942,12 @@
 				"17":[
 					{"featuretextwithbullet":"You can use your action to merge with a construct you control for 1 minute. Doing so restores your hit points, but not other class features, as if you had a long rest. For the duration you gain all of the immunities and qualities of the construct, and you can cast spells, use class features, and communicate normally even if the construct would not be able to do so. You cannot use this feature again until you have completed a long rest."}
 				]
+			}
+		},
+		{
+			"name":"kp_simple_clockwork_domain",
+			"displayname":"Clockwork (Simple)",
+			"level":{
 			}
 		}
 	],
