@@ -1770,6 +1770,61 @@
 					{"featuretextwithbullet":"You are sesitant to acid, fire, and poison damage"}
 				]
 			}
+		},
+		{
+			"name":"kp_beer",
+			"displayname":"Beer",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"addspell":{"name":"Comprehend Languages","spellevel":1}},
+					{"addspell":{"name":"Heroism","spellevel":1}},
+					{"addspell":{"name":"Message","spellevel":0}},
+					{"skillmenu":{
+						"selections":1,
+						"skills":[
+							"Insight",
+							"Medicine"
+						]
+					}},
+					{"addtoolproficiencies":"Brewer's supplies"},
+					{"featuretextwithbullet":"Your proficiency bonus is doubled for any ability check you make that uses Brewer's supplies."}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divility: Blessed Brew (see rules)"}
+				],
+				"3":[
+					{"addspell":{"name":"Blur","spellevel":1}},
+					{"addspell":{"name":"Suggestion","spellevel":1}}
+				],
+				"5":[
+					{"addspell":{"name":"Aura of Vitality","spellevel":3}},
+					{"addspell":{"name":"Hypnotic Pattern","spellevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Channel Divinity: Boot and Rally (see rules)"}
+				],
+				"7":[
+					{"addspell":{"name":"Confusion","spellevel":4}},
+					{"addspell":{"name":"Resilient Sphere","spellevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Dream","spellevel":1}},
+					{"addspell":{"name":"Modify Memory","spellevel":1}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+							"replacementtext":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 radiant damage to the target.",
+							"find":"Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You are resistant to cold, poison, and psychic damage."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
