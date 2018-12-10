@@ -2283,6 +2283,58 @@
 					{"featuretext":"You can use your Channel Divinity to persuade others that you hold divine authority to mete out justice. You must present your holy symbol and invoke the name of your deity. So long as your deity is one that is worshipped openly in the land where you are asserting this authority, you have advantage on Wisdom and Charisma checks involving justice, judgment, and the law, up to and including execution for crimes."}
 				]
 			}
+		},
+		{
+			"name":"kp_labyrinth_domain",
+			"displayname":"Labyrinth",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Labyrinth"},
+					{"setskillproficiency":{"survival":"true"}},
+					{"addlanguagesknown":["Abyssal","Rue-Thothka"]},
+					{"addspell":{"name":"Alarm","spelllevel":1}},
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Wisdom of the Winding Way"},
+					{"featuretext":"You can use your Channel Divinity to gain advantage on Wisdom (Survival) checks for the purpose of tracking for 1 hour."}
+				],
+				"3":[
+					{"addspell":{"name":"Misty Step","spelllevel":2}},
+					{"addspell":{"name":"Pass Without Trace","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Hypnotic Pattern","spelllevel":3}},
+					{"addspell":{"name":"Nondetection","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You can make a melee attack that causes a creature to become confused for one round. Make a melee attack. If the attack hits, you do no damage but the creature is confused (as the confusion spell) until the start of your next turn. You expend one use of the ability whether the attack hits or misses. You can use this ability (3 + your Wisdom modifier) times per day. All uses recharge after you complete a long rest. This ability has no effect on minotaurs or on creatures with a higher challenge rating than your cleric level."}
+				],
+				"7":[
+					{"addspell":{"name":"Dimension Door","spelllevel":4}},
+					{"addspell":{"name":"Hallucinatory Terrain","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Mislead","spelllevel":5}},
+					{"addspell":{"name":"Passwall","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You have the power to banish one target to an extra-dimensional labyrinth, similar to the maze spell. The duration is a number of rounds equal to half your cleric level, unless you end it early by using a bonus action. The target resists the effect with a successful Wisdom saving throw; otherwise, it's transported into the labyrinth."},
+					{"featuretext":"You can choose to enter the maze with the subject, but doing so expends two rounds of the labyrinth's total duration for every round that you and the target are in the maze. You can find the target in the maze by winning an Intelligence contest against the target. The Intelligence contest uses your move. Once found, the target can evade you in the same way (by using its move and winning an Intelligence contest). You have advantage during these Intelligence contests. You can leave the labyrinth at any time as an action, returning to your previous location."},
+					{"featuretext":"The target that was sent to the maze can search for the exit. On its turn, it uses its action to make a DC 20 Intelligence check; if the check succeeds, the creature escapes from the labyrinth and returns to its previous location."},
+					{"featuretext":"The labyrinth is dimly lit with ambient light."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
