@@ -2329,11 +2329,61 @@
 					}}
 				],
 				"17":[
-					{"featuretextwithbullet":"Channel Divinity: Banish to the Maze"}
+					{"featuretextwithbullet":"Channel Divinity: Banish to the Maze"},
 					{"featuretext":"You have the power to banish one target to an extra-dimensional labyrinth, similar to the maze spell. The duration is a number of rounds equal to half your cleric level, unless you end it early by using a bonus action. The target resists the effect with a successful Wisdom saving throw; otherwise, it's transported into the labyrinth."},
 					{"featuretext":"You can choose to enter the maze with the subject, but doing so expends two rounds of the labyrinth's total duration for every round that you and the target are in the maze. You can find the target in the maze by winning an Intelligence contest against the target. The Intelligence contest uses your move. Once found, the target can evade you in the same way (by using its move and winning an Intelligence contest). You have advantage during these Intelligence contests. You can leave the labyrinth at any time as an action, returning to your previous location."},
 					{"featuretext":"The target that was sent to the maze can search for the exit. On its turn, it uses its action to make a DC 20 Intelligence check; if the check succeeds, the creature escapes from the labyrinth and returns to its previous location."},
 					{"featuretext":"The labyrinth is dimly lit with ambient light."}
+				]
+			}
+		},
+		{
+			"name":"kp_moon_domain",
+			"displayname":"Moon",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Moon"},
+					{"featuretextwithbullet":"You don't have disadvantage on Stealth checks from wearing medium armor."},
+					{"setskillproficiency":{"perception":"true"}},
+					{"setskillproficiency":{"stealth":"true"}},
+					{"addspell":{"name":"Faerie Fire","spelllevel":1}},
+					{"addspell":{"name":"Witch Bolt","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Night's Chill"},
+					{"featuretext":"You can use your Channel Divinity to harness moonlight to banish magical light and deal cold damage to your foes. By presenting your holy symbol as an action, any magical light within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you takes (2d10 + your cleric level) cold damage, or half damage with a successful Constitution saving throw. A creature that has total cover from you is not affected."}
+				],
+				"3":[
+					{"addspell":{"name":"Crown of Madness","spelllevel":2}},
+					{"addspell":{"name":"Moonbeam","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Fear","spelllevel":3}},
+					{"addspell":{"name":"Hypnotic Pattern","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You can emit a nimbus of light in a 30-foot radius for a number of rounds equal to your cleric level. This acts as a light spell but provides only dim illumination. All weapons and ammunition are treated as silvered while they're in the aura and for one round after leaving it. Opponents that end their turn in the aura must make a successful Dexterity saving throw or be limned in silver light, identical in effect to a faerie fire spell, until the end of their next turn."}
+				],
+				"7":[
+					{"addspell":{"name":"Compulsion","spelllevel":4}},
+					{"addspell":{"name":"Greater Invisibility","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Dream","spelllevel":5}},
+					{"addspell":{"name":"Hold Monster","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 cold damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"Anytime the moon is visible in the sky, you can use an action to detect magical pathways and portals such as fey roads, shadow roads, gate effects, and the like. The portal must be within your line of sight and no farther away from you than 120 feet. You must complete a short or long rest before using this ability again. Detected portals are visible to you, but you can point out their locations to others. By spending a minute concentrating on a portal detected with this ability, you can sense the physical conditions around its destination."}
 				]
 			}
 		}
