@@ -2229,6 +2229,60 @@
 					{"featuretext":"Wisdom (Survival) checks to find campsites that are secure against predators are made with advantage within 3 miles of your home."}
 				]
 			}
+		},
+		{
+			"name":"kp_justice_domain",
+			"Display":"Justice",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Justice"},
+					{"addweaponproficiencies": ["Martial Weapons"]},
+					{"addarmorproficiencies": ["Heavy armor"]},
+					{"addspell":{"name":"Longstrider","spelllevel":1}},
+					{"addspell":{"name":"Thorn Whip","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: No Hiding Place"},
+					{"featuretext":"You can use your Channel Divinity to determine the general direction of a creature that is guilty of an injustice or that is wanted for commission of a serious crime."}
+				],
+				"3":[
+					{"addspell":{"name":"Blade of Wrath","spelllevel":3}},
+					{"addspell":{"name":"See Invisibility","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Call Lightning","spelllevel":3}},
+					{"addspell":{"name":"Fear","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You are immune to the frightened condition."}
+				],
+				"7":[
+					{"replacestringfromfeaturetext":{
+						"find":"You can use your Channel Divinity to determine the general direction of a creature that is guilty of an injustice or that is wanted for commission of a serious crime.",
+						"replacementtext":"You can use your Channel Divinity to determine the general direction and distance in miles of a creature that is guilty of an injustice or that is wanted for commission of a serious crime."
+					}},
+					{"addspell":{"name":"Inspiring Speech","spelllevel":4}},
+					{"addspell":{"name":"Faithful Hound","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Mage Hand","spelllevel":0}},
+					{"addspell":{"name":"Holy Ground","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 radiant damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"Channel Divinity: Holy Denunciation"},
+					{"featuretext":"You can use your Channel Divinity to persuade others that you hold divine authority to mete out justice. You must present your holy symbol and invoke the name of your deity. So long as your deity is one that is worshipped openly in the land where you are asserting this authority, you have advantage on Wisdom and Charisma checks involving justice, judgment, and the law, up to and including execution for crimes."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
