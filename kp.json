@@ -667,7 +667,7 @@
 				{"ifthenelse":{
 					"if":[{"not":{"classfeature":"kp_lf_nonaturalpredator"}}],
 					"then":[
-						{"setskillproficiency":{"Stealth":"true"}}
+						{"setskillproficiency":{"stealth":"true"}}
 					]
 				}},
 				{"ifthenelse":{
@@ -877,8 +877,8 @@
 							"name":"Stalker",
 							"displayname":"Stalker",
 							"effects":[
-								{"setskillproficiency":{"Perception":"true"}},
-								{"setskillproficiency":{"Stealth":"true"}}
+								{"setskillproficiency":{"perception":"true"}},
+								{"setskillproficiency":{"stealth":"true"}}
 							]
 						},
 						{
@@ -1861,8 +1861,8 @@
 					{"addspell":{"name":"Find Familiar (feline only)","spelllevel":1}},
 					{"addspell":{"name":"Speak with Animals","spelllevel":1}},
 					{"addspell":{"name":"True Strike","spelllevel":0}},
-					{"setskillproficiency":{"Acrobatics":"true"}},
-					{"setskillproficiency":{"Stealth":"true"}}
+					{"setskillproficiency":{"acrobatics":"true"}},
+					{"setskillproficiency":{"stealth":"true"}}
 				],
 				"2":[
 					{"featuretextwithbullet":"Channel Divinity: Feline Finesse "},
@@ -2072,8 +2072,8 @@
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Dragon"},
-					{"setskillproficiency":{"Arcana":"true"}},
-					{"setskilldoubleproficiency":{"Arcana":"true"}},
+					{"setskillproficiency":{"arcana":"true"}},
+					{"setskilldoubleproficiency":{"arcana":"true"}},
 					{"featuretextwithbullet":"You have advantage on saving throws against being frightened."},
 					{"addspell":{"name":"Detect Magic","spelllevel":1}},
 					{"addspell":{"name":"Thunderwave","spelllevel":1}}
@@ -2120,13 +2120,13 @@
 			}
 		},
 		{
-			"name":"kp_darkness_domain",
-			"display":"Darkness",
+			"name":"kp_hunger_domain",
+			"display":"Hunger",
 			"class":"Cleric",
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Hunger"},
-					{"setskillproficiency":{"Survival":"true"}},
+					{"setskillproficiency":{"survival":"true"}},
 					{"addtoolproficiencies":"Cooking tools"},
 					{"addarmorproficiencies": ["Heavy armor"]},
 					{"addspell":{"name":"Poison Spray","spelllevel":0}},
@@ -2169,6 +2169,64 @@
 				],
 				"17":[
 					{"featuretextwithbullet":"You can sacrifice the vitality of those around you and inspire an insatiable and horrifying hunger in them. Living creatures within 60 feet of you who fail a Charisma saving throw take 10d8 necrotic damage and then succumb to a ravening hunger, dropping whatever they hold in their hands and attacking the unaffected with their hands and teeth, or with whatever natural weapons they possess, in an attempt to devour them. This effect lasts a number of rounds equal to 3 + your Wisdom modifier. Each affected creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. You can exclude up to ten creatures from the effect, but this doesn't shield them against being attacked by those who do succumb. This ability doesn't affect constructs or the undead."}
+				]
+			}
+		},
+		{
+			"name":"kp_hunting_domain",
+			"displayname":"Hunting",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Hunting"},
+					{"addweaponproficiencies": ["Longbow", "Heavy Crossbow"]},
+					{"setskillproficiency":{"nature":"true"}},
+					{"setskillproficiency":{"survival":"true"}},
+					{"addspell":{"name":"Ensnaring Strike","spelllevel":1}},
+					{"addspell":{"name":"Hunter's Mark","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Unseen"},
+					{"featuretext":"You can use your Channel Divinity to camouflage yourself in any environment, gaining advantage on Stealth checks made to move quietly or to hide. You also leave no scent. The effect lasts for a number of rounds equal to your cleric level + Wisdom modifier."}
+				],
+				"3":[
+					{"addspell":{"name":"Locate Animals or Plants","spelllevel":2}},
+					{"addspell":{"name":"Pass Without Trace","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Tiny Hut","spelllevel":3}},
+					{"addspell":{"name":"Speak with Plants","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet": "Gain advantage on survival and Int checks concerning your chosen creature type, and you know a language spoken by those creatures"}
+				],
+				"7":[
+					{"addspell":{"name":"Faithful Hound","spelllevel":4}},
+					{"addspell":{"name":"Grasping Vine","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. On your turn, you can cause one successful weapon attack against a creature to deal an extra 1d8 damage of the type dealt by the weapon."}
+				],
+				"9":[
+					{"addspell":{"name":"Commune with Nature","spelllevel":5}},
+					{"addspell":{"name":"Hold Monster","spelllevel":5}}
+				],
+				"10":[
+            				{"featuretextwithbullet": "Additional chosen enemy"}
+				],
+				"14":[
+            				{"featuretextwithbullet": "Additional chosen enemy"},
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. On your turn, you can cause one successful weapon attack against a creature to deal an extra 2d8 damage of the type dealt by the weapon.",
+							"find":"You have the ability to infuse your weapon strikes with divine energy. On your turn, you can cause one successful weapon attack against a creature to deal an extra 1d8 damage of the type dealt by the weapon."
+						}
+					}
+				],
+				"17":[
+					{"featuretextwithbullet":"You can begin a holy quest to slay a known quarry selected by you. You can have only one quarry at a time. During the hunt, you gain a very faint but persistent psychic connection to your target, giving you vague intimations of its current state of mind but no insight into its specific thoughts. If the quarry is slain by you or your allies within three months of the quest's start, you can create the following regional effects after one week of residence in a particular location. These effects last while the home is your primary residence."},
+					{"featuretext":"Hunting within 3 miles of your home becomes remarkably bountiful. Wisdom (Survival) checks made to procure food from hunting and to locate fresh water are made with advantage."},
+					{"featuretext":"Wisdom (Survival) checks to find campsites that are secure against predators are made with advantage within 3 miles of your home."}
 				]
 			}
 		}
