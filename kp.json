@@ -2329,7 +2329,8 @@
 					}}
 				],
 				"17":[
-					{"featuretextwithbullet":"You have the power to banish one target to an extra-dimensional labyrinth, similar to the maze spell. The duration is a number of rounds equal to half your cleric level, unless you end it early by using a bonus action. The target resists the effect with a successful Wisdom saving throw; otherwise, it's transported into the labyrinth."},
+					{"featuretextwithbullet":"Channel Divinity: Banish to the Maze"}
+					{"featuretext":"You have the power to banish one target to an extra-dimensional labyrinth, similar to the maze spell. The duration is a number of rounds equal to half your cleric level, unless you end it early by using a bonus action. The target resists the effect with a successful Wisdom saving throw; otherwise, it's transported into the labyrinth."},
 					{"featuretext":"You can choose to enter the maze with the subject, but doing so expends two rounds of the labyrinth's total duration for every round that you and the target are in the maze. You can find the target in the maze by winning an Intelligence contest against the target. The Intelligence contest uses your move. Once found, the target can evade you in the same way (by using its move and winning an Intelligence contest). You have advantage during these Intelligence contests. You can leave the labyrinth at any time as an action, returning to your previous location."},
 					{"featuretext":"The target that was sent to the maze can search for the exit. On its turn, it uses its action to make a DC 20 Intelligence check; if the check succeeds, the creature escapes from the labyrinth and returns to its previous location."},
 					{"featuretext":"The labyrinth is dimly lit with ambient light."}
