@@ -1677,6 +1677,7 @@
 		{
 			"name":"kp_college_of_criminology",
 			"displayname":"Criminology",
+			"class":"Bard",
 			"level":{
 				"3":[
 					{"featuretextwithbullet":"Bard College: Criminology"},
@@ -1853,6 +1854,7 @@
 		{
 			"name":"kp_cat_domain",
 			"displayname":"Cat",
+			"class":"Cleric",
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Cat"},
@@ -1904,6 +1906,7 @@
 		{
 			"name":"kp_clockwork_domain",
 			"displayname":"Clockwork",
+			"class":"Cleric",
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Clockwork"},
@@ -1947,6 +1950,7 @@
 		{
 			"name":"kp_simple_clockwork_domain",
 			"displayname":"Clockwork (Simple)",
+			"class":"Cleric",
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Clockwork (Simplified)"},
@@ -2000,6 +2004,7 @@
 		{
 			"name":"kp_darkness_domain",
 			"displayname":"Darkness",
+			"class":"Cleric",
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Darkness"},
@@ -2056,15 +2061,61 @@
 					}
 				],
 				"17":[
-					{"featuretextwithbullet":"Each time you are hit by a nonmagical attack or effect that causes damage, your shadow flows across your body and absorbs half of the damage. When your shadow has absorbed damage equal to one-fourth of your maximum hit points, it vanishes completely until you finish a long rest."},
-					{"setresource":{
-						"name": "Shadow HP",
-						"displayname": "Shadow HP",
-						"amount":{"divide":{"first":{"maxhitpoints":""},"second":4}},
-						"reset":"longrest"
-					}},
-					{"showresource": "Shadow HP"},
-					{"featuretext":"-broken- Shadow HP likely doesn't work"}
+					{"featuretextwithbullet":"Each time you are hit by a nonmagical attack or effect that causes damage, your shadow flows across your body and absorbs half of the damage. When your shadow has absorbed damage equal to one-fourth of your maximum hit points, it vanishes completely until you finish a long rest."}
+				]
+			}
+		},
+		{
+			"name":"kp_dragon_domain",
+			"displayname":"Dragon",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Dragon"},
+					{"setskillproficiency":{"Arcana":"true"}},
+					{"setskilldoubleproficiency":{"Arcana":"true"}},
+					{"featuretextwithbullet":"You have advantage on saving throws against being frightened."},
+					{"addspell":{"name":"Detect Magic","spelllevel":1}},
+					{"addspell":{"name":"Thunderwave","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Charmer of Reptiles"},
+					{"featuretext":"You can use your Channel Divinity to charm nonintelligent reptiles. As an action, you present your holy symbol and invoke the name of your deity. Each reptilian creature within 30 feet of you that can see you must make a successful Wisdom saving throw or be charmed by you for 1 minute or until it takes damage. While a reptile is charmed by you, it is friendly to you and to other creatures you designate."}
+				],
+				"3":[
+					{"addspell":{"name":"Lair Sense","spelllevel":2}},
+					{"addspell":{"name":"Enthrall","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Catch the Breath","spelllevel":3}},
+					{"addspell":{"name":"Fear","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Channel Divinity: Dragon’s Resistance"},
+					{"featuretext":"As a reaction when you fail a saving throw, you can choose to expend one use of your Channel Divinity to succeed on that saving throw instead."}
+				],
+				"7":[
+					{"addspell":{"name":"Blight","spelllevel":4}},
+					{"addspell":{"name":"Scale Rot","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. "}
+				],
+				"9":[
+					{"addspell":{"name":"Claws of the Earth Dragon","spelllevel":5}},
+					{"addspell":{"name":"Legend Lore","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 fire damage to the target. ",
+							"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. "
+						}
+					}
+				],
+				"17":[
+					{"featuretextwithbullet":"You have a Frightful Presence attack similar to a dragon’s. Using your Frightful Presence is an action. After using your Frightful Presence, you must complete a short or long rest before using it again."},
+					{"featuretextwithbullet":"Frightful Presence. Each creature of your choice that is within 60 feet of you and aware of you must succeed on a DC 16 Wisdom saving throw or become frightened of you for 1 minute. A frightened creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. If a creature’s saving throw succeeds or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours."}
 				]
 			}
 		}
