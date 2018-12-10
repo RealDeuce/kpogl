@@ -2108,7 +2108,7 @@
 				"14":[
 					{"replacestringfromfeaturetext":
 						{
-							"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 fire damage to the target. ",
+							"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 fire damage to the target.",
 							"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. "
 						}
 					}
@@ -2116,6 +2116,59 @@
 				"17":[
 					{"featuretextwithbullet":"You have a Frightful Presence attack similar to a dragon’s. Using your Frightful Presence is an action. After using your Frightful Presence, you must complete a short or long rest before using it again."},
 					{"featuretextwithbullet":"Frightful Presence. Each creature of your choice that is within 60 feet of you and aware of you must succeed on a DC 16 Wisdom saving throw or become frightened of you for 1 minute. A frightened creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. If a creature’s saving throw succeeds or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours."}
+				]
+			}
+		},
+		{
+			"name":"kp_darkness_domain",
+			"display":"Darkness",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Hunger"},
+					{"setskillproficiency":{"Survival":"true"}},
+					{"addtoolproficiencies":"Cooking tools"},
+					{"addarmorproficiencies": ["Heavy armor"]},
+					{"addspell":{"name":"Poison Spray","spelllevel":0}},
+					{"addspell":{"name":"Goodberry","spelllevel":1}},
+					{"addspell":{"name":"Ray of Sickness","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Ferocious Feast"},
+					{"feautretext":"You can use your channel divinity to gain a bite attack for 1 minute. The bite does 1d6 + your Strength modifier piercing damage. On a critical hit, you can also add your Wisdom modifier to the damage roll in addition to the normal benefits of a critical hit."}
+				],
+				"3":[
+					{"addspell":{"name":"Locate Animals or Plants","spelllevel":2}},
+					{"addspell":{"name":"Suggestion","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Hunger of the Stars","spelllevel":3}},
+					{"addspell":{"name":"Vampiric Touch","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You gain the ability to remove the effects of diseases, poisons, and exhaustion from yourself by engaging in ritual cannibalism. As an action, you can remove the effects of diseases, poisons or the poisoned condition, or one level of exhaustion, from yourself by consuming a half pound of meat from the corpse of a sentient humanoid while invoking your deity. You must complete one long rest before using this ability again. Your deity shields you from any negative health consequences associated with cannibalism, but you are left to your own devices when it comes to the esteem of your companions."}
+				],
+				"7":[
+					{"addspell":{"name":"Blight","spelllevel":4}},
+					{"addspell":{"name":"Grasping Vine","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Cloudkill","spelllevel":5}},
+					{"addspell":{"name":"Cone of Cold","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":
+						{
+							"replacementtext":"You have the ability to infuse your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 necrotic damage to the target.",
+							"find":"You have the ability to infuse your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target. "
+						}
+					}
+				],
+				"17":[
+					{"featuretextwithbullet":"You can sacrifice the vitality of those around you and inspire an insatiable and horrifying hunger in them. Living creatures within 60 feet of you who fail a Charisma saving throw take 10d8 necrotic damage and then succumb to a ravening hunger, dropping whatever they hold in their hands and attacking the unaffected with their hands and teeth, or with whatever natural weapons they possess, in an attempt to devour them. This effect lasts a number of rounds equal to 3 + your Wisdom modifier. Each affected creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. You can exclude up to ten creatures from the effect, but this doesn't shield them against being attacked by those who do succumb. This ability doesn't affect constructs or the undead."}
 				]
 			}
 		}
