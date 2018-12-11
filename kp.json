@@ -2565,6 +2565,58 @@
 					{"featuretextwithbullet":"With GM cooperation, you can issue a prophecy from your deity once per month. You might become a renowned (and controversial) prophet, attracting both loyal followers and terrible enemies. Consult with your GM to find out what, if anything, your deity wants foretold."}
 				]
 			}
+		},
+		{
+			"name":"kp_speed_domain",
+			"displayname":"Speed",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Speed"},
+					{"modifyspeedbonus":5},
+					{"setskillproficiency":{"acrobatics":"true"}},
+					{"setskillproficiency":{"insight":"true"}},
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":1}},
+					{"addspell":{"name":"Feather Fall","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Burst of Speed"},
+					{"featuretext":"You can use your Channel Divinity to grant yourself or another creature greater speed. By using an action to touch a creature, the target adds 10 feet to its base speed. It also gains the benefit of a bless spell, but only on attacks and saving throws that rely on Dexterity. This lasts a number of rounds equal to 3 + your Wisdom modifier."}
+				],
+				"3":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":2}},
+					{"addspell":{"name":"Feather Fall","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":3}},
+					{"addspell":{"name":"Feather Fall","spelllevel":3}}
+				],
+				"6":[
+					{"modifyspeedbonus":5},
+					{"featuretextwithbullet":"As a reaction or a bonus action, you can increase your Dexterity score by 10 until the end of the current turn. You can do this a number of times equal to your Wisdom modifier (minimum of 1). All uses recharge after you complete a long rest. This bonus can be used in all cases except your attacks."}
+				],
+				"7":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":4}},
+					{"addspell":{"name":"Feather Fall","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":5}},
+					{"addspell":{"name":"Feather Fall","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"Channel Divinity: Time Stop"},
+					{"featuretext":"You can use your Channel Divinity to stop the flow of time. The effect is identical to the time stop spell; you can take 3 turns in a row when the effect is triggered. You must complete a long rest before using this ability again."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
