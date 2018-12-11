@@ -2466,7 +2466,7 @@
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Ocean"},
 					{"addspell":{"name":"Chill Touch","spelllevel":0}},
-					{"setskillproficiency":[{"survival":"true"}]},
+					{"setskillproficiency":{"survival":"true"}},
 					{"addlanguagesknown":["Aquan"]},
 					{"addweaponproficiencies": ["Trident", "Net"]},
 					{"addspell":{"name":"Fog Cloud","spelllevel":1}},
@@ -2508,6 +2508,61 @@
 				"17":[
 					{"featuretextwithbullet":"You are able to breathe in water as easily as in air."},
 					{"featuretextwithbullet":"You have the ability to transform your skin into fishlike scales at will. While covered in scales, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons, and you have advantage on Dexterity (Stealth) checks made in natural underwater environments. You must use an action to grow the scales or to transform back to your normal skin. The scales can be any color you choose. The scales need to be kept wet; you gain one level of exhaustion at the end of each hour when you have scales and they aren't thoroughly wetted with a quart or more of water at least once."}
+				]
+			}
+		},
+		{
+			"name":"kp_prophecy_domain",
+			"displayname":"Prophecy",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Prophecy"},
+					{"setskillproficiency":{"history":"true"}},
+					{"setskillproficiency":{"insight":"true"}},
+					{"addlanguagesknown":["One exotic language of your choice"]},
+					{"addspell":{"name":"Divine Favor","spelllevel":1}},
+					{"addspell":{"name":"Hex","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: One Move Ahead"},
+					{"featuretext":"You can use your Channel Divinity to add 20 feet to your movement speed for a number of rounds equal to your cleric level."}
+				],
+				"3":[
+					{"addspell":{"name":"Mirror Image","spelllevel":2}},
+					{"addspell":{"name":"See Invisibility","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Counterspell","spelllevel":3}},
+					{"addspell":{"name":"Slow","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Channel Divinity: Future Sight"},
+					{"featuretext":"You can use your Channel Divinity to declare an action or movement you just performed did not happen, allowing you to take a different action or make a different movement. You can do this after the result of your activity is known, so long as it didn't result in your unconsciousness or death. Only a single action or movement can be nullified. The mixing of future and present is disorienting, so you gain one level of exhaustion after using this ability."}
+				],
+				"7":[
+					{"addspell":{"name":"Arcane Eye","spelllevel":4}},
+					{"addspell":{"name":"Compulsion","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Contact Other Plane","spelllevel":5}},
+					{"addspell":{"name":"Modify Memory","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You have advantage on Dexterity saving throws"},
+					{"featuretextwithbullet":"You have advantage on Wisdom (Perception) checks"},
+					{"featuretextwithbullet":"You have advantage on Wisdom (Insight) checks"},
+					{"featuretextwithbullet":"You are resistant to fire, poison, and psychic damage."},
+					{"featuretextwithbullet":"With GM cooperation, you can issue a prophecy from your deity once per month. You might become a renowned (and controversial) prophet, attracting both loyal followers and terrible enemies. Consult with your GM to find out what, if anything, your deity wants foretold."}
 				]
 			}
 		}
