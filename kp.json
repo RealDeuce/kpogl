@@ -2386,6 +2386,77 @@
 					{"featuretextwithbullet":"Anytime the moon is visible in the sky, you can use an action to detect magical pathways and portals such as fey roads, shadow roads, gate effects, and the like. The portal must be within your line of sight and no farther away from you than 120 feet. You must complete a short or long rest before using this ability again. Detected portals are visible to you, but you can point out their locations to others. By spending a minute concentrating on a portal detected with this ability, you can sense the physical conditions around its destination."}
 				]
 			}
+		},
+		{
+			"name":"kp_mountain_domain",
+			"displayname":"Mountain",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Mountain"},
+					{"skillmenu":{
+						"selections":1,
+						"skills":[
+							"athletics",
+							"nature",
+							"survival"
+						]
+					}},
+					{"menu":{
+						"name":"Select language",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Dwarvish",
+								"displayname":"Dwarvish",
+								"effects":[{"addlanguagesknown":"Dwarvish"}]
+							},
+							{
+								"name":"Giant",
+								"displayname":"Giant",
+								"effects":[{"addlanguagesknown":"Giant"}]
+							}
+						]
+					}},
+					{"addspell":{"name":"Feather Fall","spelllevel":1}},
+					{"addspell":{"name":"Jump","spelllevel":1}}
+				],
+				"2":[
+					{"featuretext":"You can use your Channel Divinity to grant yourself and up to five other creatures advantage on skill or ability checks made to made to climb, avoid falling, or avoid the prone condition. The effect lasts for 1 hour."}
+				],
+				"3":[
+					{"addspell":{"name":"Enhance Ability","spelllevel":2}},
+					{"addspell":{"name":"Spider Climb","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Meld Into Stone","spelllevel":3}},
+					{"addspell":{"name":"Sleet Storm","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You gain darkvision with a range of 30 feet. If you already have darkvision, you can see in magical darkness to a range of 30 feet as if it were dim light."}
+				],
+				"7":[
+					{"addspell":{"name":"Stone Shape","spelllevel":4}},
+					{"addspell":{"name":"Stoneskin","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Commune with Nature","spelllevel":1}},
+					{"addspell":{"name":"Cone of Cold","spelllevel":1}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 cold damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You can create an avalanche that crushes and buries everything in its path. A 60-foot cone of ice, snow, and rubble erupts from a point of your choosing within 20 feet of you, in a direction you select. Each creature in the cone takes 15d8 bludgeoning damage, or half damage with a successful Strength saving throw. A creature that fails the saving throw is also restrained. A restrained creature can be freed by spending an action to make a successful Strength check, either by itself or by an ally within 5 feet of it."},
+					{"featuretext":"You must be outdoors to create the avalanche. The direction of the cone must be downhill or level; the avalanche can’t flow upill. Walls and other permanent structures block the avalanche. After using this feature, you must complete a long rest before using it again."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
