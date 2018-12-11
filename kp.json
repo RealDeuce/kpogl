@@ -2457,6 +2457,59 @@
 					{"featuretext":"You must be outdoors to create the avalanche. The direction of the cone must be downhill or level; the avalanche can’t flow upill. Walls and other permanent structures block the avalanche. After using this feature, you must complete a long rest before using it again."}
 				]
 			}
+		},
+		{
+			"name":"kp_ocean_domain",
+			"displayname":"Ocean",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Ocean"},
+					{"addspell":{"name":"Chill Touch","spelllevel":0}},
+					{"setskillproficiency":[{"survival":"true"}]},
+					{"addlanguagesknown":["Aquan"]},
+					{"addweaponproficiencies": ["Trident", "Net"]},
+					{"addspell":{"name":"Fog Cloud","spelllevel":1}},
+					{"addspell":{"name":"Speak with Animals","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Sea Speaker"},
+					{"featuretext":"You can use your Channel Divinity to communicate telepathically with aquatic creatures within 100 feet of you. This ability lasts for 1 hour."}
+				],
+				"3":[
+					{"addspell":{"name":"Locate Animals or Plants","spelllevel":2}},
+					{"addspell":{"name":"Misty Step","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Gaseous Form","spelllevel":3}},
+					{"addspell":{"name":"Water Breathing","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You have a swim speed of 30 feet."},
+					{"featuretextwithbullet":"You have darkvision 60 feet. If you already have darkvision, its range extends by 30 feet."}
+				],
+				"7":[
+					{"addspell":{"name":"Conjure Minor Elementals (excluding fire)","spelllevel":4}},
+					{"addspell":{"name":"Black Tentacles","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Awaken","spelllevel":5}},
+					{"addspell":{"name":"Conjure Elemental (excluding fire)","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 cold damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You are able to breathe in water as easily as in air."},
+					{"featuretextwithbullet":"You have the ability to transform your skin into fishlike scales at will. While covered in scales, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons, and you have advantage on Dexterity (Stealth) checks made in natural underwater environments. You must use an action to grow the scales or to transform back to your normal skin. The scales can be any color you choose. The scales need to be kept wet; you gain one level of exhaustion at the end of each hour when you have scales and they aren't thoroughly wetted with a quart or more of water at least once."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
