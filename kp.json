@@ -186,9 +186,9 @@
 						"selections":1,
 						"entries":[
 							{
-								"name":"Northern",
-								"displayname":"Northern",
-								"effects":[{"addlanguagesknown":"Northern"}]
+								"name":"Northern Tongue",
+								"displayname":"Northern Tongue",
+								"effects":[{"addlanguagesknown":"Northern Tongue"}]
 							},
 							{
 								"name":"Umbral",
@@ -1208,7 +1208,7 @@
 			"race":"kp_darakhul",
 			"abilityscorebonuses": [ {"strength":1} ],
 			"speed":30,
-			"features":[{"addlanguagesknown":["Northern"]}]
+			"features":[{"addlanguagesknown":["Northern Tongue"]}]
 		},
 		{
 			"name":"kp_gn_civilized",
@@ -2615,6 +2615,89 @@
 				"17":[
 					{"featuretextwithbullet":"Channel Divinity: Time Stop"},
 					{"featuretext":"You can use your Channel Divinity to stop the flow of time. The effect is identical to the time stop spell; you can take 3 turns in a row when the effect is triggered. You must complete a long rest before using this ability again."}
+				]
+			}
+		},
+		{
+			"name":"kp_time_domain",
+			"displayname":"Time",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Time"},
+					{"menu":{
+						"name":"Select language",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Ankeshelian",
+								"displayname":"Ankeshelian",
+								"effects":[{"addlanguagesknown":"Ankeshelian"}]
+							},
+							{
+								"name":"Illyrian",
+								"displayname":"Illyrian",
+								"effects":[{"addlanguagesknown":"Illyrian"}]
+							},
+							{
+								"name":"Morphoi",
+								"displayname":"Morphoi",
+								"effects":[{"addlanguagesknown":"Morphoi"}]
+							},
+							{
+								"name":"Northern Tongue",
+								"displayname":"Northern Tongue",
+								"effects":[{"addlanguagesknown":"Northern Tongue"}]
+							},
+							{
+								"name":"Vos'Ghaen",
+								"displayname":"Vos'Ghaen",
+								"effects":[{"addlanguagesknown":"Vos'Ghaen"}]
+							}
+						]
+					}},
+					{"setskillproficiency":{"history":"true"}},
+					{"addspell":{"name":"Quicken","spelllevel":0}},
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":1}},
+					{"addspell":{"name":"Withered Sight","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Time's Embrace"},
+					{"featuretext":"When you are surprised at the beginning of an encounter, you can use your Channel Divinity to not be surprised."},
+					{"featuretext":"When you need to make a Dexterity saving throw, you can use your Channel Divinity to make the saving throw with advantage."}
+				],
+				"3":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":2}},
+					{"addspell":{"name":"Withered Sight","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":3}},
+					{"addspell":{"name":"Withered Sight","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"You can use your reaction to gain a +3 bonus to AC against an attack made against you. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this ability after a long rest. Additionally, you never suffer the negative aftereffect of the haste spell and can act normally when the spell ends."}
+				],
+				"7":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":4}},
+					{"addspell":{"name":"Withered Sight","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Expeditious Retreat","spelllevel":5}},
+					{"addspell":{"name":"Withered Sight","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"Channel Divinity: Mastery of Time"},
+					{"featuretext":"You can use your Channel Divinity to stop the flow of time. The effect is identical to the time stop spell: you can take 3 turns in a row when the effect is triggered. You must complete a long rest before using this ability again."},
+					{"featuretext":"You can use your Channel Divinity to allow you and your allies to ignore the effects of a temporal anomaly such as a time storm or a time rift for one minute. This effect is centered on you with a radius of 20 feet."}
 				]
 			}
 		}
