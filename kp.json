@@ -46,14 +46,14 @@
 								"name":"Artisan's tools",
 								"displayname":"Artisan's tools",
 								"effects":[
-									{"addtoolproficiencies":"Artisan's tools"}
+									{"addtoolproficiencies":["Artisan's Tools"]}
 								]
 							},
 							{
 								"name":"Healer's kit",
 								"displayname":"Healer's kit",
 								"effects":[
-									{"addtoolproficiencies":"Healer's kit"}
+									{"addtoolproficiencies":["Healer's Kit"]}
 								]
 							}
 						]
@@ -88,14 +88,14 @@
 								"name":"Cartographer's tools",
 								"displayname":"Cartographer's tools",
 								"effects":[
-									{"addtoolproficiencies":"Cartographer's tools"}
+									{"addtoolproficiencies":["Cartographer's Tools"]}
 								]
 							},
 							{
 								"name":"Navigator's tools",
 								"displayname":"Navigator's tools",
 								"effects":[
-									{"addtoolproficiencies":"Navigator's tools"}
+									{"addtoolproficiencies":["Navigator's Tools"]}
 								]
 							}
 						]
@@ -509,7 +509,7 @@
 				{"sharedclassfeature": {"name": "Darkvision"}},
 				{"featuretextwithbullet":"You have advantage on your attack roll against an enemy within 5 feet of you if you have an ally that's not incapacitated also within 5 feet of the target. You can apply this bonus to one attack per round."},
 				{"featuretextwithbullet":"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in bright sunlight."},
-				{"addtoolproficiencies":"One of alchemist's supplies OR mason's tools OR smith's tools OR tinker's tools."}
+				{"addtoolproficiencies":["One of alchemist's supplies OR mason's tools OR smith's tools OR tinker's tools."]}
 			],
 			"languages":[
 				"Common",
@@ -1087,7 +1087,7 @@
 			"race":"Dwarf",
 			"abilityscorebonuses": [ {"intelligence":1} ],
 			"features":[
-				{"addtoolproficiencies":"alchemist's supplies"},
+				{"addtoolproficiencies":["alchemist's supplies"]},
 				{"menu":{
 					"name":"Select cantrip",
 					"selections":1,
@@ -1810,7 +1810,7 @@
 							"Medicine"
 						]
 					}},
-					{"addtoolproficiencies":"Brewer's supplies"},
+					{"addtoolproficiencies":["Brewer's supplies"]},
 					{"featuretextwithbullet":"Your proficiency bonus is doubled for any ability check you make that uses Brewer's supplies."}
 				],
 				"2":[
@@ -1910,7 +1910,7 @@
 			"level":{
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Clockwork"},
-					{"addtoolproficiencies":"Clockmaker's tools"},
+					{"addtoolproficiencies":["Clockmaker's tools"]},
 					{"addarmorproficiencies": ["Heavy armor"]},
 					{"featuretextwithbullet":"Advantage on attacks made against clockwork creatures and other constructs."},
 					{"addspell":{"name":"Analyze Device","spelllevel":1}},
@@ -1957,7 +1957,7 @@
 					{"addspell":{"name":"Grease","spelllevel":1}},
 					{"addspell":{"name":"Floating Disk","spelllevel":1}},
 					{"addspell":{"name":"Mage Hand","spelllevel":0}},
-					{"addtoolproficiencies":"carpenter's tools OR clockwork (jeweler's) tools OR mason's tools OR smith's tools OR weaver's tools"},
+					{"addtoolproficiencies":["carpenter's tools OR clockwork (jeweler's) tools OR mason's tools OR smith's tools OR weaver's tools"]},
 					{"languagesknowntext":"Understand Machine Speech, but cannot speak it."},
 					{"addarmorproficiencies": ["Heavy armor"]}
 				],
@@ -2127,7 +2127,7 @@
 				"1":[
 					{"featuretextwithbullet":"Cleric Domain: Hunger"},
 					{"setskillproficiency":{"survival":"true"}},
-					{"addtoolproficiencies":"Cooking tools"},
+					{"addtoolproficiencies":["Cooking tools"]},
 					{"addarmorproficiencies": ["Heavy armor"]},
 					{"addspell":{"name":"Poison Spray","spelllevel":0}},
 					{"addspell":{"name":"Goodberry","spelllevel":1}},
@@ -2718,7 +2718,7 @@
 						]
 					}},
 					{"addlanguagesknown":["Two additional standard languages of your choice"]},
-					{"addtoolproficiencies":"Cartographer's tools"},
+					{"addtoolproficiencies":["Cartographer's tools"]},
 					{"addspell":{"name":"Comprehend Languages","spelllevel":1}},
 					{"addspell":{"name":"Longstrider","spelllevel":1}}
 				],
@@ -2757,6 +2757,58 @@
 				"17":[
 					{"featuretextwithbullet":"You ignore difficult terrain."},
 					{"featuretextwithbullet":"You have resistance to cold and fire damage."}
+				]
+			}
+		},
+		{
+			"name":"kp_void_domain",
+			"displayname":"Void",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Void"},
+					{"setskillproficiency":{"arcana":"true"}},
+					{"setskillproficiency":{"intimidation":"true"}},
+					{"addtoolproficiencies":["Navigator's Tools"]},
+					{"addspell":{"name":"Ray of Sickness","spelllevel":1}},
+					{"addspell":{"name":"Protection from the Void","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Hidden Knowledge"},
+					{"featuretext":"You can use your Channel Divinity to gain advantage on Intelligence skill checks. In addition, you can choose to use your Wisdom modifier instead of Intelligence when making these checks. Both effects last for one hour."}
+				],
+				"3":[
+					{"addspell":{"name":"Destructive Resonance","spelllevel":2}},
+					{"addspell":{"name":"Rope Trick","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Gaseous Form","spelllevel":3}},
+					{"addspell":{"name":"Void Strike","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"Channel Divinity: Dark Secrets"},
+					{"featuretext":"You you can use your Channel Divinity to inflict madness on creatures near you. When you present your holy symbol and speak of the void, up to three creatures of your choosing who can see and hear you must make successful Wisdom saving throws or be afflicted with temporary madness (selected randomly from the Short-Term Madness table). An affected creature repeats the saving throw at the end of its turn, ending the effect on itself with a successful save."}
+				],
+				"7":[
+					{"addspell":{"name":"Dimension Door","spelllevel":4}},
+					{"addspell":{"name":"Nether Weapon","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Contact Other Plane","spelllevel":5}},
+					{"addspell":{"name":"Living Shadows","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You can create crushing gravity in a 60-foot radius circle with you at the center. The area becomes difficult terrain for the duration. Creatures that start their turn in the area or that enter it during their turn must make a Strength saving throw. If the saving throw fails, the creature takes 7d6 bludgeoning damage and is slowed (as the spell) until the start of its next turn. You and up to three creatures you select are immune to the effect."},
+					{"featuretext":"The gravity lasts for three rounds. All of the effects cease immediately if you move away from the spot you were in when you triggered the effect. After using this ability, you must complete a long rest before using it again."}
 				]
 			}
 		}
