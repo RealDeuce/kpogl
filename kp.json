@@ -2811,6 +2811,47 @@
 					{"featuretext":"The gravity lasts for three rounds. All of the effects cease immediately if you move away from the spot you were in when you triggered the effect. After using this ability, you must complete a long rest before using it again."}
 				]
 			}
+		},
+		{
+			"name":"kp_circle_of_the_stones",
+			"displayname":"Stones",
+			"class":"Druid",
+			"level":{
+				"2":[
+					{"addspell":{"name":"Find Familiar","spelllevel":1}},
+					{"featuretextwithbullet":"As long as you and your spirit guide (familiar) are within 100 feet of each other, the spirit guide can maintain concentration on a druid spell you cast. You must choose whether to maintain a spell yourself or make your spirit guide responsible for it at the moment the spell is cast, and the decision can't be changed on a later turn. This doesn't change the target or the caster of the spell. You can still have only one concentration spell in effect at a time; if you concentrate on a different spell or effect, the spirit guide's concentration ends. You can still share your spirit guide's senses and cast touch spells through the spirit guide normally while it's maintaining concentration. The spirit guide makes concentration checks when it takes damage, not when you take damage."}
+				],
+				"3":[
+					{"addspell":{"name":"Augury","spelllevel":2}},
+					{"addspell":{"name":"Invisibility","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Speak with Dead","spelllevel":3}},
+					{"addspell":{"name":"Spirit Guardians","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"As a bonus action you can engage in a dance to channel the power of the spirit world. If you cast a druid spell on your next turn, one target of the spell has disadvantage on its first saving throw against the spell. You can't use this ability again until you finish a short or long rest."}
+				],
+				"7":[
+					{"addspell":{"name":"Divination","spelllevel":4}},
+					{"addspell":{"name":"Hallucinatory Terrain","spelllevel":4}}
+				],
+				"9":[
+					{"addspell":{"name":"Antilife Shell","spelllevel":5}},
+					{"addspell":{"name":"Scrying","spelllevel":5}}
+				],
+				"10":[
+					{"featuretextwithbullet":"The spirits rush to your aid when you're grievously wounded. When you are reduced to 0 hit points but not killed outright, you are reduced to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest."}
+				],
+				"14":[
+					{"featuretextwithbullet":"As an action you can dissolve your flesh into ectoplasm for up to one minute. For the duration:"},
+					{"featuretext":"you gain a fly speed equal to your base walking speed;"},
+					{"featuretext":"you are resistant to acid, cold, fire, lightning, thunder, and nonmagical bludgeoning, piercing and slashing damage;"},
+					{"featuretext":"you can't be grappled, petrified, prone, or restrained;"},
+					{"featuretext":"you can move through creatures and solid objects as if they were difficult terrain, but you take 5 (1d10) force damage if you end your turn inside an object."},
+					{"featuretext":"Maintaining this ability requires concentration the same as if it were a spell. Once you use this ability, you can't use it again until you finish a short or long rest."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
