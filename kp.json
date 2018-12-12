@@ -2700,6 +2700,65 @@
 					{"featuretext":"You can use your Channel Divinity to allow you and your allies to ignore the effects of a temporal anomaly such as a time storm or a time rift for one minute. This effect is centered on you with a radius of 20 feet."}
 				]
 			}
+		},
+		{
+			"name":"kp_travel_domain",
+			"displayname":"Travel",
+			"class":"Cleric",
+			"level":{
+				"1":[
+					{"featuretextwithbullet":"Cleric Domain: Travel"},
+					{"skillmenu":{
+						"selections":1,
+						"title":"Born to the Road",
+						"skills":[
+							"insight",
+							"nature",
+							"survival"
+						]
+					}},
+					{"addlanguagesknown":["Two additional standard languages of your choice"]},
+					{"addtoolproficiencies":"Cartographer's tools"},
+					{"addspell":{"name":"Comprehend Languages","spelllevel":1}},
+					{"addspell":{"name":"Longstrider","spelllevel":1}}
+				],
+				"2":[
+					{"featuretextwithbullet":"Channel Divinity: Reinvigorate"},
+					{"featuretext":"You can use your Channel Divinity to remove one level of exhaustion from yourself or from someone else you touch."}
+				],
+				"3":[
+					{"addspell":{"name":"Find Steed","spelllevel":2}},
+					{"addspell":{"name":"Pass Without Trace","spelllevel":2}}
+				],
+				"5":[
+					{"addspell":{"name":"Haste","spelllevel":3}},
+					{"addspell":{"name":"Water Walk","spelllevel":3}}
+				],
+				"6":[
+					{"featuretextwithbullet":"If you are planning to travel any distance longer than 5 days' travel and you have a map of the region to be traversed or first-hand knowledge of the area, you can find a shortcut. Using the alternate path will reduce your travel time by 30 percent."}
+				],
+				"7":[
+					{"addspell":{"name":"Dimension Door","spelllevel":4}},
+					{"addspell":{"name":"Freedom of Movement","spelllevel":4}}
+				],
+				"8":[
+					{"featuretextwithbullet":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 lightning damage to the target."}
+				],
+				"9":[
+					{"addspell":{"name":"Shadow Realm Gateway","spelllevel":5}},
+					{"addspell":{"name":"Teleportation Circle","spelllevel":5}}
+				],
+				"14":[
+					{"replacestringfromfeaturetext":{
+						"find":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 lightning damage to the target.",
+						"replacementtext":"You have the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 lightning damage to the target."
+					}}
+				],
+				"17":[
+					{"featuretextwithbullet":"You ignore difficult terrain."},
+					{"featuretextwithbullet":"You have resistance to cold and fire damage."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
