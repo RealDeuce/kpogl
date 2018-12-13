@@ -2852,6 +2852,74 @@
 					{"featuretext":"Maintaining this ability requires concentration the same as if it were a spell. Once you use this ability, you can't use it again until you finish a short or long rest."}
 				]
 			}
+		},
+		{
+			"name":"kp_clanking_mercenary",
+			"displayname":"Clanking Mercenary",
+			"class":"Fighter",
+			"level":{
+				"3":[
+					{"menu":{
+						"name":"Clanker's Craft",
+						"selections":1,
+						"entries":[
+							{
+								"name":"Blacksmith's tools",
+								"displayname":"Blacksmith's tools",
+								"effects":[
+									{"addtoolproficiencies":["Blacksmith's Tools"]}
+								]
+							},
+							{
+								"name":"Tinker's tools",
+								"displayname":"Tinker's tools",
+								"effects":[
+									{"addtoolproficiencies":["Tinker's Tools"]}
+								]
+							}
+						]
+					}},
+					{"featuretextwithbullet":"With 1 hour of work (which you can perform once during a long rest), you can use blacksmith's or tinker's tools to temporarily improve the effectiveness of a weapon or a suit of armor. The item remains improved for 24 hours or until the effect is used. An improved effect on a piece of equipment can be used once. This number of uses increases by one at 7th level (two uses) and again at 15th level (three uses). The improvement effects vary by the type of equipment."},
+					{"featuretextwithbullet":"Armor (Option 1). When the creature wearing the armor is subjected to a damaging effect that allows a Constitution or Dexterity saving throw for half damage, the wearer can gain advantage on the saving throw."},
+					{"featuretextwithbullet":"Armor (Option 2). The creature wearing the armor can gain advantage when making an ability check to prevent itself from being grappled or to escape from a grapple."},
+					{"featuretextwithbullet":"Weapon. When a creature is hit with an improved weapon, the weapon's wielder can choose to add your proficiency bonus to the damage roll."}
+				],
+				"7":[
+					{"featuretextwithbullet":"You have advantage on saving throws against being charmed or frightened."}
+				],
+				"10":[
+					{"featuretextwithbullet":"When you gain exhaustion, you can reduce the number of levels gained by 1. Once you use this ability, you can't use it again until you finish a long rest. You reduce your exhaustion level by 1 every time you finish a long or short rest, provided you have adequate food and drink."}
+				],
+				"15":[
+					{"featuretextwithbullet":"You can improve two pieces of equipment when you spend an hour using your Shaper of Metal ability."}
+				],
+				"18":[
+					{"featuretextwithbullet":"As a bonus action you can expend a hit die to negate a harmful condition affecting you. The condition can be grappled, poisoned, prone, stunned, or restrained."}
+				]
+			}
+		},
+		{
+			"name":"kp_edjet",
+			"displayname":"Edjet",
+			"class":"Fighter",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"When you wield a versatile weapon and a shield at the same time, you can use the versatile damage rating of your weapon as if you wielded it in two hands."}
+				],
+				"7":[
+					{"featuretextwithbullet":"While you're wielding a shield and a versatile weapon, you can use the Attack action to make a wide, sweeping attack. Make a Shove attempt against a creature within reach. If you knock the creature prone or push it away, you can immediately make another Shove against a different creature within reach. You can Shove up to three creatures in this manner. After using this ability twice, you must complete a short or long rest before using it again."}
+				],
+				"10":[
+					{"featuretextwithbullet":"When you finish a short rest, you can choose to tap into a reserve of draconic vitality. For each hit die you spend at the end of this rest, add double your Constitution modifier to the number of hit points regained. Also, remove one level of exhaustion for each hit die you spent. You can't use this ability again until you finish a long rest."}
+				],
+				"15":[
+					{"featuretextwithbullet":"When a creature you can see hits you with an attack while you are wielding a shield, you can use your reaction to add your proficiency bonus to your AC against that attack. "},
+					{"featuretextwithbullet":"When an ally within 5 feet of you is affected by an effect that allows a Dexterity saving throw for half damage, you can use your reaction to grant the ally advantage on the saving throw."}
+				],
+				"18":[
+					{"featuretextwithbullet":"When you successfully Shove a creature with your Weapon Sweep, you also deal damage as if you hit the creature with your weapon."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
