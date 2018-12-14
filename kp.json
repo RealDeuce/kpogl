@@ -3033,6 +3033,7 @@
 			"class":"Fighter",
 			"level":{
 				"3":[
+					{"featuretextwithbullet":"Fighter Archetype: Shield Bearer"},
 					{"featuretextwithbullet":"When you take the Attack action, you can make an improvised weapon attack with your shield as a bonus action."}
 				],
 				"7":[
@@ -3052,6 +3053,30 @@
 					{"featuretextwithbullet":"While wielding a shield, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."},
 					{"featuretextwithbullet":"When you fail a saving throw against being charmed, frightened, paralyzed, petrified, stunned, or knocked prone, you can choose to succeed instead; after using this ability once, you must complete a short or long rest before using it again."},
 					{"featuretextwithbullet":"You have advantage on ability checks and saving throws against effects that would cause you to drop your shield."}
+				]
+			}
+		},
+		{
+			"name":"kp_sword_dancer",
+			"displayname":"Sword Dancer",
+			"class":"Fighter",
+			"level":{
+				"3":[
+					{"setskillproficiency":{"performance":"true"}},
+					{"setskillproficiency":{"persuasion":"true"}},
+					{"featuretextwithbullet":"While wearing light or no armor, you can add your Charisma modifier (minimum of 1) to your armor class, and you ignore difficult terrain."}
+				],
+				"7":[
+					{"featuretextwithbullet":"When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature until the start of your next turn."}
+				],
+				"10":[
+					{"featuretextwithbullet":"After you move at least 10 feet, your melee attacks deal an additional 1d8 damage until the start of your next turn."}
+				],
+				"15":[
+					{"featuretextwithbullet":"As a reaction when you take damage from a creature within 5 feet of you, you can make one melee weapon attack against that creature."}
+				],
+				"18":[
+					{"featuretextwithbullet":"When you take the Attack action, you can use the Dash action as a bonus action. When you Dash in this way, attack rolls made against you have disadvantage until the start of your next turn. You can use this feature twice, and you regain all expended uses when you finish a short or long rest."}
 				]
 			}
 		}
