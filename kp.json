@@ -3026,6 +3026,34 @@
 					}}
 				]
 			}
+		},
+		{
+			"name":"kp_shield_bearer",
+			"displayname":"Shield Bearer",
+			"class":"Fighter",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"When you take the Attack action, you can make an improvised weapon attack with your shield as a bonus action."}
+				],
+				"7":[
+					{"featuretextwithbullet":"While you are wielding a shield, your foes treat the area within 5 feet of you as difficult terrain. If you didn’t move on your turn, you have advantage on any ability check or saving throw made against being knocked prone or being moved from your current location."}
+				],
+				"10":[
+					{"featuretextwithbullet":"When wielding a shield, you gain the following benefit, appropriate to your chosen Fighting Style."},
+					{"featuretext":" - Defense. When you are missed by a melee attack made by a creature within 5 feet of you, as a reaction you can Shove the attacker. If you successfully push the attacker away, you can step into the just-vacated space."},
+					{"featuretext":" - Dueling. Once per turn when you hit a creature with a one-handed weapon, increase the damage you deal by an amount equal to your shield’s AC bonus."},
+					{"featuretext":" - Protection. When you use your protection Fighting Style, you also increase your chosen ally’s AC by 1."},
+					{"featuretext":" - Two-Weapon Fighting. You are proficient with improvised attacks made with a shield, and improvised attacks with a shield deal 1d6 bludgeoning damage."}
+				],
+				"15":[
+					{"featuretextwithbullet":"You add your shield’s AC bonus to Wisdom, Intelligence, and Charisma saving throws."}
+				],
+				"18":[
+					{"featuretextwithbullet":"While wielding a shield, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."},
+					{"featuretextwithbullet":"When you fail a saving throw against being charmed, frightened, paralyzed, petrified, stunned, or knocked prone, you can choose to succeed instead; after using this ability once, you must complete a short or long rest before using it again."},
+					{"featuretextwithbullet":"You have advantage on ability checks and saving throws against effects that would cause you to drop your shield."}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
