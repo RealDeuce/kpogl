@@ -2953,6 +2953,79 @@
 					{"featuretextwithbullet":"As a bonus action, you and your mount become ghostly and insubstantial for 1 minute. You gain resistance to bludgeoning, slashing, and piercing damage from nonmagical attacks, and you can move through creatures and objects as if they were difficult terrain, but you take 5 (1d10) force damage and are pushed to the nearest open space if you end your turn inside an object."}
 				]
 			}
+		},
+		{
+			"name":"kp_griffon_knight",
+			"displayname":"Griffon Knight",
+			"class":"Fighter",
+			"level":{
+				"3":[
+					{"featuretextwithbullet":"Fighter Archetype: Griffon Knight"},
+					{"featuretextwithbullet":"You have a trained griffon as your mount. Your griffon is a fierce and loyal steed, forming a lifelong bond with you and fighting to protect you in battle. Use the standard griffon stats, but each time your proficiency bonus increases (at 5th level, 9th level, etc.), add +1 to your griffon's AC, saving throws, and attack bonus, and increase its maximum hit points by 10."},
+					{"featuretextwithbullet":"Your griffon obeys your commands to the best of its ability, taking its turn on your initiative. It moves and acts as you direct it, with just three action options (Dash, Disengage, and Dodge). If you want the griffon to attack, you must use your action to command the griffon to do so; this allows it to use the Attack action as a reaction on your turn. Once you gain the Extra Attack feature, you can make a weapon attack yourself in addition to ordering your griffon to attack."},
+					{"featuretextwithbullet":"Trained griffons are in short supply. If your griffon dies, you must wait until a new mount can be located for you by the Order. This typically takes around 30 days, but this period can be longer or shorter, at the GM’s discretion. Importantly, griffon knights who are given a replacement mount are expected to provide a viable griffon egg to the Order in return."},
+					{"featuretextwithbullet":"You have advantage on saving throws and ability checks to avoid falling off your griffon."},
+					{"featuretextwithbullet":"You have the ability to cast the feather fall spell once per day, using Charisma as your spellcasting ability."},
+					{"addspell":{"name":"Feather Fall","spelllevel":1}}
+				],
+				"7":[
+					{"featuretextwithbullet":"You know the following special aerial combat maneuvers. You must be mounted on your griffon to use these maneuvers. You can use more than one maneuver per turn, but you can only use a single maneuver on an attack. Once you’ve used a total of five maneuvers, you must take a short or long rest before you can use any of them again."},
+					{"featuretext":"Fury. When a creature hits you or your griffon with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, add an extra 1d8 to your weapon’s damage roll."},
+					{"featuretext":"Daring Flyby. When you make a melee attack, deal an extra 1d8 damage if you hit, and neither you nor your griffon provokes an opportunity attack when moving out of your opponent’s reach before both your and your griffon’s turns have ended."},
+					{"featuretext":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d8 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount."},
+					{"featuretextwithbullet":"When you are mounted on your griffon, both your own attacks and your griffon’s beak and claw attacks score a critical hit on a roll of 19-20."}
+				],
+				"10":[
+					{"replacestringfromfeaturetext":{
+						"find":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d8 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount.",
+						"replacementtext":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d8 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount.\nDeadly Swoop. While mounted on your griffon, you can make a devastating dive attack. You must begin the move at a higher point than your target and you must move at least 30 feet straight toward the target before the attack. You and your griffon make your attack rolls with advantage, and you add 1d10 to the damage for each attack that hits."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Fury. When a creature hits you or your griffon with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, add an extra 1d8 to your weapon’s damage roll.",
+						"replacementtext":"Fury. When a creature hits you or your griffon with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, add an extra 1d10 to your weapon’s damage roll."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Daring Flyby. When you make a melee attack, deal an extra 1d8 damage if you hit, and neither you nor your griffon provokes an opportunity attack when moving out of your opponent’s reach before both your and your griffon’s turns have ended.",
+						"replacementtext":"Daring Flyby. When you make a melee attack, deal an extra 1d10 damage if you hit, and neither you nor your griffon provokes an opportunity attack when moving out of your opponent’s reach before both your and your griffon’s turns have ended."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d8 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount.",
+						"replacementtext":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d10 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount."
+					}}
+				],
+				"15":[
+					{"replacestringfromfeaturetext":{
+						"find":"When you are mounted on your griffon, both your own attacks and your griffon’s beak and claw attacks score a critical hit on a roll of 19-20.",
+						"replacementtext":"When you are mounted on your griffon, both your own attacks and your griffon’s beak and claw attacks score a critical hit on a roll of 18-20."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"You know the following special aerial combat maneuvers. You must be mounted on your griffon to use these maneuvers. You can use more than one maneuver per turn, but you can only use a single maneuver on an attack. Once you’ve used a total of five maneuvers, you must take a short or long rest before you can use any of them again.",
+						"replacementtext":"You know the following special aerial combat maneuvers. You must be mounted on your griffon to use these maneuvers. You can use more than one maneuver per turn, but you can only use a single maneuver on an attack. Once you’ve used a total of six maneuvers, you must take a short or long rest before you can use any of them again."
+					}}
+				],
+				"18":[
+					{"replacestringfromfeaturetext":{
+						"replacementtext":"You know the following special aerial combat maneuvers. You must be mounted on your griffon to use these maneuvers. You can use more than one maneuver per turn, but you can only use a single maneuver on an attack. Once you’ve used a total of seven maneuvers, you must take a short or long rest before you can use any of them again.",
+						"find":"You know the following special aerial combat maneuvers. You must be mounted on your griffon to use these maneuvers. You can use more than one maneuver per turn, but you can only use a single maneuver on an attack. Once you’ve used a total of six maneuvers, you must take a short or long rest before you can use any of them again."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Deadly Swoop. While mounted on your griffon, you can make a devastating dive attack. You must begin the move at a higher point than your target and you must move at least 30 feet straight toward the target before the attack. You and your griffon make your attack rolls with advantage, and you add 1d10 to the damage for each attack that hits.",
+						"replacementtext":"Deadly Swoop. While mounted on your griffon, you can make a devastating dive attack. You must begin the move at a higher point than your target and you must move at least 30 feet straight toward the target before the attack. You and your griffon make your attack rolls with advantage, and you add 1d12 to the damage for each attack that hits."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Fury. When a creature hits you or your griffon with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, add an extra 1d10 to your weapon’s damage roll.",
+						"replacementtext":"Fury. When a creature hits you or your griffon with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, add an extra 1d12 to your weapon’s damage roll."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Daring Flyby. When you make a melee attack, deal an extra 1d10 damage if you hit, and neither you nor your griffon provokes an opportunity attack when moving out of your opponent’s reach before both your and your griffon’s turns have ended.",
+						"replacementtext":"Daring Flyby. When you make a melee attack, deal an extra 1d12 damage if you hit, and neither you nor your griffon provokes an opportunity attack when moving out of your opponent’s reach before both your and your griffon’s turns have ended."
+					}},
+					{"replacestringfromfeaturetext":{
+						"find":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d10 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount.",
+						"replacementtext":"Forceful Charge. When you hit a creature with a melee attack, your attack does an extra 1d12 damage, and if the target is size Large or smaller, it must make a successful Strength saving throw (DC 8 + your proficiency bonus + your Strength modified) or be knocked prone. A mounted opponent that’s knocked prone is also knocked off its mount."
+					}}
+				]
+			}
 		}
 	],
 	"sharedclassfeatures" : [],
