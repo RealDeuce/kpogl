@@ -1376,8 +1376,10 @@ Advanced Races: Ravenfolk © 2014 Open Design; Authors: Wade Rockett.
 Advanced Races: Shadow Fey. © 2014 Open Design; Authors: Carlos and Holly Ovalle.
 Advanced Races: Trollkin. © 2015 Open Design; Authors: Steven T.Helt, Stephen Rowe, and Dan Dillon.
 Advanced Races: Werelions. © 2015 Open Design; Authors: Ben McFarland and Brian Suskind.
+An Enigma Lost in a Maze ©2018 Open Design. Author: Richard Pett.
 Bastion of Rime and Salt. Author: Jon Sawatsky. © 2018 Open Design LLC.
 Beyond Damage Dice © 2016 Open Design; Author: James J. Haeck.
+Birds of a Feather Author Kelly Pawlik. © 2019 Open Design LLC.
 Black Sarcophagus Author: Chris Lockey. © 2018 Open Design LLC.
 Blood Vaults of Sister Alkava. © 2016 Open Design. Author: Bill Slavicsek.
 Book of Lairs for Fifth Edition. Copyright 2016, Open Design; Authors Robert Adducci, Wolfgang Baur, Enrique Bertran, Brian Engard, Jeff Grubb, James J. Haeck, Shawn Merwin, Marc Radle, Jon Sawatsky, Mike Shea, Mike Welham, and Steve Winter.
@@ -1413,6 +1415,7 @@ Eldritch Lairs for Fifth Edition. Copyright 2018, Open Design; Authors James J. 
 Empire of the Ghouls, ©2007 Wolfgang Baur, www.wolfgangbaur.com. All rights reserved.
 Fifth Edition Foes, © 2015, Necromancer Games, Inc.; Authors Scott Greene, Matt Finch, Casey Christofferson, Erica Balsley, Clark Peterson, Bill Webb, Skeeter Green, Patrick Lawinger, Lance Hawvermale, Scott Wylie Roberts “Myrystyr”, Mark R. Shipley, “Chgowiz”
 Firefalls of Ghoss. Author: Jon Sawatsky. © 2018 Open Design LLC.
+Fowl Play. Author: Kelly Pawlik. © 2019 Open Design LLC.
 Grimalkin ©2016 Open Design; Authors: Richard Pett with Greg Marks
 Imperial Gazetteer, ©2010, Open Design LLC.
 Items Wondrous Strange © 2017 Open Design; Authors: James Bitoy, Peter von Bleichert, Dan Dillon, James Haeck, Neal Litherland, Adam Roy, and Jon Sawatsky.
@@ -1441,8 +1444,11 @@ Pathfinder Ultimate Magic Copyright 2011, Paizo Publishing, LLC; Author: Jason B
 Prepared: A Dozen Adventures for Fifth Edition. Copyright 2016, Open Design; Author Jon Sawatsky.
 Prepared 2: A Dozen Fifth Edition One-Shot Adventures. Copyright 2017, Open Design; Author Jon Sawatsky.
 Pride of the Mushroom Queen. Author: Mike Welham. © 2018 Open Design LLC.
+Reclamation of Hallowhall. Author: Jeff Lee. © 2019 Open Design LLC.
 Red Lenny’s Famous Meat Pies. Author: James J. Haeck. © 2017 Open Design.
 Return to Castle Shadowcrag. © 2018 Open Design; Authors Wolfgang Baur, Chris Harris, and Thomas Knauss.
+Rumble in the Henhouse. © 2019 Open Design LLC. Author Kelly Pawlik.
+Run Like Hell. ©2019 Open Design LLC. Author Mike Welham.
 Sanctuary of Belches © 2016 Open Design; Author: Jon Sawatsky.
 Shadow’s Envy. Author: Mike Welham. © 2018 Open Design LLC.
 Shadows of the Dusk Queen, © 2018, Open Design LLC; Author Marc Radle.
@@ -1475,6 +1481,7 @@ The Returners’ Tower. Author: Jon Sawatsky. © 2018 Open Design LLC.
 The Rune Crypt of Sianis. Author: Jon Sawatsky. © 2018 Open Design LLC.
 The Scorpion’s Shadow. Author: Chris Harris. © 2018 Open Design LLC.
 The Seal of Rhydaas. Author: James J. Haeck. © 2017 Open Design.
+The Sunken Library of Qezzit Qire. © 2019 Open Design LLC. Author Mike Welham.
 The Tomb of Mercy (C) 2016 Open Design. Author: Sersa Victory.
 The Wilding Call Author Mike Welham. © 2019 Open Design LLC.
 Three Little Pigs - Part One: Nulah’s Tale. Author: Richard Pett. © 2019 Open Design LLC.
@@ -1498,6 +1505,8 @@ Warlock 7: Fey Courts. Authors: Wolfgang Baur, Shawn Merwin , Jon Sawatsky, Troy
 Warlock 8: Undead. Authors: Wolfgang Baur, Dan Dillon, Chris Harris, Kelly Pawlik. © 2018 Open Design.
 Warlock 9: The World Tree. Authors: Wolfgang Baur, Sarah Madsen, Richard Green, and Kelly Pawlik. © 2018 Open Design LLC.
 Warlock 10: The Magocracies. Authors: Dan Dillon, Ben McFarland, Kelly Pawlik, Troy E. Taylor. © 2019 Open Design LLC.
+Warlock 11: Treasure Vaults. Authors: Lysa Chen, Richard Pett, Marc Radle, Mike Welham. © 2019 Open Design LLC.
+Warlock 12: Dwarves. Authors: Wolfgang Baur, Ben McFarland and Robert Fairbanks, Hannah Rose, Ashley Warren. © 2019 Open Design LLC.
 Zobeck Gazetteer, ©2008, Open Design LLC; Author: Wolfgang Baur.
 Zobeck Gazetteer Volume 2: Dwarves of the Ironcrags ©2009, Open Design LLC.
 Zobeck Gazetteer for 5th Edition. Copyright ©2018 Open Design LLC. Author: James Haeck.
