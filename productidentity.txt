@@ -23,7 +23,6 @@ Archae
 Archer's Walk
 Arching Castle
 Aroa
-Arshin
 Arshin's Tower
 Artaona
 Ascanlia
@@ -208,6 +207,7 @@ Harrapo-Dar
 Hartani Bay
 Haunted lands of the giants
 Heiderbirg
+Heithmir
 Hellersbad
 Hengksburg
 Herak
@@ -432,7 +432,6 @@ Queen of Birds
 Queen of Cats
 Queen of Night and Magic
 Queen of Serpents
-Queen of Witches
 Rados
 Raguza
 Ransom Siege
@@ -653,7 +652,7 @@ Vurkove Hills
 Vursalis
 Wagenstein
 Wallenbirg
-Wandering RealmKariv
+Wandering Realm
 Weeping Shrine
 Wendestal Forest
 Western Ocean
