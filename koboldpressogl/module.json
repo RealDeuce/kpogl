@@ -1,0 +1,26 @@
+{
+  "name": "koboldpressogl",
+  "title": "Kobold Press OGL Compendium",
+  "description": "Content from kpogl.wikidot.com converted automatically (weapon attacks not yet imported)",
+  "version": 0.1,
+  "author": "Deuce",
+  "systems": ["dnd5e"],
+  "scripts": [],
+  "styles": [],
+  "packs": [
+    {
+      "name": "koboldpressmonsters",
+      "label": "OGL Kobold Press Monsters",
+      "system": "dnd5e",
+      "path": "packs/KPmonsters.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "koboldpressspells",
+      "label": "OGL Kobold Press Spells",
+      "system": "dnd5e",
+      "path": "packs/KPspells.db",
+      "entity": "Item"
+    }
+  ]
+}
