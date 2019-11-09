@@ -1,8 +1,8 @@
 {
   "name": "koboldpressogl",
   "title": "Kobold Press OGL Compendium",
-  "description": "Content from kpogl.wikidot.com converted automatically (weapon attacks not yet imported)",
-  "version": 0.1,
+  "description": "Content from kpogl.wikidot.com converted automatically (weapon attacks imported as ability attacks)",
+  "version": 0.2,
   "author": "Deuce",
   "systems": ["dnd5e"],
   "scripts": [],
