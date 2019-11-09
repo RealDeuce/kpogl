@@ -4,7 +4,7 @@
   "description": "Content from kpogl.wikidot.com converted automatically",
   "version": 0.3,
   "author": "Deuce",
-  "manifest": "https://raw.githubusercontent.com/realdeuce/kpogl/koboldpressogl/module.json",
+  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
   "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
   "systems": ["dnd5e"],
   "scripts": [],
