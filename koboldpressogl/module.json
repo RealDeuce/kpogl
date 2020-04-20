@@ -2,7 +2,7 @@
   "name": "koboldpressogl",
   "title": "Kobold Press OGL Compendium",
   "description": "Content from kpogl.wikidot.com converted automatically",
-  "version": "0.16",
+  "version": "0.17",
   "author": "Deuce",
   "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
   "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
@@ -25,5 +25,6 @@
       "entity": "Item"
     }
   ],
-  "minimumCoreVersion": "0.4.4"
+  "minimumCoreVersion": "0.4.4",
+  "compatibleCoreVersion": "0.5.5"
 }
