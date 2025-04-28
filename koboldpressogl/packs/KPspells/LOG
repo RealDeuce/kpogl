@@ -1,5 +1,5 @@
-2025/04/27-23:18:23.095108 83f66a18900 Delete type=3 #1
-2025/04/27-23:18:23.112027 83f688b8000 Level-0 table #5: started
-2025/04/27-23:18:23.127257 83f688b8000 Level-0 table #5: 873879 bytes OK
-2025/04/27-23:18:23.128392 83f688b8000 Delete type=0 #3
-2025/04/27-23:18:23.128556 83f688b8000 Manual compaction at level-0 from '!items!0000000000KPmaim' @ 72057594037927935 : 1 .. '!items!KPvomitTentacles' @ 0 : 0; will stop at (end)
+2025/04/28-01:45:45.733163 2cb01d617400 Delete type=3 #1
+2025/04/28-01:45:45.750896 2cb01eab8000 Level-0 table #5: started
+2025/04/28-01:45:45.773743 2cb01eab8000 Level-0 table #5: 869529 bytes OK
+2025/04/28-01:45:45.774982 2cb01eab8000 Delete type=0 #3
+2025/04/28-01:45:45.775168 2cb01eab8000 Manual compaction at level-0 from '!items!0000000000KPmaim' @ 72057594037927935 : 1 .. '!items!KPvomitTentacles' @ 0 : 0; will stop at (end)
