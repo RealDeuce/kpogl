@@ -2,6 +2,13 @@
   "title": "Kobold Press OGL Compendium",
   "description": "Content from kpogl.wikidot.com converted automatically",
   "version": "0.27",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "packs": [
     {
       "name": "koboldpressmonsters",
@@ -51,5 +58,92 @@
   "compatibility": {
     "minimum": "11",
     "verified": "12"
-  }
+  },
+  "flags":{"dnd5e":{"sourceBooks":{
+    "DM": "SOURCE.BOOK.DM",
+    "CC": "SOURCE.BOOK.CC",
+    "ToB": "SOURCE.BOOK.ToB",
+    "ToB2": "SOURCE.BOOK.ToB2",
+    "HH": "SOURCE.BOOK.HH",
+    "ToOM:PH": "SOURCE.BOOK.ToOM:PH",
+    "DM:Al": "SOURCE.BOOK.DM:Al",
+    "DM:A": "SOURCE.BOOK.DM:A",
+    "DM:B": "SOURCE.BOOK.DM:B",
+    "DM:B&D": "SOURCE.BOOK.DM:B&D",
+    "DM:Ch": "SOURCE.BOOK.DM:Ch",
+    "DM:Cw": "SOURCE.BOOK.DM:Cw",
+    "DM:CD": "SOURCE.BOOK.DM:CD",
+    "DM:D": "SOURCE.BOOK.DM:D",
+    "DM:E": "SOURCE.BOOK.DM:E",
+    "DM:EH": "SOURCE.BOOK.DM:EH",
+    "DM:H": "SOURCE.BOOK.DM:H",
+    "DM:I": "SOURCE.BOOK.DM:I",
+    "DM:LL": "SOURCE.BOOK.DM:LL",
+    "DM:M": "SOURCE.BOOK.DM:M",
+    "DM:Ri": "SOURCE.BOOK.DM:Ri",
+    "DM:Ru": "SOURCE.BOOK.DM:Ru",
+    "DM:S": "SOURCE.BOOK.DM:S",
+    "DM:T": "SOURCE.BOOK.DM:T",
+    "DM:V": "SOURCE.BOOK.DM:V",
+    "DM:W": "SOURCE.BOOK.DM:W",
+    "SoZ": "SOURCE.BOOK.SoZ",
+    "MM:LL": "SOURCE.BOOK.MM:LL",
+    "W:SR": "SOURCE.BOOK.W:SR",
+    "WB": "SOURCE.BOOK.WB",
+    "SC": "SOURCE.BOOK.SC",
+    "SoB": "SOURCE.BOOK.SoB",
+    "WotRK": "SOURCE.BOOK.WotRK",
+    "TotOM": "SOURCE.BOOK.TotOM",
+    "RtCS": "SOURCE.BOOK.RtCS",
+    "CotSF": "SOURCE.BOOK.CotSF",
+    "CaM": "SOURCE.BOOK.CaM",
+    "G": "SOURCE.BOOK.G",
+    "tRC": "SOURCE.BOOK.tRC",
+    "12PT": "SOURCE.BOOK.12PT",
+    "SotDQ": "SOURCE.BOOK.SotDQ",
+    "ToM": "SOURCE.BOOK.ToM",
+    "BVoSA": "SOURCE.BOOK.BVoSA",
+    "MS": "SOURCE.BOOK.MS",
+    "ZG": "SOURCE.BOOK.ZG",
+    "IWS": "SOURCE.BOOK.IWS",
+    "WG": "SOURCE.BOOK.WG",
+    "WG2": "SOURCE.BOOK.WG2",
+    "EotG:PH": "SOURCE.BOOK.EotG:PH",
+    "EotG:L": "SOURCE.BOOK.EotG:L",
+    "W:LM": "SOURCE.BOOK.W:LM",
+    "MWB": "SOURCE.BOOK.MWB",
+    "DC&SS": "SOURCE.BOOK.DC&SS",
+    "DC&SS:EO": "SOURCE.BOOK.DC&SS:EO"
+    "W20": "SOURCE.BOOK.W20"
+    "W21": "SOURCE.BOOK.W21"
+    "W24": "SOURCE.BOOK.W24"
+    "W25": "SOURCE.BOOK.W25"
+    "WL3": "SOURCE.BOOK.WL3"
+    "WL11": "SOURCE.BOOK.WL11"
+    "WL12": "SOURCE.BOOK.WL12"
+    "WL17": "SOURCE.BOOK.WL17"
+    "WL18": "SOURCE.BOOK.WL18"
+    "WL19": "SOURCE.BOOK.WL19"
+    "WL21": "SOURCE.BOOK.WL21"
+    "WL22": "SOURCE.BOOK.WL22"
+    "WL25": "SOURCE.BOOK.WL25"
+    "WL26": "SOURCE.BOOK.WL26"
+    "WL27": "SOURCE.BOOK.WL27"
+    "WL28": "SOURCE.BOOK.WL28"
+    "WL29": "SOURCE.BOOK.WL29"
+    "WL30": "SOURCE.BOOK.WL30"
+    "WL31": "SOURCE.BOOK.WL31"
+    "WL39": "SOURCE.BOOK.WL39"
+    "WL40": "SOURCE.BOOK.WL40"
+    "WL47": "SOURCE.BOOK.WL47"
+    "WL50": "SOURCE.BOOK.WL50"
+    "WL51": "SOURCE.BOOK.WL51"
+    "WL52": "SOURCE.BOOK.WL52"
+    "WL54": "SOURCE.BOOK.WL54"
+    "WL56": "SOURCE.BOOK.WL56"
+    "WL57": "SOURCE.BOOK.WL57"
+    "WL58": "SOURCE.BOOK.WL58"
+    "WL60": "SOURCE.BOOK.WL60"
+    "WL61": "SOURCE.BOOK.WL61"
+  }}}
 }
