@@ -1,7 +1,7 @@
 {
   "title": "Kobold Press OGL Compendium",
   "description": "Content from kpogl.wikidot.com converted automatically",
-  "version": "0.27",
+  "version": "0.28",
   "languages": [
     {
       "lang": "en",
@@ -113,37 +113,37 @@
     "W:LM": "SOURCE.BOOK.W:LM",
     "MWB": "SOURCE.BOOK.MWB",
     "DC&SS": "SOURCE.BOOK.DC&SS",
-    "DC&SS:EO": "SOURCE.BOOK.DC&SS:EO"
-    "W20": "SOURCE.BOOK.W20"
-    "W21": "SOURCE.BOOK.W21"
-    "W24": "SOURCE.BOOK.W24"
-    "W25": "SOURCE.BOOK.W25"
-    "WL3": "SOURCE.BOOK.WL3"
-    "WL11": "SOURCE.BOOK.WL11"
-    "WL12": "SOURCE.BOOK.WL12"
-    "WL17": "SOURCE.BOOK.WL17"
-    "WL18": "SOURCE.BOOK.WL18"
-    "WL19": "SOURCE.BOOK.WL19"
-    "WL21": "SOURCE.BOOK.WL21"
-    "WL22": "SOURCE.BOOK.WL22"
-    "WL25": "SOURCE.BOOK.WL25"
-    "WL26": "SOURCE.BOOK.WL26"
-    "WL27": "SOURCE.BOOK.WL27"
-    "WL28": "SOURCE.BOOK.WL28"
-    "WL29": "SOURCE.BOOK.WL29"
-    "WL30": "SOURCE.BOOK.WL30"
-    "WL31": "SOURCE.BOOK.WL31"
-    "WL39": "SOURCE.BOOK.WL39"
-    "WL40": "SOURCE.BOOK.WL40"
-    "WL47": "SOURCE.BOOK.WL47"
-    "WL50": "SOURCE.BOOK.WL50"
-    "WL51": "SOURCE.BOOK.WL51"
-    "WL52": "SOURCE.BOOK.WL52"
-    "WL54": "SOURCE.BOOK.WL54"
-    "WL56": "SOURCE.BOOK.WL56"
-    "WL57": "SOURCE.BOOK.WL57"
-    "WL58": "SOURCE.BOOK.WL58"
-    "WL60": "SOURCE.BOOK.WL60"
+    "DC&SS:EO": "SOURCE.BOOK.DC&SS:EO",
+    "W20": "SOURCE.BOOK.W20",
+    "W21": "SOURCE.BOOK.W21",
+    "W24": "SOURCE.BOOK.W24",
+    "W25": "SOURCE.BOOK.W25",
+    "WL3": "SOURCE.BOOK.WL3",
+    "WL11": "SOURCE.BOOK.WL11",
+    "WL12": "SOURCE.BOOK.WL12",
+    "WL17": "SOURCE.BOOK.WL17",
+    "WL18": "SOURCE.BOOK.WL18",
+    "WL19": "SOURCE.BOOK.WL19",
+    "WL21": "SOURCE.BOOK.WL21",
+    "WL22": "SOURCE.BOOK.WL22",
+    "WL25": "SOURCE.BOOK.WL25",
+    "WL26": "SOURCE.BOOK.WL26",
+    "WL27": "SOURCE.BOOK.WL27",
+    "WL28": "SOURCE.BOOK.WL28",
+    "WL29": "SOURCE.BOOK.WL29",
+    "WL30": "SOURCE.BOOK.WL30",
+    "WL31": "SOURCE.BOOK.WL31",
+    "WL39": "SOURCE.BOOK.WL39",
+    "WL40": "SOURCE.BOOK.WL40",
+    "WL47": "SOURCE.BOOK.WL47",
+    "WL50": "SOURCE.BOOK.WL50",
+    "WL51": "SOURCE.BOOK.WL51",
+    "WL52": "SOURCE.BOOK.WL52",
+    "WL54": "SOURCE.BOOK.WL54",
+    "WL56": "SOURCE.BOOK.WL56",
+    "WL57": "SOURCE.BOOK.WL57",
+    "WL58": "SOURCE.BOOK.WL58",
+    "WL60": "SOURCE.BOOK.WL60",
     "WL61": "SOURCE.BOOK.WL61"
   }}}
 }
