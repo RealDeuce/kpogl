@@ -1,29 +1,55 @@
 {
-  "name": "koboldpressogl",
   "title": "Kobold Press OGL Compendium",
   "description": "Content from kpogl.wikidot.com converted automatically",
-  "version": "0.26",
-  "author": "Deuce",
-  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
-  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
-  "systems": ["dnd5e"],
-  "styles": [],
+  "version": "0.27",
   "packs": [
     {
       "name": "koboldpressmonsters",
       "label": "OGL Kobold Press Monsters",
       "system": "dnd5e",
-      "path": "packs/KPmonsters.db",
-      "entity": "Actor"
+      "path": "packs/KPmonsters",
+      "type": "Actor",
+      "flags": {"dnd5e":{"types":["npc"]}},
+      "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
     },
     {
       "name": "koboldpressspells",
       "label": "OGL Kobold Press Spells",
       "system": "dnd5e",
-      "path": "packs/KPspells.db",
-      "entity": "Item"
+      "path": "packs/KPspells",
+      "type": "Item",
+      "flags": {"dnd5e":{"types":["spell"]}},
+      "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
+    },
+    {
+      "name": "koboldpressjournal",
+      "label": "OGL Kobold Press Journals",
+      "system": "dnd5e",
+      "path": "packs/KPjournal",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {"dnd5e":{"dispaly":["kpogl"]}},
+      "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
     }
   ],
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.8"
+  "packFolders": [
+    {
+      "name":"OGL Kobold Press Content",
+      "sorting": "m",
+      "color": "#0f4d9e",
+      "packs": [
+        "koboldpressmonsters",
+        "koboldpressspells",
+        "koboldpressjournal"
+      ],
+      "folders": []
+    }
+  ],
+  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
+  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
+  "id": "koboldpressogl",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  }
 }
