@@ -1,0 +1,5 @@
+2025/06/21-17:45:33.856279 1ab49d817b00 Delete type=3 #1
+2025/06/21-17:45:33.875639 1ab4a1461a00 Level-0 table #5: started
+2025/06/21-17:45:33.895473 1ab4a1461a00 Level-0 table #5: 994439 bytes OK
+2025/06/21-17:45:33.897308 1ab4a1461a00 Delete type=0 #3
+2025/06/21-17:45:33.897525 1ab4a1461a00 Manual compaction at level-0 from '!items!KPaberrantagreem' @ 72057594037927935 : 1 .. '!items!KPziplinering000' @ 0 : 0; will stop at (end)

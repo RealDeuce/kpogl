@@ -1,5 +1,5 @@
-2025/04/30-04:55:06.595971 18806a417b00 Delete type=3 #1
-2025/04/30-04:55:06.832481 18807498a400 Level-0 table #5: started
-2025/04/30-04:55:07.029733 18807498a400 Level-0 table #5: 12851402 bytes OK
-2025/04/30-04:55:07.031760 18807498a400 Delete type=0 #3
-2025/04/30-04:55:07.032412 18807498a400 Manual compaction at level-0 from '!actors!0000000000000000' @ 72057594037927935 : 1 .. '!items!vsgmACFYINloIdPm' @ 0 : 0; will stop at (end)
+2025/06/21-17:45:19.435880 20c652e17b00 Delete type=3 #1
+2025/06/21-17:45:19.738717 20c662c25300 Level-0 table #5: started
+2025/06/21-17:45:19.978251 20c662c25300 Level-0 table #5: 15362162 bytes OK
+2025/06/21-17:45:19.980538 20c662c25300 Delete type=0 #3
+2025/06/21-17:45:19.981165 20c662c25300 Manual compaction at level-0 from '!actors!KPaalpamac000000' @ 72057594037927935 : 1 .. '!items!vsgmACFYINloIdPm' @ 0 : 0; will stop at (end)

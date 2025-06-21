@@ -1,5 +1,5 @@
 {
-  "title": "Kobold Press OGL Compendium",
+  "title": "Kobold Press OGL Compendium (Black Flag)",
   "description": "Content from kpogl.wikidot.com converted automatically",
   "version": "0.31",
   "languages": [
@@ -13,37 +13,39 @@
     {
       "name": "koboldpressmonsters",
       "label": "OGL Kobold Press Monsters",
-      "system": "dnd5e",
+      "system": "black-flag",
       "path": "packs/KPmonsters",
       "type": "Actor",
-      "flags": {"dnd5e":{"types":["npc"]}},
+      "flags": {"black-flag":{"types":["npc"]}},
       "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
     },
     {
       "name": "koboldpressspells",
       "label": "OGL Kobold Press Spells",
-      "system": "dnd5e",
+      "system": "black-flag",
       "path": "packs/KPspells",
       "type": "Item",
-      "flags": {"dnd5e":{"types":["spell"]}},
-      "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
-    },
-    {
-      "name": "koboldpressitems",
-      "label": "OGL Kobold Press Items",
-      "system": "dnd5e",
-      "path": "packs/KPitems",
-      "type": "Item",
+      "flags": {"black-flag":{"types":["spell"]}},
       "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
     },
     {
       "name": "koboldpressjournal",
       "label": "OGL Kobold Press Journals",
-      "system": "dnd5e",
+      "system": "black-flag",
       "path": "packs/KPjournal",
       "type": "JournalEntry",
       "private": false,
-      "flags": {"dnd5e":{"dispaly":["kpogl"]}},
+      "flags": {"black-flag":{"display":["kpogl"]}},
+      "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
+    },
+    {
+      "name": "koboldpressitems",
+      "label": "OGL Kobold Press Items",
+      "system": "black-flag",
+      "path": "packs/KPitems",
+      "type": "Item",
+      "private": false,
+      "flags": {"black-flag":{"display":["kpogl"]}},
       "ownership": {"PLAYER":"OBSERVER","ASSISTANT":"OWNER"}
     }
   ],
@@ -61,14 +63,14 @@
       "folders": []
     }
   ],
-  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module.json",
-  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip",
-  "id": "koboldpressogl",
+  "manifest": "http://kpogl.wdfiles.com/local--files/home:home/module-bf.json",
+  "download": "http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl-bf.zip",
+  "id": "koboldpressogl-bf",
   "compatibility": {
     "minimum": "11",
     "verified": "13"
   },
-  "flags":{"dnd5e":{"sourceBooks":{
+  "flags":{"black-flag":{"sourceBooks":{
     "12PT": "SOURCE.BOOK.12PT",
     "BoB:EtB": "SOURCE.BOOK.BoB:EtB",
     "BoB:EtR": "SOURCE.BOOK.BoB:EtR",
@@ -168,37 +170,6 @@
     "WotRK": "SOURCE.BOOK.WotRK",
     "YFYiaHH": "SOURCE.BOOK.YFYiaHH",
     "ZCC": "SOURCE.BOOK.ZCC",
-    "ZG": "SOURCE.BOOK.ZG",
-
-    "DM:A": "SOURCE.BOOK.DM:A",
-    "DM:B": "SOURCE.BOOK.DM:B",
-    "DM:Ch": "SOURCE.BOOK.DM:Ch",
-    "DM:CD": "SOURCE.BOOK.DM:CD",
-    "DM:D": "SOURCE.BOOK.DM:D",
-    "DM:E": "SOURCE.BOOK.DM:E",
-    "DM:EH": "SOURCE.BOOK.DM:EH",
-    "DM:H": "SOURCE.BOOK.DM:H",
-    "DM:I": "SOURCE.BOOK.DM:I",
-    "DM:LL": "SOURCE.BOOK.DM:LL",
-    "DM:M": "SOURCE.BOOK.DM:M",
-    "DM:Ri": "SOURCE.BOOK.DM:Ri",
-    "DM:Ru": "SOURCE.BOOK.DM:Ru",
-    "DM:S": "SOURCE.BOOK.DM:S",
-    "DM:V": "SOURCE.BOOK.DM:V",
-    "DM:W": "SOURCE.BOOK.DM:W",
-    "G": "SOURCE.BOOK.G",
-    "tRC": "SOURCE.BOOK.tRC",
-    "W20": "SOURCE.BOOK.W20",
-    "W21": "SOURCE.BOOK.W21",
-    "W24": "SOURCE.BOOK.W24",
-    "W25": "SOURCE.BOOK.W25",
-    "WL12": "SOURCE.BOOK.WL12",
-    "WL17": "SOURCE.BOOK.WL17",
-    "WL22": "SOURCE.BOOK.WL22",
-    "WL25": "SOURCE.BOOK.WL25",
-    "WL27": "SOURCE.BOOK.WL27",
-    "WL50": "SOURCE.BOOK.WL50",
-    "WL52": "SOURCE.BOOK.WL52",
-    "WL58": "SOURCE.BOOK.WL58"
+    "ZG": "SOURCE.BOOK.ZG"
   }}}
 }

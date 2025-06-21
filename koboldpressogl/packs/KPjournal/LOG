@@ -1,5 +1,5 @@
-2025/04/30-04:55:07.690622 2968bc018200 Delete type=3 #1
-2025/04/30-04:55:07.694753 2968bd6b8000 Level-0 table #5: started
-2025/04/30-04:55:07.696337 2968bd6b8000 Level-0 table #5: 13497 bytes OK
-2025/04/30-04:55:07.697268 2968bd6b8000 Delete type=0 #3
-2025/04/30-04:55:07.697369 2968bd6b8000 Manual compaction at level-0 from '!journal!KoboldPressOGL00' @ 72057594037927935 : 1 .. '!journal.pages!KoboldPressOGL00.KoboldPressOGLpg' @ 0 : 0; will stop at (end)
+2025/06/21-17:45:20.737135 e798b617b00 Delete type=3 #1
+2025/06/21-17:45:20.741065 e798d0b8000 Level-0 table #5: started
+2025/06/21-17:45:20.742885 e798d0b8000 Level-0 table #5: 15853 bytes OK
+2025/06/21-17:45:20.744207 e798d0b8000 Delete type=0 #3
+2025/06/21-17:45:20.744329 e798d0b8000 Manual compaction at level-0 from '!journal!KoboldPressOGL00' @ 72057594037927935 : 1 .. '!journal.pages!KoboldPressOGL00.KoboldPressOGLpg' @ 0 : 0; will stop at (end)
